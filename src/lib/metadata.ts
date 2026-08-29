@@ -12,10 +12,9 @@ export function generatePageMetadata(key: string): Metadata {
 
   const url = fullPageUrl(page.key);
   const imgUrl = fullImgUrl(page.key);
-  const fullTitle = `${page.title} | ${SITE.siteName}`;
 
   return {
-    title: fullTitle,
+    title: page.title,
     description: page.meta,
     alternates: {
       canonical: url,

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { renderProgramHtml, ProgramDetail } from './master-batch1-data';
 
-const heavyList: ProgramDetail[] = [
+export const heavyList: ProgramDetail[] = [
   // 17. Lifting Operation Safety
   {
     key: 'lifting-operation-safety',

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SITE, getPageMeta, pageUrl } from '@/lib/site';
+import { SITE, allLivePages, getPageMeta, pageUrl } from '@/lib/site';
 import { PageMeta } from '@/lib/types';
 
 interface RelatedSectionProps {
@@ -7,7 +7,25 @@ interface RelatedSectionProps {
 }
 
 export function RelatedSection({ page }: RelatedSectionProps) {
-  const relatedKeys = page.related || [];
+  let relatedKeys = page.related || [];
+
+  // Smart Dynamic Cross-Linking Fallback: if fewer than 4 related items, find relevant peer pages across pillars
+  if (relatedKeys.length < 4) {
+    const peerPages = allLivePages.filter((p) => {
+      if (p.key === page.key || p.type !== 'article' || relatedKeys.includes(p.key)) return false;
+      // Match by same hub OR keyword overlap in title
+      const sameHub = p.hub === page.hub;
+      const titleWords = page.title.toLowerCase().split(/\s+/).filter((w) => w.length > 4);
+      const targetWords = p.title.toLowerCase();
+      const hasKeywordMatch = titleWords.some((w) => targetWords.includes(w));
+      return sameHub || hasKeywordMatch;
+    });
+
+    const needed = 4 - relatedKeys.length;
+    const additional = peerPages.slice(0, needed).map((p) => p.key);
+    relatedKeys = [...relatedKeys, ...additional];
+  }
+
   const hubKey = page.hub !== 'money' ? SITE.hubPages[page.hub] : null;
   const moneyKey = page.money || 'kontak';
 

@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { renderProgramHtml, ProgramDetail } from './master-batch1-data';
 
-const finalPrograms: ProgramDetail[] = [
+export const finalPrograms: ProgramDetail[] = [
   // 19. Operator Reach Truck
   {
     key: 'operator-reach-truck',
