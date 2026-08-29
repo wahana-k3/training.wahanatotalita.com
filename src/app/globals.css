@@ -723,32 +723,32 @@ strong {
 .editorial-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 2.5rem;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 960px) {
   .editorial-grid {
-    grid-template-columns: var(--wrap-article-text) 340px;
-    justify-content: space-between;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 2.5rem;
     align-items: start;
   }
 }
 
 .editorial-main {
   min-width: 0;
-  max-width: var(--wrap-article-text);
+  max-width: 100%;
 }
 
 .editorial-sidebar {
   display: none;
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 960px) {
   .editorial-sidebar {
     display: block;
     position: sticky;
-    top: 96px;
-    max-height: calc(100vh - 110px);
+    top: 76px;
+    max-height: calc(100vh - 86px);
     overflow-y: auto;
   }
 }
@@ -1509,25 +1509,27 @@ strong {
 }
 
 .article-body a {
-  color: var(--c-primary);
+  color: #ffffff !important;
   font-weight: 700;
   text-decoration: none !important;
-  background: var(--c-primary-light);
-  padding: 0.15em 0.5em;
-  border-radius: var(--radius-sm);
-  border: 1px solid rgba(6, 64, 66, 0.14);
-  transition: all 0.15s ease;
-  display: inline-block;
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   vertical-align: baseline;
   line-height: 1.35;
+  box-shadow: 0 2px 6px rgba(2, 132, 199, 0.25);
+  margin: 0.15rem 0.15rem;
 }
 
 .article-body a:hover {
-  background: var(--c-primary);
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
   color: #ffffff !important;
-  border-color: var(--c-primary);
-  box-shadow: 0 2px 8px var(--c-primary-glow);
-  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.4);
+  transform: translateY(-2px);
 }
 
 /* Styled Blockquotes */
@@ -1539,6 +1541,189 @@ strong {
   margin: 2rem 0;
   color: var(--c-primary-dark);
   font-size: 1.05rem;
+}
+
+/* ==========================================================================
+   AUTHOR & EEAT TRUST BOX
+   ========================================================================== */
+.author-box {
+  background: var(--glass-surface);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 1.8rem;
+  margin: 3rem 0 2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.author-box-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+@media (min-width: 600px) {
+  .author-box-inner {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.author-logo-wrapper img {
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--c-line);
+  background: #ffffff;
+  padding: 4px;
+  box-shadow: var(--shadow-sm);
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.author-name {
+  font-size: 1.15rem;
+  font-weight: 850;
+  color: var(--c-ink);
+}
+
+.author-badge-verified {
+  background: #ecfdf5;
+  color: #059669;
+  border: 1px solid #a7f3d0;
+  font-size: 0.76rem;
+  font-weight: 750;
+  padding: 0.2em 0.6em;
+  border-radius: var(--radius-pill);
+}
+
+.author-desc {
+  font-size: 0.95rem;
+  color: var(--c-ink-soft);
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+
+.author-cta-row {
+  margin-top: 0.8rem;
+}
+
+.author-portal-btn {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important;
+  color: #ffffff !important;
+  padding: 0.55rem 1.15rem !important;
+  border-radius: 6px !important;
+  font-weight: 750 !important;
+  font-size: 0.9rem !important;
+  text-decoration: none !important;
+  box-shadow: 0 3px 10px rgba(2, 132, 199, 0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+.author-portal-btn:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 6px 16px rgba(2, 132, 199, 0.45) !important;
+}
+
+/* ==========================================================================
+   CHAIN NAVIGATION (PREV / NEXT COLOR SWITCH BUTTON CARDS)
+   ========================================================================== */
+.chain-nav-container {
+  margin: 3rem 0 2rem;
+}
+
+.chain-nav-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .chain-nav-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.chain-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1.1rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.chain-prev {
+  background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%);
+  box-shadow: 0 4px 14px rgba(2, 132, 199, 0.25);
+}
+
+.chain-prev:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(2, 132, 199, 0.4);
+}
+
+.chain-next {
+  background: linear-gradient(135deg, #0d9488 0%, #065f46 100%);
+  box-shadow: 0 4px 14px rgba(13, 148, 136, 0.25);
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.chain-next:hover {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(13, 148, 136, 0.4);
+}
+
+.chain-icon-badge {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+.chain-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.chain-label {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 750;
+  margin-bottom: 0.2rem;
+}
+
+.chain-title {
+  font-size: 0.95rem;
+  color: #ffffff;
+  font-weight: 750;
+  line-height: 1.35;
 }
 
 /* Note Alert Card */

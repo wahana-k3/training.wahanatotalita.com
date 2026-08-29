@@ -16,21 +16,30 @@ export function ChainNav({ page }: ChainNavProps) {
   const nextMeta = nextKey ? getPageMeta(nextKey) : null;
 
   return (
-    <nav className="chain" aria-label="Navigasi urutan panduan">
-      {prevMeta ? (
-        <Link className="chain-prev" href={pageUrl(prevKey)} rel="prev">
-          <span className="chain-label">← Panduan Sebelumnya</span>
-          <span className="chain-title">{prevMeta.h1}</span>
-        </Link>
-      ) : (
-        <div></div>
-      )}
-      {nextMeta && (
-        <Link className="chain-next" href={pageUrl(nextKey)} rel="next">
-          <span className="chain-label">Lanjut Membaca →</span>
-          <span className="chain-title">{nextMeta.h1}</span>
-        </Link>
-      )}
+    <nav className="chain-nav-container" aria-label="Navigasi urutan panduan pelatihan">
+      <div className="chain-nav-grid">
+        {prevMeta ? (
+          <Link className="chain-card chain-prev" href={pageUrl(prevKey)} rel="prev">
+            <span className="chain-icon-badge">←</span>
+            <div className="chain-content">
+              <span className="chain-label">PANDUAN SEBELUMNYA</span>
+              <strong className="chain-title">{prevMeta.h1}</strong>
+            </div>
+          </Link>
+        ) : (
+          <div className="chain-card-empty"></div>
+        )}
+
+        {nextMeta && (
+          <Link className="chain-card chain-next" href={pageUrl(nextKey)} rel="next">
+            <div className="chain-content">
+              <span className="chain-label">LANJUT MEMBACA</span>
+              <strong className="chain-title">{nextMeta.h1}</strong>
+            </div>
+            <span className="chain-icon-badge">→</span>
+          </Link>
+        )}
+      </div>
     </nav>
   );
 }

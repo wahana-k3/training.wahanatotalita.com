@@ -28,47 +28,47 @@ export function HubLayout({ page, content }: HubLayoutProps) {
       <Schema page={page} faq={content.faq} updated={content.updated} />
       <article className="editorial-layout hub-page">
         <div className="wrap-editorial">
-          <Breadcrumb page={page} />
-
-          <header className="editorial-header">
-            <div className="editorial-badge-row">
-              <span className="pillar-badge">
-                🏛️ Pilar Utama
-              </span>
-              <span className="read-time-badge">
-                📚 {children.length} Panduan Komprehensif
-              </span>
-            </div>
-
-            <h1>{page.h1}</h1>
-
-            <div className="editorial-meta-bar">
-              {content.updated && (
-                <span>
-                  Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
-                </span>
-              )}
-              <span>·</span>
-              <span>Dikelola: <strong>{SITE.orgName}</strong></span>
-              <span>·</span>
-              <span>Kategori: Pelatihan Korporat &amp; K3</span>
-            </div>
-          </header>
-
-          <figure className="article-hero-figure">
-            <img
-              src={imgPath(page.key)}
-              alt={page.img_alt || page.h1}
-              width={960}
-              height={480}
-              loading="eager"
-              fetchPriority="high"
-            />
-          </figure>
-
-          {/* 2-Column Grid: Text on Left + Sticky WhatsApp Lead Hunter on Right */}
+          {/* 2-Column Grid starting from the top to eliminate right-side whitespace */}
           <div className="editorial-grid">
             <div className="editorial-main">
+              <Breadcrumb page={page} />
+
+              <header className="editorial-header">
+                <div className="editorial-badge-row">
+                  <span className="pillar-badge">
+                    🏛️ Pilar Utama
+                  </span>
+                  <span className="read-time-badge">
+                    📚 {children.length} Panduan Komprehensif
+                  </span>
+                </div>
+
+                <h1>{page.h1}</h1>
+
+                <div className="editorial-meta-bar">
+                  {content.updated && (
+                    <span>
+                      Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
+                    </span>
+                  )}
+                  <span>·</span>
+                  <span>Dikelola: <strong>{SITE.orgName}</strong></span>
+                  <span>·</span>
+                  <span>Kategori: Pelatihan Korporat &amp; K3</span>
+                </div>
+              </header>
+
+              <figure className="article-hero-figure">
+                <img
+                  src={imgPath(page.key)}
+                  alt={page.img_alt || page.h1}
+                  width={960}
+                  height={480}
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </figure>
+
               {/* Executive Summary Box */}
               <KeyTakeaways page={page} />
 
@@ -98,7 +98,7 @@ export function HubLayout({ page, content }: HubLayoutProps) {
               <ChainNav page={page} />
             </div>
 
-            {/* Desktop Sticky Sidebar (Lead Hunter + TOC) */}
+            {/* Desktop Sticky Sidebar (Lead Hunter + TOC) starting from top */}
             <div className="editorial-sidebar">
               <LeadHunterSidebar pageTitle={page.h1} />
               <TableOfContents items={toc} variant="sidebar" />

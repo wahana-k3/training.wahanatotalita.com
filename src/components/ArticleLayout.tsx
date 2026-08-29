@@ -33,56 +33,56 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
 
       <article className="editorial-layout">
         <div className="wrap-editorial">
-          {/* Breadcrumb Trail */}
-          <Breadcrumb page={page} />
-
-          {/* Article Header */}
-          <header className="editorial-header">
-            <div className="editorial-badge-row">
-              {hubKey && (
-                <Link href={pageUrl(hubKey)} className="pillar-badge">
-                  <span>📁 {hubName}</span>
-                </Link>
-              )}
-              <span className="read-time-badge">⏱️ ±{readTimeMinutes} menit membaca</span>
-            </div>
-
-            <h1>{page.h1}</h1>
-
-            <div className="editorial-meta-bar">
-              {content.updated && (
-                <span>
-                  Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
-                </span>
-              )}
-              <span>·</span>
-              <span>
-                Penyusun: <strong className="editorial-author">{SITE.orgName}</strong>
-              </span>
-              <span>·</span>
-              <span>Kategori: Pelatihan Korporat &amp; K3</span>
-            </div>
-          </header>
-
-          {/* Featured Hero Visual */}
-          <figure className="article-hero-figure">
-            <img
-              src={imgPath(page.key)}
-              alt={page.img_alt || page.h1}
-              width={960}
-              height={480}
-              loading="eager"
-              fetchPriority="high"
-            />
-          </figure>
-
-          {/* 2-Column Editorial Grid on Desktop */}
+          {/* 2-Column Grid starting from the very top to eliminate right whitespace */}
           <div className="editorial-grid">
             <div className="editorial-main">
+              {/* Breadcrumb Trail */}
+              <Breadcrumb page={page} />
+
+              {/* Article Header */}
+              <header className="editorial-header">
+                <div className="editorial-badge-row">
+                  {hubKey && (
+                    <Link href={pageUrl(hubKey)} className="pillar-badge">
+                      <span>📁 {hubName}</span>
+                    </Link>
+                  )}
+                  <span className="read-time-badge">⏱️ ±{readTimeMinutes} menit membaca</span>
+                </div>
+
+                <h1>{page.h1}</h1>
+
+                <div className="editorial-meta-bar">
+                  {content.updated && (
+                    <span>
+                      Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
+                    </span>
+                  )}
+                  <span>·</span>
+                  <span>
+                    Penyusun: <strong className="editorial-author">{SITE.orgName}</strong>
+                  </span>
+                  <span>·</span>
+                  <span>Kategori: Pelatihan Korporat &amp; K3</span>
+                </div>
+              </header>
+
+              {/* Featured Hero Visual */}
+              <figure className="article-hero-figure">
+                <img
+                  src={imgPath(page.key)}
+                  alt={page.img_alt || page.h1}
+                  width={960}
+                  height={480}
+                  loading="eager"
+                  fetchPriority="high"
+                />
+              </figure>
+
               {/* Executive Summary / Key Takeaways */}
               <KeyTakeaways page={page} />
 
-              {/* Mobile / Inline TOC */}
+              {/* Mobile / Inline TOC Switchboard */}
               <TableOfContents items={toc} variant="inline" />
 
               {/* Main Content Body */}
@@ -110,12 +110,12 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
               <ChainNav page={page} />
             </div>
 
-            {/* Desktop Sticky Sidebar */}
+            {/* Desktop Sticky Sidebar starting at the top */}
             <div className="editorial-sidebar">
               {/* Sticky Lead Hunter */}
               <LeadHunterSidebar pageTitle={page.h1} />
 
-              {/* Sticky Table of Contents */}
+              {/* Sticky Table of Contents Switch List */}
               <TableOfContents items={toc} variant="sidebar" />
             </div>
           </div>
