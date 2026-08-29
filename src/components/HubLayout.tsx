@@ -1,11 +1,14 @@
 import { Schema } from './Schema';
 import { Breadcrumb } from './Breadcrumb';
 import { TableOfContents } from './TableOfContents';
+import { KeyTakeaways } from './KeyTakeaways';
+import { LeadHunterSidebar } from './LeadHunterSidebar';
 import { ClusterGrid } from './ClusterGrid';
 import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
+import { AuthorBox } from './AuthorBox';
 import { ChainNav } from './ChainNav';
 import { SITE, buildToc, getHubChildren, imgPath, tglId } from '@/lib/site';
 import { PageContentData, PageMeta } from '@/lib/types';
@@ -24,7 +27,7 @@ export function HubLayout({ page, content }: HubLayoutProps) {
     <>
       <Schema page={page} faq={content.faq} updated={content.updated} />
       <article className="editorial-layout hub-page">
-        <div className="wrap wrap-narrow">
+        <div className="wrap-editorial">
           <Breadcrumb page={page} />
 
           <header className="editorial-header">
@@ -47,6 +50,8 @@ export function HubLayout({ page, content }: HubLayoutProps) {
               )}
               <span>·</span>
               <span>Dikelola: <strong>{SITE.orgName}</strong></span>
+              <span>·</span>
+              <span>Kategori: Pelatihan Korporat &amp; K3</span>
             </div>
           </header>
 
@@ -61,26 +66,44 @@ export function HubLayout({ page, content }: HubLayoutProps) {
             />
           </figure>
 
-          <TableOfContents items={toc} variant="inline" />
+          {/* 2-Column Grid: Text on Left + Sticky WhatsApp Lead Hunter on Right */}
+          <div className="editorial-grid">
+            <div className="editorial-main">
+              {/* Executive Summary Box */}
+              <KeyTakeaways page={page} />
 
-          <div
-            className="article-body"
-            dangerouslySetInnerHTML={{ __html: content.html }}
-          />
+              {/* Mobile Table of Contents */}
+              <TableOfContents items={toc} variant="inline" />
 
-          {/* Strategic Authority Bridge to wahanatotalita.com */}
-          <AuthorityBridge currentTopic={page.h1} category={hubName} />
+              {/* Main Hub Body */}
+              <div
+                className="article-body"
+                dangerouslySetInnerHTML={{ __html: content.html }}
+              />
 
-          {/* Complete Cluster Curriculum Grid */}
-          <ClusterGrid hubSlug={page.hub} />
+              {/* Complete Cluster Curriculum Grid */}
+              <ClusterGrid hubSlug={page.hub} />
 
-          <FaqSection items={content.faq} />
+              {/* Strategic Authority Bridge to wahanatotalita.com */}
+              <AuthorityBridge currentTopic={page.h1} category={hubName} />
 
-          <CtaBlock />
+              <FaqSection items={content.faq} />
 
-          <RelatedSection page={page} />
+              <CtaBlock />
 
-          <ChainNav page={page} />
+              <RelatedSection page={page} />
+
+              <AuthorBox />
+
+              <ChainNav page={page} />
+            </div>
+
+            {/* Desktop Sticky Sidebar (Lead Hunter + TOC) */}
+            <div className="editorial-sidebar">
+              <LeadHunterSidebar pageTitle={page.h1} />
+              <TableOfContents items={toc} variant="sidebar" />
+            </div>
+          </div>
         </div>
       </article>
     </>
