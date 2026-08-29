@@ -11,7 +11,8 @@ export function Footer() {
           <div className="footer-logo-badge">
             <img
               src="/assets/img/logo-wt.png"
-              alt={SITE.orgName}
+              alt=""
+              aria-hidden="true"
               width={40}
               height={40}
               loading="lazy"
@@ -20,7 +21,12 @@ export function Footer() {
           </div>
           <p style={{ lineHeight: 1.65 }}>
             {SITE.siteName} adalah portal panduan komprehensif pelatihan korporat dan pengembangan kompetensi SDM di Indonesia, dikelola oleh tim ahli {SITE.orgName}, {SITE.orgCity}. Untuk pemesanan in-house, jadwal publik, dan paket penawaran resmi, silakan akses portal komersial kami di{' '}
-            <a href={SITE.orgUrl} target="_blank" rel="noopener">
+            <a
+              href={SITE.orgUrl}
+              target="_blank"
+              rel="noopener"
+              style={{ color: '#38bdf8', textDecoration: 'underline', fontWeight: 600 }}
+            >
               {SITE.orgUrl.replace(/^https?:\/\//, '')}
             </a>.
           </p>

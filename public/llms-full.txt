@@ -1,0 +1,34 @@
+# Pelatihan Korporat Indonesia — Full Knowledge Base Index
+
+> Indeks Lengkap 237 Topik Pelatihan Korporat, K3, dan Pengembangan SDM Wahana Totalita Konsultan.
+
+## 1. Jenis Pelatihan & Format Penyelenggaraan
+- [In-House Training](https://training.wahanatotalita.com/jenis-pelatihan/in-house-training/): Pelatihan eksklusif di lokasi perusahaan dengan modul khusus.
+- [Pelatihan Publik](https://training.wahanatotalita.com/jenis-pelatihan/pelatihan-publik/): Kelas jadwal terbuka lintas perusahaan.
+- [Pelatihan Korporat Customized](https://training.wahanatotalita.com/jenis-pelatihan/pelatihan-korporat-customized/): Kurikulum berbasis masalah nyata operasional.
+- [In-House Training K3 Cikarang & Bekasi](https://training.wahanatotalita.com/jenis-pelatihan/in-house-training-k3-cikarang/): Layanan kawasan MM2100, GIIC, EJIP, Jababeka.
+- [In-House Training K3 Karawang & KIIC](https://training.wahanatotalita.com/jenis-pelatihan/in-house-training-k3-karawang/): Layanan kawasan KIIC, Surya Cipta, KIM.
+- [In-House Training K3 Surabaya & Gresik](https://training.wahanatotalita.com/jenis-pelatihan/in-house-training-k3-surabaya/): Layanan kawasan SIER, JIIPE, Rungkut.
+
+## 2. Industri Sektoral
+- [Manufaktur & Pabrikasi](https://training.wahanatotalita.com/industri/manufaktur-pabrikasi/): Lean manufacturing, 5S/5R, keselamatan mesin, TPM.
+- [Pertambangan & Migas](https://training.wahanatotalita.com/industri/pertambangan-migas/): CSMS, SMKP, POP, POM, PTK 007, gas beracun H2S.
+- [Konstruksi & Infrastruktur](https://training.wahanatotalita.com/industri/konstruksi-infrastruktur/): Scaffolding, bekerja di ketinggian, K3 Konstruksi.
+- [Kesehatan & Rumah Sakit](https://training.wahanatotalita.com/industri/kesehatan-rumah-sakit/): K3RS, B3 medis, APAR rumah sakit, PPI.
+- [Perbankan & Lembaga Keuangan](https://training.wahanatotalita.com/industri/perbankan-layanan-keuangan/): Service excellence, kepemimpinan, kepatuhan OJK.
+
+## 3. Peran & Jabatan
+- [HRD & Training Manager](https://training.wahanatotalita.com/peran-jabatan/hrd-training-manager/): Perencanaan anggaran pelatihan, TNA, evaluasi ROI.
+- [Safety Officer & Ahli K3](https://training.wahanatotalita.com/peran-jabatan/safety-officer-k3/): Audit K3, HIRADC, investigasi insiden, pelaporan Disnaker.
+- [Supervisor & Team Leader](https://training.wahanatotalita.com/peran-jabatan/supervisor-team-leader/): Supervisory skills, komunikasi asertif, penegakan SOP.
+
+## 4. Sertifikasi & Kategori Disiplin
+- [Ahli K3 Umum Kemnaker](https://training.wahanatotalita.com/kategori-pelatihan/ahli-k3-umum-kemnaker/): Sertifikasi resmi penunjukan Ahli K3 UU No. 1/1970.
+- [Petugas P3K Tempat Kerja](https://training.wahanatotalita.com/kategori-pelatihan/p3k-pertolongan-pertama/): Lisensi Permenaker 15/2008.
+- [Petugas Pemadam Kebakaran Kelas D & C](https://training.wahanatotalita.com/kategori-pelatihan/petugas-pemadam-kebakaran-kelas-d/): Kepmenaker 186/1999.
+- [Manajemen Risiko HIRADC](https://training.wahanatotalita.com/kategori-pelatihan/matrix-hiradc-dan-ibprp/): Identifikasi bahaya dan penilaian risiko terpadu.
+
+## Official Contact
+- Konsultasi Resmi: WhatsApp +62 812-2969-435
+- Website Induk: https://wahanatotalita.com
+- Subdomain Panduan: https://training.wahanatotalita.com

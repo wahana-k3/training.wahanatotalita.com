@@ -38,7 +38,8 @@ export function Header() {
         <Link className="brand" href="/" aria-label={`${SITE.orgName} — Beranda`}>
           <img
             src="/assets/img/logo-wt.png"
-            alt={SITE.orgName}
+            alt=""
+            aria-hidden="true"
             width={38}
             height={38}
             className="brand-img"

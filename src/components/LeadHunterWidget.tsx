@@ -43,7 +43,7 @@ Mohon informasi silabus, profil instruktur, dan estimasi biaya penawaran resmi.`
     <div className="lead-widget-card" id="kalkulator-pelatihan">
       <div className="lead-widget-header">
         <span className="lead-widget-badge">⚡ ESTIMATOR &amp; KONSULTASI CEPAT</span>
-        <h3 className="lead-widget-title">Pilih Kebutuhan Pelatihan Perusahaan Anda</h3>
+        <h2 className="lead-widget-title">Pilih Kebutuhan Pelatihan Perusahaan Anda</h2>
         <p className="lead-widget-subtitle">
           Konfigurasikan format, topik, dan estimasi jumlah peserta untuk mendapatkan rekomendasi silabus dan penawaran in-house gratis.
         </p>
@@ -52,12 +52,14 @@ Mohon informasi silabus, profil instruktur, dan estimasi biaya penawaran resmi.`
       <div className="lead-widget-form">
         {/* Step 1: Format */}
         <div className="lead-widget-group">
-          <label className="lead-widget-label">
+          <label htmlFor="lead-format-select" className="lead-widget-label">
             <span className="step-num">1</span>
             <span>Format Penyelenggaraan:</span>
           </label>
           <select
+            id="lead-format-select"
             className="lead-widget-select"
+            aria-label="Format Penyelenggaraan Pelatihan"
             value={format}
             onChange={(e) => setFormat(e.target.value)}
           >
@@ -69,12 +71,14 @@ Mohon informasi silabus, profil instruktur, dan estimasi biaya penawaran resmi.`
 
         {/* Step 2: Sektor / Topik */}
         <div className="lead-widget-group">
-          <label className="lead-widget-label">
+          <label htmlFor="lead-sector-select" className="lead-widget-label">
             <span className="step-num">2</span>
             <span>Rumpun Bidang / Sektor:</span>
           </label>
           <select
+            id="lead-sector-select"
             className="lead-widget-select"
+            aria-label="Rumpun Bidang Sektor Pelatihan"
             value={sector}
             onChange={(e) => setSector(e.target.value)}
           >
@@ -86,12 +90,14 @@ Mohon informasi silabus, profil instruktur, dan estimasi biaya penawaran resmi.`
 
         {/* Step 3: Peserta */}
         <div className="lead-widget-group">
-          <label className="lead-widget-label">
+          <label htmlFor="lead-participants-select" className="lead-widget-label">
             <span className="step-num">3</span>
             <span>Estimasi Jumlah Peserta:</span>
           </label>
           <select
+            id="lead-participants-select"
             className="lead-widget-select"
+            aria-label="Estimasi Jumlah Peserta Pelatihan"
             value={participants}
             onChange={(e) => setParticipants(e.target.value)}
           >

@@ -2221,17 +2221,18 @@ strong {
 .faq-q-num {
   font-size: 0.76rem;
   font-weight: 850;
-  background: var(--c-primary);
+  background: #064042;
   color: #ffffff;
   padding: 0.22rem 0.55rem;
   border-radius: 6px;
   flex-shrink: 0;
   letter-spacing: 0.04em;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .faq-card[open] .faq-q-num {
-  background: var(--c-accent);
+  background: #021a1b;
+  color: #38bdf8;
 }
 
 .faq-question-text {
