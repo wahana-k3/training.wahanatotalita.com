@@ -91,12 +91,52 @@ export function fullPageUrl(key: string): string {
   return `${SITE.baseUrl}/${p.path}`;
 }
 
+const mediaPhotoMap: Record<string, string> = {
+  'confined-space-entry': '/media/pelatihan-001.webp',
+  'teknisi-k3-ruang-terbatas': '/media/pelatihan-002.webp',
+  'rescue-ruang-terbatas': '/media/pelatihan-003.webp',
+  'gas-tester': '/media/pelatihan-004.webp',
+  'gas-detector': '/media/pelatihan-005.webp',
+  'working-at-height': '/media/pelatihan-006.webp',
+  'bekerja-di-ketinggian': '/media/pelatihan-007.webp',
+  'fall-protection': '/media/pelatihan-008.webp',
+  'rope-access-dasar': '/media/pelatihan-009.webp',
+  'rescue-di-ketinggian': '/media/pelatihan-010.webp',
+  'operator-scaffolding': '/media/pelatihan-011.webp',
+  'pengawas-scaffolding': '/media/pelatihan-012.webp',
+  'scaffolding-inspector': '/media/pelatihan-013.webp',
+  'rigger': '/media/pelatihan-014.webp',
+  'signalman': '/media/pelatihan-015.webp',
+  'lifting-supervisor': '/media/pelatihan-016.webp',
+  'lifting-operation-safety': '/media/pelatihan-017.webp',
+  'operator-forklift': '/media/pelatihan-018.webp',
+  'operator-reach-truck': '/media/pelatihan-019.webp',
+  'operator-pallet-stacker': '/media/pelatihan-020.webp',
+  'operator-crane': '/media/pelatihan-021.webp',
+  'operator-mobile-crane': '/media/pelatihan-022.webp',
+  'operator-overhead-crane': '/media/pelatihan-023.webp',
+  'operator-gantry-crane': '/media/pelatihan-024.webp',
+  'operator-hoist': '/media/pelatihan-025.webp',
+  'operator-excavator': '/media/pelatihan-026.webp',
+  'operator-wheel-loader': '/media/pelatihan-027.webp',
+  'operator-bulldozer': '/media/pelatihan-028.webp',
+  'operator-dump-truck': '/media/pelatihan-029.webp',
+  'keselamatan-alat-berat': '/media/pelatihan-030.webp',
+  'hot-work-safety': '/media/pelatihan-031.webp',
+  'fire-watch': '/media/pelatihan-032.webp',
+  'permit-to-work': '/media/pelatihan-033.webp',
+};
+
 export function imgPath(key: string): string {
+  if (mediaPhotoMap[key]) {
+    return mediaPhotoMap[key];
+  }
   return `/assets/img/${key}.svg`;
 }
 
 export function fullImgUrl(key: string): string {
-  return `${SITE.baseUrl}/assets/img/${key}.svg`;
+  const rel = imgPath(key);
+  return `${SITE.baseUrl}${rel}`;
 }
 
 export function waUrl(custom?: string): string {
