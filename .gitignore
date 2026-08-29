@@ -28,6 +28,7 @@ yarn-error.log*
 
 # legacy PHP source
 training.publichtml/
+/media/
 
 # vercel
 .vercel

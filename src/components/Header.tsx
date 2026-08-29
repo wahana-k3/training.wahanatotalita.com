@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { SITE, pageUrl, waUrl } from '@/lib/site';
+import { SITE, waUrl } from '@/lib/site';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,13 +39,13 @@ export function Header() {
           <img
             src="/assets/img/logo-wt.png"
             alt={SITE.orgName}
-            width={44}
-            height={44}
+            width={38}
+            height={38}
             className="brand-img"
           />
           <div className="brand-info">
             <span className="brand-text">{SITE.orgName}</span>
-            <span className="brand-subline">Pusat Panduan Pelatihan Korporat</span>
+            <span className="brand-subline">Pusat Pelatihan Korporat</span>
           </div>
         </Link>
 
@@ -67,7 +67,7 @@ export function Header() {
 
         <Link className="btn btn-accent header-cta" href="/kontak/">
           <span>Konsultasi Gratis</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
           </svg>
@@ -101,10 +101,10 @@ export function Header() {
                 <img
                   src="/assets/img/logo-wt.png"
                   alt={SITE.orgName}
-                  width={36}
-                  height={36}
+                  width={34}
+                  height={34}
                 />
-                <span className="brand-text" style={{ fontSize: '1rem' }}>{SITE.orgName}</span>
+                <span className="brand-text" style={{ fontSize: '0.98rem' }}>{SITE.orgName}</span>
               </div>
               <button
                 className="mobile-nav-close"

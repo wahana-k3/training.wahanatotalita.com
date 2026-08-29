@@ -1,9 +1,9 @@
 import type { Metadata } from 'next';
 import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
-import { Topbar } from '@/components/Topbar';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { TrustMarquee } from '@/components/TrustMarquee';
 import { WhatsAppWidget } from '@/components/WhatsAppWidget';
 import { SITE } from '@/lib/site';
 
@@ -46,9 +46,9 @@ export default function RootLayout({
         <a className="skip-link" href="#konten">
           Langsung ke konten
         </a>
-        <Topbar />
         <Header />
         <main id="konten">{children}</main>
+        <TrustMarquee />
         <Footer />
         <WhatsAppWidget />
       </body>
