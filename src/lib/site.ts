@@ -198,12 +198,19 @@ export function imgPath(key: string): string {
   if (mediaPhotoMap[key]) {
     return mediaPhotoMap[key];
   }
-  return `/assets/img/${key}.svg`;
+  // Deterministic fallback to high-res media photo 001 to 067
+  let hash = 0;
+  for (let i = 0; i < key.length; i++) {
+    hash = (hash << 5) - hash + key.charCodeAt(i);
+    hash |= 0;
+  }
+  const photoIndex = (Math.abs(hash) % 67) + 1;
+  const padIndex = photoIndex.toString().padStart(3, '0');
+  return `/media/pelatihan-${padIndex}.webp`;
 }
 
 export function fullImgUrl(key: string): string {
-  const rel = imgPath(key);
-  return `${SITE.baseUrl}${rel}`;
+  return `${SITE.baseUrl}${imgPath(key)}`;
 }
 
 export function waUrl(custom?: string): string {
