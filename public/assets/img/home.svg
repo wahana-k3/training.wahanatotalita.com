@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Pelatihan Korporat Indonesia">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#f3f7f6"/><stop offset="1" stop-color="#d8ebe8"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#c3d8d5" opacity=".55"/>
+</pattern>
+</defs>
+<rect width="960" height="480" fill="url(#bg)"/>
+<rect width="960" height="480" fill="url(#dots)"/>
+<circle cx="750" cy="240" r="215" fill="#ffffff" opacity=".65"/>
+<circle cx="750" cy="240" r="168" fill="#e6f1f0"/>
+<path d="M0 470 q240 -36 480 0 q240 36 480 0 v10 h-960 z" fill="#0f4c4c" opacity=".1"/>
+<rect x="66" y="118" width="56" height="10" rx="5" fill="#c8890b"/>
+<text x="70" y="166" font-family="Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2" fill="#0f4c4c">PELATIHAN KORPORAT</text>
+<text x="70" y="250" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Pelatihan Korporat Indonesia</text>
+<g transform="translate(630 120) scale(1.2)">
+<rect x="25" y="120" width="150" height="12" rx="6" fill="#0a3535"/>
+<rect x="45" y="30" width="110" height="80" rx="6" fill="#ffffff" stroke="#0f4c4c" stroke-width="6"/>
+<rect x="55" y="42" width="90" height="56" rx="4" fill="#e6f1f0"/>
+<path d="M70 65 h60 M70 80 h40" stroke="#0f4c4c" stroke-width="4"/>
+<circle cx="60" cy="150" r="14" fill="#0f4c4c"/><path d="M40 178 a20 18 0 0 1 40 0" fill="#0f4c4c"/>
+<circle cx="100" cy="150" r="14" fill="#c8890b"/><path d="M80 178 a20 18 0 0 1 40 0" fill="#c8890b"/>
+<circle cx="140" cy="150" r="14" fill="#0a3535"/><path d="M120 178 a20 18 0 0 1 40 0" fill="#0a3535"/>
+</g>
+</svg>

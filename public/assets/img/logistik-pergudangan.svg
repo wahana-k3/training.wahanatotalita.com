@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Pelatihan untuk Perusahaan Logistik dan Pergudangan">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#f3f7f6"/><stop offset="1" stop-color="#d8ebe8"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#c3d8d5" opacity=".55"/>
+</pattern>
+</defs>
+<rect width="960" height="480" fill="url(#bg)"/>
+<rect width="960" height="480" fill="url(#dots)"/>
+<circle cx="750" cy="240" r="215" fill="#ffffff" opacity=".65"/>
+<circle cx="750" cy="240" r="168" fill="#e6f1f0"/>
+<path d="M0 470 q240 -36 480 0 q240 36 480 0 v10 h-960 z" fill="#0f4c4c" opacity=".1"/>
+<rect x="66" y="118" width="56" height="10" rx="5" fill="#c8890b"/>
+<text x="70" y="166" font-family="Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2" fill="#0f4c4c">INDUSTRI • LOGISTIK</text>
+<text x="70" y="235" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Pelatihan untuk Perusahaan</text><text x="70" y="275" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Logistik dan Pergudangan</text>
+<g transform="translate(630 120) scale(1.2)">
+<rect x="30" y="80" width="70" height="60" rx="8" fill="#c8890b"/>
+<rect x="42" y="92" width="30" height="26" rx="4" fill="#e6f1f0"/>
+<rect x="95" y="60" width="12" height="100" fill="#0a3535"/>
+<rect x="107" y="130" width="55" height="10" rx="5" fill="#0a3535"/>
+<rect x="112" y="76" width="44" height="44" rx="4" fill="#0f4c4c"/>
+<circle cx="55" cy="155" r="16" fill="#0a3535"/><circle cx="95" cy="158" r="12" fill="#0a3535"/>
+</g>
+</svg>

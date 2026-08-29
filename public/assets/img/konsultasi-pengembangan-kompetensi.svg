@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Konsultasi &amp; Pengembangan Kompetensi">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#f3f7f6"/><stop offset="1" stop-color="#d8ebe8"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#c3d8d5" opacity=".55"/>
+</pattern>
+</defs>
+<rect width="960" height="480" fill="url(#bg)"/>
+<rect width="960" height="480" fill="url(#dots)"/>
+<circle cx="750" cy="240" r="215" fill="#ffffff" opacity=".65"/>
+<circle cx="750" cy="240" r="168" fill="#e6f1f0"/>
+<path d="M0 470 q240 -36 480 0 q240 36 480 0 v10 h-960 z" fill="#0f4c4c" opacity=".1"/>
+<rect x="66" y="118" width="56" height="10" rx="5" fill="#c8890b"/>
+<text x="70" y="166" font-family="Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2" fill="#0f4c4c">KONSULTASI</text>
+<text x="70" y="235" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Konsultasi &amp; Pengembangan</text><text x="70" y="275" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Kompetensi</text>
+<g transform="translate(630 120) scale(1.2)">
+<circle cx="60" cy="62" r="24" fill="#0f4c4c"/>
+<path d="M22 130 a38 32 0 0 1 76 0 v10 h-76 z" fill="#0f4c4c"/>
+<circle cx="145" cy="62" r="24" fill="#c8890b"/>
+<path d="M107 130 a38 32 0 0 1 76 0 v10 h-76 z" fill="#c8890b"/>
+<rect x="55" y="150" width="90" height="36" rx="8" fill="#ffffff" stroke="#0a3535" stroke-width="4"/>
+<path d="M68 168 h64 M68 178 h40" stroke="#c3d8d5" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Pelatihan untuk Perusahaan Perbankan dan Keuangan">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#f3f7f6"/><stop offset="1" stop-color="#d8ebe8"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#c3d8d5" opacity=".55"/>
+</pattern>
+</defs>
+<rect width="960" height="480" fill="url(#bg)"/>
+<rect width="960" height="480" fill="url(#dots)"/>
+<circle cx="750" cy="240" r="215" fill="#ffffff" opacity=".65"/>
+<circle cx="750" cy="240" r="168" fill="#e6f1f0"/>
+<path d="M0 470 q240 -36 480 0 q240 36 480 0 v10 h-960 z" fill="#0f4c4c" opacity=".1"/>
+<rect x="66" y="118" width="56" height="10" rx="5" fill="#c8890b"/>
+<text x="70" y="166" font-family="Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2" fill="#0f4c4c">INDUSTRI • PERBANKAN</text>
+<text x="70" y="235" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Pelatihan untuk Perusahaan</text><text x="70" y="275" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Perbankan dan Keuangan</text>
+<g transform="translate(630 120) scale(1.2)">
+<rect x="30" y="30" width="82" height="145" rx="10" fill="#0f4c4c"/>
+<rect x="42" y="44" width="58" height="26" rx="5" fill="#e6f1f0"/>
+<g fill="#ffffff">
+<rect x="42" y="84" width="16" height="14" rx="4"/><rect x="63" y="84" width="16" height="14" rx="4"/><rect x="84" y="84" width="16" height="14" rx="4"/>
+<rect x="42" y="108" width="16" height="14" rx="4"/><rect x="63" y="108" width="16" height="14" rx="4"/>
+</g>
+<ellipse cx="147" cy="150" rx="34" ry="13" fill="#c8890b"/>
+<ellipse cx="147" cy="136" rx="34" ry="13" fill="#f6c458"/>
+<ellipse cx="147" cy="122" rx="34" ry="13" fill="#c8890b"/>
+<text x="147" y="128" text-anchor="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#0a3535">Rp</text>
+</g>
+</svg>

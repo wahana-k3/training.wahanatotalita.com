@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" role="img" aria-label="Pelatihan untuk Manajer Operasional">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#f3f7f6"/><stop offset="1" stop-color="#d8ebe8"/>
+</linearGradient>
+<pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+<circle cx="3" cy="3" r="2" fill="#c3d8d5" opacity=".55"/>
+</pattern>
+</defs>
+<rect width="960" height="480" fill="url(#bg)"/>
+<rect width="960" height="480" fill="url(#dots)"/>
+<circle cx="750" cy="240" r="215" fill="#ffffff" opacity=".65"/>
+<circle cx="750" cy="240" r="168" fill="#e6f1f0"/>
+<path d="M0 470 q240 -36 480 0 q240 36 480 0 v10 h-960 z" fill="#0f4c4c" opacity=".1"/>
+<rect x="66" y="118" width="56" height="10" rx="5" fill="#c8890b"/>
+<text x="70" y="166" font-family="Arial, sans-serif" font-size="21" font-weight="bold" letter-spacing="2" fill="#0f4c4c">PERAN • MANAJER OPERASIONAL</text>
+<text x="70" y="235" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Pelatihan untuk Manajer</text><text x="70" y="275" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#0a3535">Operasional</text>
+<g transform="translate(630 120) scale(1.2)">
+<rect x="25" y="25" width="150" height="150" rx="10" fill="#ffffff" stroke="#c3d8d5" stroke-width="4"/>
+<rect x="45" y="110" width="26" height="50" rx="4" fill="#0f4c4c"/>
+<rect x="85" y="85" width="26" height="75" rx="4" fill="#0f4c4c"/>
+<rect x="125" y="45" width="26" height="115" rx="4" fill="#c8890b" opacity=".35"/>
+<rect x="125" y="95" width="26" height="65" rx="4" fill="#c8890b"/>
+<path d="M138 88 v-32" stroke="#0a3535" stroke-width="5" stroke-dasharray="6 5"/>
+<path d="M132 62 l6 -10 6 10 z" fill="#0a3535"/>
+</g>
+</svg>

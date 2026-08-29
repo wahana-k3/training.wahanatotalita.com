@@ -1,0 +1,904 @@
+{
+  "metadata": {
+    "title": "Master Topic Queue — training.wahanatotalita.com",
+    "description": "Publishing queue and status index for all topics. Designed to scale to 1,000+ topics.",
+    "version": "1.0.0",
+    "last_updated": "2026-08-29",
+    "instructions": "To publish a new batch: Add topics to next_batch -> execute build/publish -> status moves to live."
+  },
+  "summary": {
+    "total_live": 37,
+    "total_next_batch": 0,
+    "total_backlog": 0
+  },
+  "sections": {
+    "live": [
+      {
+        "key": "home",
+        "n": 1,
+        "path": "",
+        "published": "2026-06-01",
+        "title": "Pelatihan Korporat Indonesia: Panduan Lengkap & Konsultasi Gratis",
+        "h1": "Pelatihan Korporat Indonesia: Panduan Lengkap Memilih, Merancang, dan Mengukur Training Karyawan",
+        "meta": "Panduan pelatihan korporat terlengkap: jenis pelatihan, industri, peran jabatan, kategori disiplin, hingga konsultasi pengembangan kompetensi. Konsultasi gratis via WhatsApp.",
+        "hub": "money",
+        "type": "money",
+        "prev": "tentang-kami",
+        "next": "jenis-pelatihan",
+        "related": [
+          "jenis-pelatihan",
+          "industri",
+          "konsultasi-pengembangan-kompetensi"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi ekosistem pelatihan korporat dan pengembangan kompetensi karyawan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "kontak",
+        "n": 2,
+        "path": "kontak/",
+        "published": "2026-06-01",
+        "title": "Kontak & Konsultasi Gratis Pelatihan Korporat",
+        "h1": "Diskusikan Kebutuhan Pelatihan Perusahaan Anda — Konsultasi Gratis",
+        "meta": "Konsultasikan kebutuhan pelatihan dan pengembangan kompetensi karyawan Anda secara gratis — via WhatsApp atau formulir. Tim kami merespons cepat pada jam kerja.",
+        "hub": "money",
+        "type": "money",
+        "prev": "",
+        "next": "",
+        "related": [
+          "konsultasi-pengembangan-kompetensi",
+          "jenis-pelatihan",
+          "faq"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi konsultasi kebutuhan pelatihan korporat melalui WhatsApp dan email",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "jenis-pelatihan",
+        "n": 3,
+        "path": "jenis-pelatihan/",
+        "published": "2026-06-03",
+        "title": "Jenis Pelatihan Korporat: In-House, Publik, dan Customized",
+        "h1": "Jenis Pelatihan Korporat: Panduan Lengkap Memilih Format yang Tepat",
+        "meta": "Panduan lengkap jenis pelatihan korporat: in-house, publik, customized, dan blended. Perbandingan biaya-manfaat serta cara memilih format yang tepat untuk perusahaan Anda.",
+        "hub": "jenis-pelatihan",
+        "type": "hub",
+        "prev": "home",
+        "next": "in-house-training",
+        "related": [
+          "industri",
+          "konsultasi-pengembangan-kompetensi",
+          "faq"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi berbagai format pelatihan korporat: in-house, publik, dan customized",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "in-house-training",
+        "n": 4,
+        "path": "jenis-pelatihan/in-house-training/",
+        "published": "2026-06-05",
+        "title": "In-House Training: Definisi, Manfaat, dan Kapan Memilihnya",
+        "h1": "In-House Training: Definisi, Manfaat, dan Kapan Perusahaan Sebaiknya Memilihnya",
+        "meta": "In-house training adalah pelatihan yang diselenggarakan khusus untuk satu perusahaan. Pelajari manfaat, struktur tipikal, jumlah peserta ideal, dan logika biayanya.",
+        "hub": "jenis-pelatihan",
+        "type": "article",
+        "prev": "jenis-pelatihan",
+        "next": "pelatihan-publik",
+        "related": [
+          "in-house-vs-publik-vs-blended",
+          "pelatihan-korporat-customized",
+          "training-needs-analysis"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi sesi in-house training khusus untuk karyawan satu perusahaan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "pelatihan-publik",
+        "n": 5,
+        "path": "jenis-pelatihan/pelatihan-publik/",
+        "published": null,
+        "title": "Pelatihan Publik: Cara Kerja, Manfaat Networking, dan Siapa yang Cocok",
+        "h1": "Pelatihan Publik: Cara Kerja, Manfaat Networking, dan Siapa yang Cocok Mengikutinya",
+        "meta": "Pelatihan publik (open enrollment) memungkinkan karyawan lintas perusahaan belajar bersama. Pahami cara kerja, manfaat networking, dan kapan format ini lebih tepat.",
+        "hub": "jenis-pelatihan",
+        "type": "article",
+        "prev": "in-house-training",
+        "next": "pelatihan-korporat-customized",
+        "related": [
+          "in-house-training",
+          "in-house-vs-publik-vs-blended",
+          "sertifikasi-bnsp"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi peserta lintas perusahaan dalam sesi pelatihan publik",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "pelatihan-korporat-customized",
+        "n": 6,
+        "path": "jenis-pelatihan/pelatihan-korporat-customized/",
+        "published": null,
+        "title": "Pelatihan Korporat Customized: Cara Kurikulum Dirancang Sesuai Masalah Nyata",
+        "h1": "Pelatihan Korporat Customized: Merancang Kurikulum Sesuai Masalah Nyata Perusahaan",
+        "meta": "Pelatihan customized dibangun dari masalah operasional nyata perusahaan, bukan materi generik. Pahami prosesnya dari analisis kebutuhan sampai evaluasi hasil.",
+        "hub": "jenis-pelatihan",
+        "type": "article",
+        "prev": "pelatihan-publik",
+        "next": "in-house-vs-publik-vs-blended",
+        "related": [
+          "training-needs-analysis",
+          "penyusunan-kurikulum-korporat",
+          "in-house-training"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi perancangan kurikulum pelatihan yang disesuaikan kebutuhan perusahaan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "in-house-vs-publik-vs-blended",
+        "n": 7,
+        "path": "jenis-pelatihan/in-house-vs-publik-vs-blended/",
+        "published": null,
+        "title": "In-House vs Publik vs Blended: Mana yang Tepat untuk Perusahaan Anda",
+        "h1": "In-House vs Pelatihan Publik vs Blended Learning: Mana yang Tepat untuk Anda",
+        "meta": "Perbandingan langsung in-house, pelatihan publik, dan blended learning: biaya, fleksibilitas, kedalaman materi, dan jumlah peserta ideal masing-masing format.",
+        "hub": "jenis-pelatihan",
+        "type": "article",
+        "prev": "pelatihan-korporat-customized",
+        "next": "industri",
+        "related": [
+          "in-house-training",
+          "pelatihan-publik",
+          "pelatihan-korporat-customized"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi perbandingan format in-house, publik, dan blended learning",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "industri",
+        "n": 8,
+        "path": "industri/",
+        "published": null,
+        "title": "Pelatihan per Industri: Manufaktur, Konstruksi, Migas, Perbankan, Kesehatan",
+        "h1": "Pelatihan Korporat per Industri: Kebutuhan Training yang Berbeda di Setiap Sektor",
+        "meta": "Panduan pelatihan per industri: manufaktur, konstruksi, pertambangan-migas, perbankan-keuangan, kesehatan, dan logistik — kebutuhan training dan regulasi masing-masing sektor.",
+        "hub": "industri",
+        "type": "hub",
+        "prev": "in-house-vs-publik-vs-blended",
+        "next": "manufaktur",
+        "related": [
+          "jenis-pelatihan",
+          "peran-jabatan",
+          "kategori-pelatihan"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi berbagai sektor industri dengan kebutuhan pelatihan masing-masing",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "manufaktur",
+        "n": 9,
+        "path": "industri/manufaktur/",
+        "published": null,
+        "title": "Pelatihan untuk Perusahaan Manufaktur: Roadmap dan Prioritas",
+        "h1": "Pelatihan Korporat untuk Perusahaan Manufaktur: Roadmap dan Prioritas Kompetensi",
+        "meta": "Kebutuhan pelatihan khas manufaktur: K3 operasional, lean manufacturing, quality control, dan kepemimpinan lini produksi. Roadmap training tahunan yang realistis.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "industri",
+        "next": "konstruksi",
+        "related": [
+          "k3-keselamatan-kerja",
+          "supervisor-team-leader",
+          "kepemimpinan"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan karyawan pabrik manufaktur di lini produksi",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "konstruksi",
+        "n": 10,
+        "path": "industri/konstruksi/",
+        "published": null,
+        "title": "Pelatihan untuk Perusahaan Konstruksi: K3 sampai Manajemen Proyek",
+        "h1": "Pelatihan Korporat untuk Perusahaan Konstruksi: dari K3 sampai Manajemen Proyek",
+        "meta": "Kebutuhan pelatihan konstruksi: keselamatan kerja ketinggian, manajemen proyek, kepemimpinan lapangan, dan kompetensi pengawas. Prioritas sesuai risiko proyek.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "manufaktur",
+        "next": "pertambangan-migas",
+        "related": [
+          "k3-keselamatan-kerja",
+          "manajer-operasional",
+          "sertifikasi-bnsp"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan keselamatan dan manajemen proyek konstruksi",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "pertambangan-migas",
+        "n": 11,
+        "path": "industri/pertambangan-migas/",
+        "published": null,
+        "title": "Pelatihan untuk Perusahaan Pertambangan dan Migas",
+        "h1": "Pelatihan Korporat untuk Perusahaan Pertambangan dan Migas",
+        "meta": "Kebutuhan pelatihan sektor tambang dan migas: kompetensi K3 berisiko tinggi, kepatuhan CSMS kontraktor, dan pengembangan pengawas operasional.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "konstruksi",
+        "next": "kesehatan-rumah-sakit",
+        "related": [
+          "k3-keselamatan-kerja",
+          "manajer-operasional",
+          "training-needs-analysis"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan keselamatan kerja di sektor pertambangan dan migas",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "kesehatan-rumah-sakit",
+        "n": 12,
+        "path": "industri/kesehatan-rumah-sakit/",
+        "published": null,
+        "title": "Pelatihan untuk Rumah Sakit dan Fasilitas Kesehatan",
+        "h1": "Pelatihan Korporat untuk Rumah Sakit dan Fasilitas Kesehatan",
+        "meta": "Kebutuhan pelatihan fasilitas kesehatan: layanan pasien, administrasi medis, kepatuhan K3RS, dan pengembangan kepemimpinan tenaga kesehatan non-klinis.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "pertambangan-migas",
+        "next": "logistik-pergudangan",
+        "related": [
+          "customer-service-soft-skills",
+          "k3-keselamatan-kerja",
+          "hrd-manager"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan staf rumah sakit dan fasilitas kesehatan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "logistik-pergudangan",
+        "n": 13,
+        "path": "industri/logistik-pergudangan/",
+        "published": null,
+        "title": "Pelatihan untuk Perusahaan Logistik dan Pergudangan",
+        "h1": "Pelatihan Korporat untuk Perusahaan Logistik dan Pergudangan",
+        "meta": "Kebutuhan pelatihan logistik dan pergudangan: keselamatan operator alat, manajemen gudang, dan kompetensi supervisor pergudangan.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "kesehatan-rumah-sakit",
+        "next": "perbankan-keuangan",
+        "related": [
+          "supervisor-team-leader",
+          "k3-keselamatan-kerja",
+          "manajemen-sdm"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan operator dan supervisor gudang logistik",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "perbankan-keuangan",
+        "n": 14,
+        "path": "industri/perbankan-keuangan/",
+        "published": null,
+        "title": "Pelatihan untuk Perusahaan Perbankan dan Keuangan",
+        "h1": "Pelatihan Korporat untuk Perusahaan Perbankan dan Keuangan",
+        "meta": "Kebutuhan pelatihan perbankan dan keuangan: layanan nasabah, manajemen risiko, kepatuhan, dan pengembangan kompetensi staf keuangan-akuntansi.",
+        "hub": "industri",
+        "type": "article",
+        "prev": "logistik-pergudangan",
+        "next": "peran-jabatan",
+        "related": [
+          "keuangan-akuntansi",
+          "customer-service-soft-skills",
+          "kepemimpinan"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan staf perbankan dan lembaga keuangan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "peran-jabatan",
+        "n": 15,
+        "path": "peran-jabatan/",
+        "published": null,
+        "title": "Pelatihan per Peran & Jabatan: Kompetensi yang Dibutuhkan Setiap Level",
+        "h1": "Pelatihan Korporat per Peran dan Jabatan: Kompetensi untuk Setiap Level Karier",
+        "meta": "Kebutuhan pelatihan berbeda menurut peran: HRD, supervisor, safety officer, manajer operasional, sampai karyawan baru. Jalur kompetensi tiap level.",
+        "hub": "peran-jabatan",
+        "type": "hub",
+        "prev": "perbankan-keuangan",
+        "next": "hrd-manager",
+        "related": [
+          "industri",
+          "kategori-pelatihan",
+          "competency-mapping"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi jalur pengembangan kompetensi untuk berbagai peran dan jabatan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "hrd-manager",
+        "n": 16,
+        "path": "peran-jabatan/hrd-manager/",
+        "published": null,
+        "title": "Pelatihan untuk HRD dan HR Manager: Kompetensi Inti",
+        "h1": "Pelatihan untuk HRD dan HR Manager: Kompetensi Inti yang Perlu Dikuasai",
+        "meta": "Kompetensi inti HRD dan HR Manager: rekrutmen, manajemen kinerja, kompensasi, hubungan industrial, dan perencanaan pengembangan SDM perusahaan.",
+        "hub": "peran-jabatan",
+        "type": "article",
+        "prev": "peran-jabatan",
+        "next": "supervisor-team-leader",
+        "related": [
+          "manajemen-sdm",
+          "competency-mapping",
+          "training-needs-analysis"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pengembangan kompetensi HRD dan HR Manager",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "supervisor-team-leader",
+        "n": 17,
+        "path": "peran-jabatan/supervisor-team-leader/",
+        "published": null,
+        "title": "Pelatihan untuk Supervisor dan Team Leader Baru",
+        "h1": "Pelatihan untuk Supervisor dan Team Leader: Transisi dari Staf ke Pemimpin Tim",
+        "meta": "Kompetensi kritis saat pertama kali menjadi supervisor: delegasi, motivasi tim, coaching kinerja, dan komunikasi lintas level. Panduan jalur pelatihannya.",
+        "hub": "peran-jabatan",
+        "type": "article",
+        "prev": "hrd-manager",
+        "next": "safety-officer-k3",
+        "related": [
+          "kepemimpinan",
+          "staff-baru-onboarding",
+          "manajer-operasional"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan supervisor dan team leader baru memimpin tim",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "safety-officer-k3",
+        "n": 18,
+        "path": "peran-jabatan/safety-officer-k3/",
+        "published": null,
+        "title": "Pelatihan untuk Safety Officer / Petugas K3",
+        "h1": "Pelatihan untuk Safety Officer dan Petugas K3: Kompetensi dan Jalur Sertifikasi",
+        "meta": "Kompetensi yang dibutuhkan safety officer/petugas K3: identifikasi bahaya, investigasi insiden, dan jalur sertifikasi resmi (AK3 Umum, BNSP) yang relevan.",
+        "hub": "peran-jabatan",
+        "type": "article",
+        "prev": "supervisor-team-leader",
+        "next": "manajer-operasional",
+        "related": [
+          "k3-keselamatan-kerja",
+          "sertifikasi-bnsp",
+          "manufaktur"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pengembangan kompetensi safety officer dan petugas K3",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "manajer-operasional",
+        "n": 19,
+        "path": "peran-jabatan/manajer-operasional/",
+        "published": null,
+        "title": "Pelatihan untuk Manajer Operasional",
+        "h1": "Pelatihan untuk Manajer Operasional: Kompetensi Mengelola Proses dan Tim",
+        "meta": "Kompetensi manajer operasional: perencanaan produksi/layanan, manajemen sumber daya, pengambilan keputusan berbasis data, dan kepemimpinan lintas fungsi.",
+        "hub": "peran-jabatan",
+        "type": "article",
+        "prev": "safety-officer-k3",
+        "next": "staff-baru-onboarding",
+        "related": [
+          "kepemimpinan",
+          "evaluasi-pasca-training-roi",
+          "pertambangan-migas"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pengembangan kompetensi manajer operasional perusahaan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "staff-baru-onboarding",
+        "n": 20,
+        "path": "peran-jabatan/staff-baru-onboarding/",
+        "published": null,
+        "title": "Pelatihan Onboarding untuk Karyawan Baru",
+        "h1": "Pelatihan Onboarding untuk Karyawan Baru: Fondasi 90 Hari Pertama",
+        "meta": "Program onboarding yang efektif untuk karyawan baru: orientasi budaya kerja, kompetensi dasar, dan pengukuran kesiapan di 90 hari pertama.",
+        "hub": "peran-jabatan",
+        "type": "article",
+        "prev": "manajer-operasional",
+        "next": "kategori-pelatihan",
+        "related": [
+          "hrd-manager",
+          "customer-service-soft-skills",
+          "competency-mapping"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi program onboarding dan orientasi karyawan baru",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "kategori-pelatihan",
+        "n": 21,
+        "path": "kategori-pelatihan/",
+        "published": null,
+        "title": "Kategori Pelatihan: Semua Disiplin Training Korporat",
+        "h1": "Kategori Pelatihan Korporat: Semua Disiplin dalam Satu Peta",
+        "meta": "Peta lengkap kategori pelatihan korporat: K3, manajemen SDM, kepemimpinan, customer service, keuangan-akuntansi, dan sertifikasi BNSP.",
+        "hub": "kategori-pelatihan",
+        "type": "hub",
+        "prev": "staff-baru-onboarding",
+        "next": "k3-keselamatan-kerja",
+        "related": [
+          "peran-jabatan",
+          "konsultasi-pengembangan-kompetensi",
+          "industri"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi peta kategori dan disiplin pelatihan korporat",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "k3-keselamatan-kerja",
+        "n": 22,
+        "path": "kategori-pelatihan/k3-keselamatan-kerja/",
+        "published": null,
+        "title": "Pelatihan K3 (Keselamatan Kerja): Ringkasan dan Rujukan Lengkap",
+        "h1": "Pelatihan K3 (Keselamatan dan Kesehatan Kerja): Ringkasan Singkat dan Rujukan Lengkap",
+        "meta": "Ringkasan kebutuhan pelatihan K3 perusahaan — untuk panduan SMK3 dan sertifikasi AK3 Umum yang lengkap, kunjungi sumber daya khusus kami.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "kategori-pelatihan",
+        "next": "manajemen-sdm",
+        "related": [
+          "safety-officer-k3",
+          "manufaktur",
+          "konstruksi"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi ringkasan pelatihan keselamatan dan kesehatan kerja K3",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "manajemen-sdm",
+        "n": 23,
+        "path": "kategori-pelatihan/manajemen-sdm/",
+        "published": null,
+        "title": "Pelatihan Manajemen SDM: Rekrutmen sampai Talent Development",
+        "h1": "Pelatihan Manajemen SDM: dari Rekrutmen sampai Talent Development",
+        "meta": "Kategori pelatihan manajemen SDM: rekrutmen dan seleksi, manajemen kinerja, kompensasi-benefit, hubungan industrial, dan pengembangan talenta.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "k3-keselamatan-kerja",
+        "next": "kepemimpinan",
+        "related": [
+          "hrd-manager",
+          "competency-mapping",
+          "perbankan-keuangan"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan manajemen sumber daya manusia perusahaan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "kepemimpinan",
+        "n": 24,
+        "path": "kategori-pelatihan/kepemimpinan/",
+        "published": null,
+        "title": "Pelatihan Kepemimpinan (Leadership): dari Supervisor sampai Eksekutif",
+        "h1": "Pelatihan Kepemimpinan (Leadership): dari Supervisor sampai Level Eksekutif",
+        "meta": "Kategori pelatihan kepemimpinan: gaya kepemimpinan, pengambilan keputusan, manajemen perubahan, dan pengembangan kepemimpinan berjenjang sesuai level.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "manajemen-sdm",
+        "next": "customer-service-soft-skills",
+        "related": [
+          "supervisor-team-leader",
+          "manajer-operasional",
+          "competency-mapping"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan kepemimpinan untuk berbagai level manajemen",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "customer-service-soft-skills",
+        "n": 25,
+        "path": "kategori-pelatihan/customer-service-soft-skills/",
+        "published": null,
+        "title": "Pelatihan Customer Service dan Soft Skills Komunikasi",
+        "h1": "Pelatihan Customer Service dan Soft Skills Komunikasi",
+        "meta": "Kategori pelatihan layanan pelanggan dan soft skills: komunikasi efektif, penanganan komplain, kecerdasan emosional, dan kerja sama tim.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "kepemimpinan",
+        "next": "keuangan-akuntansi",
+        "related": [
+          "kesehatan-rumah-sakit",
+          "staff-baru-onboarding",
+          "perbankan-keuangan"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan layanan pelanggan dan soft skills komunikasi",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "keuangan-akuntansi",
+        "n": 26,
+        "path": "kategori-pelatihan/keuangan-akuntansi/",
+        "published": null,
+        "title": "Pelatihan Keuangan dan Akuntansi untuk Karyawan Non-Finance",
+        "h1": "Pelatihan Keuangan dan Akuntansi untuk Karyawan Non-Finance",
+        "meta": "Kategori pelatihan keuangan-akuntansi: dasar laporan keuangan, penyusunan anggaran, analisis biaya, dan literasi keuangan untuk manajer non-finance.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "customer-service-soft-skills",
+        "next": "sertifikasi-bnsp",
+        "related": [
+          "perbankan-keuangan",
+          "manajer-operasional",
+          "evaluasi-pasca-training-roi"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pelatihan keuangan dan akuntansi dasar bagi karyawan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "sertifikasi-bnsp",
+        "n": 27,
+        "path": "kategori-pelatihan/sertifikasi-bnsp/",
+        "published": "2026-06-25",
+        "title": "Level Sertifikasi BNSP dan KKNI: Panduan Skema, Proses, dan Cara Daftarnya",
+        "h1": "Level Sertifikasi BNSP dan KKNI: Panduan Skema, Uji Kompetensi, dan Cara Daftarnya",
+        "meta": "Panduan level sertifikasi BNSP dan KKNI: Level 1–9 dijelaskan, skema untuk HR, TOT, K3, logistik, dokumen yang dibutuhkan, dan cara mengikuti uji kompetensi.",
+        "hub": "kategori-pelatihan",
+        "type": "article",
+        "prev": "keuangan-akuntansi",
+        "next": "konsultasi-pengembangan-kompetensi",
+        "related": [
+          "safety-officer-k3",
+          "pelatihan-publik",
+          "competency-mapping"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi proses sertifikasi kompetensi BNSP lintas profesi",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "konsultasi-pengembangan-kompetensi",
+        "n": 28,
+        "path": "konsultasi-pengembangan-kompetensi/",
+        "published": null,
+        "title": "Konsultasi & Pengembangan Kompetensi: Lebih dari Sekadar Kelas Training",
+        "h1": "Konsultasi dan Pengembangan Kompetensi: Layanan Advisory di Balik Pelatihan",
+        "meta": "Layanan konsultasi pengembangan kompetensi: training needs analysis, penyusunan kurikulum, competency mapping, dan evaluasi ROI pelatihan.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "hub",
+        "prev": "sertifikasi-bnsp",
+        "next": "training-needs-analysis",
+        "related": [
+          "jenis-pelatihan",
+          "kategori-pelatihan",
+          "kontak"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi layanan konsultasi dan pengembangan kompetensi karyawan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "training-needs-analysis",
+        "n": 29,
+        "path": "konsultasi-pengembangan-kompetensi/training-needs-analysis/",
+        "published": "2026-06-20",
+        "title": "Training Needs Analysis (TNA): Cara Melakukan dan Contoh Metodenya",
+        "h1": "Training Needs Analysis (TNA): Apa Itu, Cara Melakukan, dan Contoh Metodanya",
+        "meta": "Cara melakukan Training Needs Analysis (TNA) yang efektif: 3 level analisis, metode wawancara, DIF analysis, contoh pertanyaan TNA, dan cara menerjemahkan hasilnya menjadi program pelatihan.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "article",
+        "prev": "konsultasi-pengembangan-kompetensi",
+        "next": "penyusunan-kurikulum-korporat",
+        "related": [
+          "competency-mapping",
+          "pelatihan-korporat-customized",
+          "hrd-manager"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi proses training needs analysis untuk mengidentifikasi gap kompetensi",
+        "howto": [
+          {
+            "name": "Definisikan tujuan analisis",
+            "text": "Tentukan apakah TNA untuk satu masalah spesifik, satu departemen, atau perusahaan menyeluruh. Ini menentukan metode dan kedalaman pengumpulan data."
+          },
+          {
+            "name": "Pilih metode pengumpulan data",
+            "text": "Kombinasikan wawancara, survei, observasi lapangan, dan analisis data kinerja sesuai skala dan anggaran waktu yang tersedia."
+          },
+          {
+            "name": "Kumpulkan data di tiga level",
+            "text": "Analisis di level organisasi (strategi bisnis), level tugas/pekerjaan (standar kompetensi), dan level individu (gap kinerja karyawan)."
+          },
+          {
+            "name": "Identifikasi akar masalah",
+            "text": "Pastikan gap yang ditemukan benar-benar masalah kompetensi, bukan masalah proses, sistem, atau motivasi yang tidak bisa diselesaikan lewat pelatihan."
+          },
+          {
+            "name": "Prioritaskan temuan",
+            "text": "Urutkan gap berdasarkan dampak terhadap kinerja bisnis dan urgensi penyelesaiannya untuk menyusun rencana pelatihan yang realistis."
+          },
+          {
+            "name": "Terjemahkan menjadi rencana pelatihan",
+            "text": "Susun rencana pelatihan berdasarkan prioritas temuan, pilih format yang sesuai (in-house, publik, customized), dan tetapkan indikator keberhasilan yang terukur."
+          }
+        ],
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "penyusunan-kurikulum-korporat",
+        "n": 30,
+        "path": "konsultasi-pengembangan-kompetensi/penyusunan-kurikulum-korporat/",
+        "published": "2026-06-22",
+        "title": "Penyusunan Kurikulum Pelatihan Korporat: Langkah demi Langkah",
+        "h1": "Penyusunan Kurikulum Pelatihan Korporat: Langkah demi Langkah",
+        "meta": "Cara menyusun kurikulum pelatihan korporat dari hasil TNA: struktur modul, metode pembelajaran orang dewasa, dan penyesuaian untuk UKM vs perusahaan besar.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "article",
+        "prev": "training-needs-analysis",
+        "next": "competency-mapping",
+        "related": [
+          "training-needs-analysis",
+          "pelatihan-korporat-customized",
+          "evaluasi-pasca-training-roi"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi penyusunan kurikulum pelatihan korporat langkah demi langkah",
+        "howto": [
+          {
+            "name": "Mulai dari hasil TNA",
+            "text": "Jadikan temuan Training Needs Analysis sebagai dasar kurikulum — bukan tren industri atau preferensi manajemen semata."
+          },
+          {
+            "name": "Susun urutan konten",
+            "text": "Urutkan materi dari fondasi ke aplikasi. Prinsip scaffolding: pengetahuan baru selalu dibangun di atas yang sudah ada."
+          },
+          {
+            "name": "Pilih metode dan media pembelajaran",
+            "text": "Sesuaikan antara instructor-led, simulasi, e-learning, atau blended berdasarkan jenis kompetensi dan ketersediaan sumber daya peserta."
+          },
+          {
+            "name": "Rancang asesmen dan evaluasi",
+            "text": "Tentukan cara mengukur ketercapaian tujuan pembelajaran sejak perancangan, bukan setelah modul selesai dibuat."
+          },
+          {
+            "name": "Uji coba sebelum rollout penuh",
+            "text": "Jalankan pilot dengan kelompok kecil untuk menemukan kelemahan konten, ketepatan durasi, dan kualitas materi sebelum disampaikan ke seluruh peserta."
+          }
+        ],
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "competency-mapping",
+        "n": 31,
+        "path": "konsultasi-pengembangan-kompetensi/competency-mapping/",
+        "published": null,
+        "title": "Competency Mapping: Membangun Kerangka Kompetensi Perusahaan",
+        "h1": "Competency Mapping: Membangun Kerangka Kompetensi Perusahaan dari Nol",
+        "meta": "Panduan competency mapping: mendefinisikan kompetensi inti per peran, menyusun kerangka penilaian, dan mengaitkannya dengan jalur karier karyawan.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "article",
+        "prev": "penyusunan-kurikulum-korporat",
+        "next": "evaluasi-pasca-training-roi",
+        "related": [
+          "hrd-manager",
+          "peran-jabatan",
+          "training-needs-analysis"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi kerangka pemetaan kompetensi karyawan perusahaan",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "evaluasi-pasca-training-roi",
+        "n": 32,
+        "path": "konsultasi-pengembangan-kompetensi/evaluasi-pasca-training-roi/",
+        "published": "2026-06-25",
+        "title": "Evaluasi Pasca-Training & ROI Pelatihan: Model Kirkpatrick 4 Level",
+        "h1": "Evaluasi Pasca-Training dan ROI Pelatihan: Kirkpatrick 4 Level dan Contoh Perhitungannya",
+        "meta": "Cara mengukur efektivitas pelatihan: model Kirkpatrick 4 level dijelaskan praktis, contoh perhitungan ROI (Phillips), mengapa banyak evaluasi berhenti di Level 1, dan solusinya.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "article",
+        "prev": "competency-mapping",
+        "next": "tentang-kami",
+        "related": [
+          "keuangan-akuntansi",
+          "manajer-operasional",
+          "penyusunan-kurikulum-korporat"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi evaluasi efektivitas dan perhitungan ROI pelatihan karyawan",
+        "howto": [
+          {
+            "name": "Level 1 — Evaluasi reaksi peserta",
+            "text": "Kumpulkan umpan balik peserta segera setelah pelatihan (happy sheet). Ini yang paling mudah diukur — tetapi jangan berhenti di sini."
+          },
+          {
+            "name": "Level 2 — Evaluasi pembelajaran",
+            "text": "Uji pengetahuan atau keterampilan sebelum (pre-test) dan sesudah (post-test) pelatihan untuk membuktikan transfer pengetahuan terjadi."
+          },
+          {
+            "name": "Level 3 — Evaluasi perubahan perilaku",
+            "text": "Amati apakah karyawan benar-benar menerapkan kompetensi baru di pekerjaan — 30, 60, atau 90 hari setelah pelatihan. Libatkan supervisor langsung dalam penilaian ini."
+          },
+          {
+            "name": "Level 4 — Evaluasi hasil bisnis",
+            "text": "Hubungkan perubahan perilaku dengan indikator bisnis: produktivitas, angka kecelakaan, kepuasan pelanggan, atau biaya produksi. Ini memerlukan baseline data sebelum pelatihan."
+          },
+          {
+            "name": "Hitung ROI dengan Phillips Model",
+            "text": "ROI (%) = ((manfaat terukur - biaya pelatihan) / biaya pelatihan) × 100. Hanya berlaku bila Level 3 dan 4 sudah terukur dengan cukup reliabel."
+          }
+        ],
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "tentang-kami",
+        "n": 33,
+        "path": "tentang-kami/",
+        "published": null,
+        "title": "Tentang Kami: Tim di Balik Panduan Pelatihan Korporat Ini",
+        "h1": "Tentang Kami: Tim di Balik Panduan Pelatihan Korporat Ini",
+        "meta": "Kenali tim di balik panduan pelatihan korporat ini: latar belakang, metodologi kerja, dan komitmen kami membantu perusahaan mengembangkan kompetensi karyawan.",
+        "hub": "konsultasi-pengembangan-kompetensi",
+        "type": "article",
+        "prev": "evaluasi-pasca-training-roi",
+        "next": "home",
+        "related": [
+          "kontak",
+          "konsultasi-pengembangan-kompetensi",
+          "studi-kasus"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi tim konsultan dan fasilitator pelatihan korporat profesional",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "faq",
+        "n": 34,
+        "path": "faq/",
+        "published": null,
+        "title": "FAQ Pelatihan Korporat: Pertanyaan yang Sering Diajukan",
+        "h1": "FAQ: Pertanyaan yang Sering Diajukan Seputar Pelatihan Korporat",
+        "meta": "Jawaban ringkas pertanyaan seputar pelatihan korporat: in-house vs publik, jumlah peserta minimal, sertifikat, kustomisasi, sampai cara memilih konsultan.",
+        "hub": "utility",
+        "type": "utility",
+        "prev": "",
+        "next": "",
+        "related": [
+          "jenis-pelatihan",
+          "konsultasi-pengembangan-kompetensi",
+          "kontak"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi tanya jawab seputar pelatihan korporat",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "glosarium",
+        "n": 35,
+        "path": "glosarium/",
+        "published": null,
+        "title": "Glosarium Istilah Pelatihan & HR: Kamus Lengkap A–Z",
+        "h1": "Glosarium Istilah Pelatihan dan HR: Kamus Lengkap A–Z",
+        "meta": "Kamus istilah pelatihan korporat dan HR dari A–Z: TNA, kompetensi, upskilling, reskilling, blended learning, KKNI, dan puluhan istilah lainnya.",
+        "hub": "utility",
+        "type": "utility",
+        "prev": "",
+        "next": "",
+        "related": [
+          "training-needs-analysis",
+          "competency-mapping",
+          "faq"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi kamus istilah pelatihan korporat dan HR",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "studi-kasus",
+        "n": 36,
+        "path": "studi-kasus/",
+        "published": null,
+        "title": "Studi Kasus Pelatihan Korporat: Pola Perusahaan yang Berhasil",
+        "h1": "Studi Kasus Pelatihan Korporat: Pola yang Berulang pada Perusahaan yang Berhasil",
+        "meta": "Pelajaran dari skenario pelatihan korporat di lapangan: kondisi awal, hambatan umum, intervensi yang berhasil, dan hasil yang terukur.",
+        "hub": "utility",
+        "type": "utility",
+        "prev": "",
+        "next": "",
+        "related": [
+          "evaluasi-pasca-training-roi",
+          "pelatihan-korporat-customized",
+          "tentang-kami"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi studi kasus keberhasilan program pelatihan korporat",
+        "status": "live",
+        "batch": "legacy-migration"
+      },
+      {
+        "key": "blog",
+        "n": 37,
+        "path": "blog/",
+        "published": null,
+        "title": "Blog Pelatihan Korporat: Tren dan Update Terbaru",
+        "h1": "Blog: Tren dan Update Pelatihan Korporat Terbaru",
+        "meta": "Update tren pelatihan korporat Indonesia: perubahan regulasi ketenagakerjaan, tren L&D, dan praktik terbaik pengembangan SDM.",
+        "hub": "utility",
+        "type": "utility",
+        "prev": "",
+        "next": "",
+        "related": [
+          "sertifikasi-bnsp",
+          "faq",
+          "konsultasi-pengembangan-kompetensi"
+        ],
+        "money": "kontak",
+        "img_alt": "Ilustrasi pembaruan tren dan berita pelatihan korporat",
+        "status": "live",
+        "batch": "legacy-migration"
+      }
+    ],
+    "next_batch": [],
+    "backlog": []
+  }
+}
