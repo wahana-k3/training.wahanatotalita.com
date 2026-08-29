@@ -4,12 +4,18 @@ import { SITE, waUrl } from '@/lib/site';
 interface CtaBlockProps {
   title?: string;
   description?: string;
+  pageTitle?: string;
 }
 
 export function CtaBlock({
   title = 'Ingin Mendiskusikan Kebutuhan Pelatihan Perusahaan Anda?',
   description = 'Setiap perusahaan memiliki tantangan kompetensi unik. Konsultan kami siap membantu memetakan modul dan format pelatihan yang paling tepat untuk tim Anda — gratis untuk sesi konsultasi awal.',
+  pageTitle,
 }: CtaBlockProps) {
+  const waMsg = pageTitle
+    ? `Halo Tim Wahana K3, saya tertarik dengan materi "${pageTitle}" di training.wahanatotalita.com dan ingin meminta Proposal Silabus Resmi In-House Training untuk tim perusahaan kami.`
+    : SITE.waPrefill;
+
   return (
     <aside className="cta-block" aria-label="Ajakan konsultasi pelatihan">
       <h2>{title}</h2>
@@ -17,7 +23,7 @@ export function CtaBlock({
       <div className="cta-actions">
         <a
           className="btn btn-wa"
-          href={waUrl()}
+          href={waUrl(waMsg)}
           target="_blank"
           rel="noopener"
         >

@@ -10,6 +10,7 @@ import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
 import { AuthorBox } from './AuthorBox';
 import { ChainNav } from './ChainNav';
+import { K3Calculator } from './K3Calculator';
 import { SITE, buildToc, imgPath, pageUrl, tglId } from '@/lib/site';
 import { PageContentData, PageMeta } from '@/lib/types';
 
@@ -97,8 +98,11 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
               {/* FAQ Accordion */}
               <FaqSection items={content.faq} />
 
+              {/* Interactive K3 Compliance & Headcount Calculator */}
+              <K3Calculator />
+
               {/* CTA Consultation Banner */}
-              <CtaBlock />
+              <CtaBlock pageTitle={page.title} />
 
               {/* Recommended Related Articles */}
               <RelatedSection page={page} />
