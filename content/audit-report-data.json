@@ -6,9 +6,9 @@
     "total_faqs_indexed": 430,
     "total_data_tables": 246,
     "thin_pages_count": 1,
-    "title_issues_count": 6,
-    "meta_desc_issues_count": 1,
-    "orphan_pages_count": 86,
+    "title_issues_count": 0,
+    "meta_desc_issues_count": 0,
+    "orphan_pages_count": 0,
     "hub_breakdown": {
       "money": {
         "count": 2,
@@ -66,8 +66,8 @@
       "tableCount": 0,
       "imgAlt": "Ilustrasi ekosistem pelatihan korporat dan pengembangan kompetensi karyawan",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
-      "inboundLinksCount": 0,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 2,
       "issues": []
     },
     {
@@ -110,8 +110,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi berbagai format pelatihan korporat: in-house, publik, dan customized",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 10,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -132,8 +132,8 @@
       "tableCount": 3,
       "imgAlt": "Ilustrasi sesi in-house training khusus untuk karyawan satu perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -154,21 +154,21 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi peserta lintas perusahaan dalam sesi pelatihan publik",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
       "key": "pelatihan-korporat-customized",
       "path": "jenis-pelatihan/pelatihan-korporat-customized/",
       "hub": "jenis-pelatihan",
-      "title": "Pelatihan Korporat Customized: Cara Kurikulum Dirancang Sesuai Masalah Nyata",
-      "titleLength": 76,
-      "titleStatus": "LONG",
-      "metaLength": 158,
+      "title": "Pelatihan Korporat Customized: Kurikulum Berbasis Masalah Nyata",
+      "titleLength": 63,
+      "titleStatus": "OK",
+      "metaLength": 147,
       "metaStatus": "OK",
       "hasH1": true,
-      "h1": "Pelatihan Korporat Customized: Merancang Kurikulum Sesuai Masalah Nyata Perusahaan",
+      "h1": "Pelatihan Korporat Customized: Kurikulum yang Dirancang dari Masalah Nyata Perusahaan",
       "wordCount": 1027,
       "h2Count": 9,
       "h3Count": 0,
@@ -176,11 +176,9 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi perancangan kurikulum pelatihan yang disesuaikan kebutuhan perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 7,
-      "issues": [
-        "Title tag too long (76 chars, recommended <= 75)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 10,
+      "issues": []
     },
     {
       "key": "in-house-vs-publik-vs-blended",
@@ -200,8 +198,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi perbandingan format in-house, publik, dan blended learning",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -222,8 +220,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi berbagai sektor industri dengan kebutuhan pelatihan masing-masing",
       "hasImgAlt": true,
-      "outboundLinksCount": 10,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 13,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -244,8 +242,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan karyawan pabrik manufaktur di lini produksi",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -266,8 +264,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan keselamatan dan manajemen proyek konstruksi",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -288,8 +286,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan keselamatan kerja di sektor pertambangan dan migas",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -310,8 +308,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan staf rumah sakit dan fasilitas kesehatan",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -332,8 +330,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan operator dan supervisor gudang logistik",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -354,8 +352,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan staf perbankan dan lembaga keuangan",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -376,8 +374,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi jalur pengembangan kompetensi untuk berbagai peran dan jabatan",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -398,8 +396,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pengembangan kompetensi HRD dan HR Manager",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -420,8 +418,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan supervisor dan team leader baru memimpin tim",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -442,8 +440,8 @@
       "tableCount": 2,
       "imgAlt": "Ilustrasi pengembangan kompetensi safety officer dan petugas K3",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -464,8 +462,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pengembangan kompetensi manajer operasional perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 12,
       "issues": []
     },
     {
@@ -486,8 +484,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi program onboarding dan orientasi karyawan baru",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -508,8 +506,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi peta kategori dan disiplin pelatihan korporat",
       "hasImgAlt": true,
-      "outboundLinksCount": 11,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 12,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -530,8 +528,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi ringkasan pelatihan keselamatan dan kesehatan kerja K3",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 10,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -552,8 +550,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan manajemen sumber daya manusia perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -574,8 +572,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan kepemimpinan untuk berbagai level manajemen",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -596,8 +594,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan layanan pelanggan dan soft skills komunikasi",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -618,8 +616,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pelatihan keuangan dan akuntansi dasar bagi karyawan",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -640,8 +638,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi proses sertifikasi kompetensi BNSP lintas profesi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -662,8 +660,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi layanan konsultasi dan pengembangan kompetensi karyawan",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
-      "inboundLinksCount": 9,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -673,8 +671,8 @@
       "title": "Training Needs Analysis (TNA): Cara Melakukan dan Contoh Metodenya",
       "titleLength": 66,
       "titleStatus": "OK",
-      "metaLength": 190,
-      "metaStatus": "LONG",
+      "metaLength": 152,
+      "metaStatus": "OK",
       "hasH1": true,
       "h1": "Training Needs Analysis (TNA): Apa Itu, Cara Melakukan, dan Contoh Metodanya",
       "wordCount": 1408,
@@ -684,11 +682,9 @@
       "tableCount": 3,
       "imgAlt": "Ilustrasi proses training needs analysis untuk mengidentifikasi gap kompetensi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 14,
-      "issues": [
-        "Meta description too long (190 chars, recommended <= 185)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 17,
+      "issues": []
     },
     {
       "key": "penyusunan-kurikulum-korporat",
@@ -708,8 +704,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi penyusunan kurikulum pelatihan korporat langkah demi langkah",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -730,8 +726,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi kerangka pemetaan kompetensi karyawan perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -752,8 +748,8 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi evaluasi efektivitas dan perhitungan ROI pelatihan karyawan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 11,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 14,
       "issues": []
     },
     {
@@ -774,11 +770,9 @@
       "tableCount": 0,
       "imgAlt": "Ilustrasi tim konsultan dan fasilitator pelatihan korporat profesional",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "faq",
@@ -799,7 +793,7 @@
       "imgAlt": "Ilustrasi tanya jawab seputar pelatihan korporat",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 1,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -820,7 +814,7 @@
       "tableCount": 0,
       "imgAlt": "Ilustrasi kamus istilah pelatihan korporat dan HR",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
+      "outboundLinksCount": 4,
       "inboundLinksCount": 0,
       "issues": []
     },
@@ -842,7 +836,7 @@
       "tableCount": 0,
       "imgAlt": "Ilustrasi studi kasus keberhasilan program pelatihan korporat",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 1,
       "issues": []
     },
@@ -864,7 +858,7 @@
       "tableCount": 1,
       "imgAlt": "Ilustrasi pembaruan tren dan berita pelatihan korporat",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 0,
       "issues": []
     },
@@ -886,8 +880,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja industri mengenakan APD lengkap dan harness bersiap memasuki ruang terbatas dengan pengawasan safety attendant",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 14,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 19,
       "issues": []
     },
     {
@@ -908,7 +902,7 @@
       "tableCount": 1,
       "imgAlt": "Instruktur K3 menguji kadar atmosfer gas menggunakan multi-gas detector portabel di depan manhole tangki industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -930,8 +924,8 @@
       "tableCount": 1,
       "imgAlt": "Tim rescue K3 melakukan simulasi pengangkatan korban dari lubang manhole menggunakan sistem tripod dan pulley haulage",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -952,8 +946,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi gas tester melakukan penarikan sampel udara menggunakan selang probe dan gas detector portabel",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 11,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 16,
       "issues": []
     },
     {
@@ -974,8 +968,8 @@
       "tableCount": 1,
       "imgAlt": "Instruktur menunjukkan tabung gas kalibrasi dan regulator saat menguji fungsi sensor gas detector",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -996,8 +990,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja konstruksi memakai full body harness ganda dan lanyard terpasang aman pada lifeline horizontal",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1018,8 +1012,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi bangunan tinggi melakukan pekerjaan inspeksi struktur rangka baja dengan tali pengaman ganda",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1040,8 +1034,8 @@
       "tableCount": 2,
       "imgAlt": "Peralatan fall protection lengkap mencakup full body harness, self-retracting lifeline, dan karabiner baja",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1062,8 +1056,8 @@
       "tableCount": 2,
       "imgAlt": "Teknisi rope access bermanuver di dinding vertikal dengan dua tali independen (working line dan safety line)",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1084,8 +1078,8 @@
       "tableCount": 2,
       "imgAlt": "Simulasi evakuasi korban tergantung di ketinggian menggunakan sistem katrol penurun terkontrol",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -1106,8 +1100,8 @@
       "tableCount": 2,
       "imgAlt": "Operator scaffolder mengenakan helm dan harness sedang memasang pipa ledger dan clamp pada struktur perancah modular",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -1128,8 +1122,8 @@
       "tableCount": 2,
       "imgAlt": "Pengawas scaffolding memeriksa penguncian klem dan meninjau gambar desain perancah di lokasi kerja",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1150,8 +1144,8 @@
       "tableCount": 2,
       "imgAlt": "Inspector scaffolding menempelkan green tag penanda perancah aman dan menandatangani kartu inspeksi harian",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1172,8 +1166,8 @@
       "tableCount": 2,
       "imgAlt": "Rigger profesional mengenakan sarung tangan kulit sedang memasang shackle dan webbing sling pada beban industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 15,
       "issues": []
     },
     {
@@ -1194,8 +1188,8 @@
       "tableCount": 2,
       "imgAlt": "Signalman memberikan isyarat tangan aba-aba pengangkatan beban kepada operator mobile crane",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1216,8 +1210,8 @@
       "tableCount": 2,
       "imgAlt": "Lifting supervisor meninjau dokumen lifting plan dan menghitung radius beban sebelum operasi pengangkatan berat dimulai",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -1238,8 +1232,8 @@
       "tableCount": 1,
       "imgAlt": "Barikade perimeter keselamatan terpasang rapi di sekitar area radius kerja mobile crane yang sedang beroperasi",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -1260,8 +1254,8 @@
       "tableCount": 1,
       "imgAlt": "Operator forklift mengenakan rompi reflektif dan sabuk pengaman sedang memindahkan palet barang di gudang",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -1282,8 +1276,8 @@
       "tableCount": 1,
       "imgAlt": "Operator mengemudikan reach truck elektrik mengambil palet barang pada sistem racking bertingkat tinggi",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1304,8 +1298,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja mengoperasikan walkie pallet stacker elektrik memindahkan boks logistik di lorong gudang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1326,8 +1320,8 @@
       "tableCount": 1,
       "imgAlt": "Operator crane memegang kendali joystick di dalam kabin operator memantau layar display komputer LMI",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -1348,8 +1342,8 @@
       "tableCount": 1,
       "imgAlt": "Mobile crane hidrolik memanjangkan boom teleskopik di area proyek konstruksi industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1370,8 +1364,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja di pabrik manufaktur menggunakan remote control wireless mengoperasikan overhead traveling crane",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1392,8 +1386,8 @@
       "tableCount": 1,
       "imgAlt": "Gantry crane raksasa beroperasi di atas rel memindahkan struktur balok baja besar di area fabrikasi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1414,8 +1408,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi bengkel mengaitkan rantai electric hoist pada blok mesin sebelum mengangkatnya ke meja kerja",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1436,8 +1430,8 @@
       "tableCount": 1,
       "imgAlt": "Excavator hidrolik melakukan penggalian lereng tanah secara presisi di area proyek galian",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -1458,8 +1452,8 @@
       "tableCount": 1,
       "imgAlt": "Wheel loader bermuatan material batu pecah melakukan manuver loading ke bak dump truck",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1480,8 +1474,8 @@
       "tableCount": 1,
       "imgAlt": "Bulldozer melakukan pendorongan tanah dan perataan lahan di area pembukaan proyek konstruksi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1502,8 +1496,8 @@
       "tableCount": 1,
       "imgAlt": "Dump truck tambang berukuran besar menumpahkan muatan tanah di area disposal yang aman",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -1524,8 +1518,8 @@
       "tableCount": 1,
       "imgAlt": "Peta rambu lalu lintas tambang dan pemisahan jalur pejalan kaki dengan zona alat berat di area proyek",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 11,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 16,
       "issues": []
     },
     {
@@ -1546,8 +1540,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja melakukan pengelasan dengan pelindung fire blanket terpasang di sekitarnya dan APAR siaga di dekatnya",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -1568,8 +1562,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas fire watch mengenakan rompi khusus berdiri siaga memegang APAR memantau percikan api las",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -1590,8 +1584,8 @@
       "tableCount": 1,
       "imgAlt": "Dokumen formulir Permit to Work (PTW) dengan checklist inspeksi lapangan dan tanda tangan otorisasi keselamatan",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 12,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 15,
       "issues": []
     },
     {
@@ -1612,8 +1606,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi listrik mengenakan sarung tangan isolasi 1000V dan helm pelindung sedang menguji tegangan pada panel distribusi",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 9,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 13,
       "issues": []
     },
     {
@@ -1634,8 +1628,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi K3 listrik bersertifikasi memegang alat ukur insulasi Megger memeriksa tahanan kabel feeder trafo",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1656,8 +1650,8 @@
       "tableCount": 1,
       "imgAlt": "Ahli K3 listrik memegang dokumen audit kelistrikan meninjau instalasi gardu distribusi listrik tegangan menengah",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1678,8 +1672,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja memasang gembok keselamatan pad-lock merah dan safety tag pada pemutus sirkuit listrik panel industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 13,
       "issues": []
     },
     {
@@ -1700,8 +1694,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi mengenakan pakaian pelindung Arc Flash Suit lengkap dengan hood 40 cal/cm² bersiap membuka panel listrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1722,8 +1716,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi gardu induk menggunakan hot stick isolasi melakukan manuver pemisah grounding pada instalasi 150kV",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1744,8 +1738,8 @@
       "tableCount": 1,
       "imgAlt": "Inspektur listrik menggunakan kamera thermal imaging inframerah mendeteksi hotspot pada sambungan kabel panel breaker",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1766,8 +1760,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi menggunakan earth resistance clamp meter mengukur nilai resistansi batang pembumian grounding rod di luar gedung",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1788,8 +1782,8 @@
       "tableCount": 1,
       "imgAlt": "Operator pabrik bekerja di depan mesin pres hidrolik yang dilengkapi sensor safety light curtain dan pelindung mekanis transparan",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1810,8 +1804,8 @@
       "tableCount": 1,
       "imgAlt": "Operator boiler memantau pressure gauge dan level gelas penduga air pada bejana uap pipa air industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -1832,8 +1826,8 @@
       "tableCount": 1,
       "imgAlt": "Inspector bejana tekan melakukan pengujian ketebalan dinding pelat tangki bejana tekan menggunakan ultrasonic thickness meter",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 12,
       "issues": []
     },
     {
@@ -1854,8 +1848,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi mekanik menggunakan alat laser shaft alignment mengatur kelurusan poros motor dan pompa industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1876,8 +1870,8 @@
       "tableCount": 1,
       "imgAlt": "Welder profesional mengenakan auto-darkening welding helmet dan apron kulit tebal sedang melakukan pengelasan pipa baja",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1898,8 +1892,8 @@
       "tableCount": 1,
       "imgAlt": "Inspector K3 memeriksa kelengkapan pelindung transmisi sabuk dan tombol emergency stop pada mesin bubut industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -1920,8 +1914,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik perakitan mempraktikkan teknik pengangkatan boks beban secara ergonomis dengan menekuk lutut dan menjaga punggung lurus",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1942,8 +1936,8 @@
       "tableCount": 1,
       "imgAlt": "Peserta pelatihan memadamkan kobaran api drum menggunakan APAR dry chemical powder dengan teknik menyapu searah angin",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -1964,17 +1958,17 @@
       "tableCount": 1,
       "imgAlt": "Petugas peran kebakaran memeriksa jarum manometer tekanan APAR dan mencatat kartu inspeksi bulanan di lorong pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
       "key": "regu-pemadam-kebakaran",
       "path": "kategori-pelatihan/regu-pemadam-kebakaran/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan Regu Penanggulangan Kebakaran: Sertifikasi K3 Kebakaran Kelas C & B",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Regu Pemadam Kebakaran: Sertifikasi K3 Kelas C & B",
+      "titleLength": 60,
+      "titleStatus": "OK",
       "metaLength": 156,
       "metaStatus": "OK",
       "hasH1": true,
@@ -1986,11 +1980,9 @@
       "tableCount": 1,
       "imgAlt": "Regu pemadam kebakaran pabrik mengenakan pakaian bunker suit memegang nozzle selang hydrant menyemprotkan air formasi serang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "ahli-k3-kebakaran",
@@ -2010,8 +2002,8 @@
       "tableCount": 1,
       "imgAlt": "Ahli K3 kebakaran memeriksa panel kontrol utama Fire Alarm Control Panel (FACP) dan flow meter pompa pemadam di ruang pompa",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2032,8 +2024,8 @@
       "tableCount": 1,
       "imgAlt": "Instruktur K3 memperagakan pemeriksaan segel pin pengaman dan kartu kendali pemeliharaan APAR tabung merah",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2054,8 +2046,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi ruang pompa pemadam memeriksa katup hisap dan indikator tekanan pada pompa diesel pemadam kebakaran utama",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2076,8 +2068,8 @@
       "tableCount": 1,
       "imgAlt": "Auditor K3 kebakaran meninjau denah layout pabrik dan mengevaluasi kompartemenisasi bahan mudah terbakar",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2098,8 +2090,8 @@
       "tableCount": 1,
       "imgAlt": "Tim Emergency Response Team (ERT) mengenakan rompi komando memimpin briefing di posko darurat saat simulasi krisis",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2120,8 +2112,8 @@
       "tableCount": 1,
       "imgAlt": "Ratusan karyawan gedung bertingkat berbaris tertib berkumpul di assembly point saat simulasi fire drill darurat",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -2142,8 +2134,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja migas mengenakan personal H2S monitor di kerah baju dan membawa Escape Breathing Apparatus saat berada di area wellhead",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2164,8 +2156,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas kimia mengenakan sarung tangan nitrile tebal, kacamata chemical goggles, dan apron khusus memindahkan cairan asam",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 13,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 20,
       "issues": []
     },
     {
@@ -2186,8 +2178,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas lingkungan menginspeksi drum limbah B3 berlabel simbol korosif dan mudah menyala di Tempat Penyimpanan Sementara (TPS)",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -2208,8 +2200,8 @@
       "tableCount": 1,
       "imgAlt": "Tim penanganan tumpahan kimia membentangkan absorbent boom mengisolasi cairan bahan kimia yang tumpah di lantai pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2230,8 +2222,8 @@
       "tableCount": 1,
       "imgAlt": "Staff K3 meninjau dokumen SDS 16 bagian dan memeriksa kesesuaian label piktogram GHS pada botol reagen kimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2252,8 +2244,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas K3 kimia bersertifikat memeriksa inventaris gudang penyimpanan bahan kimia reaktif",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2274,8 +2266,8 @@
       "tableCount": 1,
       "imgAlt": "Ahli K3 kimia memimpin audit Process Safety Management di ruang kontrol kilang petrokimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2296,8 +2288,8 @@
       "tableCount": 1,
       "imgAlt": "Analis laboratorium mengenakan jas lab kacamata dan masker bekerja di dalam lemari asam fume hood melakukan titrasi kimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2318,19 +2310,17 @@
       "tableCount": 1,
       "imgAlt": "Petugas fumigasi mengenakan full face respirator dengan filter gas fosfin memeriksa segel terpal kedap gas di gudang biji-bijian",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "higiene-industri",
       "path": "kategori-pelatihan/higiene-industri/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan Higiene Industri: Pengukuran Faktor Fisika & Kimia Lingkungan Kerja",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Higiene Industri: Pengukuran Faktor Bahaya Lingkungan",
+      "titleLength": 63,
+      "titleStatus": "OK",
       "metaLength": 151,
       "metaStatus": "OK",
       "hasH1": true,
@@ -2342,11 +2332,9 @@
       "tableCount": 1,
       "imgAlt": "Industrial hygienist mengoperasikan sound level meter dan heat stress monitor ISBB di area lantai produksi pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 5,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 10,
+      "issues": []
     },
     {
       "key": "petugas-p3k-di-tempat-kerja",
@@ -2366,8 +2354,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas P3K bersertifikat mempraktikkan kompresi dada resusitasi jantung paru (CPR) pada manekin pelatihan medis",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2388,8 +2376,8 @@
       "tableCount": 1,
       "imgAlt": "Dokter perusahaan berjas medis memeriksa hasil rontgen toraks paru dan data audiometri karyawan di klinik perusahaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 9,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -2410,8 +2398,8 @@
       "tableCount": 1,
       "imgAlt": "Audiometris melakukan pengujian pendengaran nada murni pada pekerja yang duduk di dalam bilik kedap suara (audiometric booth)",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2432,8 +2420,8 @@
       "tableCount": 1,
       "imgAlt": "Paramedis memandu pekerja melakukan hembusan napas paksa ke dalam corong spirometer digital",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -2454,8 +2442,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi higiene industri memegang sound level meter melakukan pengukuran intensitas bising di dekat turbin generator",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -2476,8 +2464,8 @@
       "tableCount": 1,
       "imgAlt": "Auditor kualitas udara memantau instrumen IAQ meter mendeteksi konsentrasi CO2 dan TVOC di dalam ruang kantor ber-AC",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -2498,11 +2486,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas sanitasi industri memeriksa kebersihan fasilitas dapur kantin pabrik dan mengambil sampel uji air minum",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "pemeriksaan-kesehatan-kerja-mcu",
@@ -2522,8 +2508,8 @@
       "tableCount": 1,
       "imgAlt": "Dokter spesialis okupasi menganalisis tren data agregat hasil Medical Check-Up tahunan ribuan karyawan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -2544,8 +2530,8 @@
       "tableCount": 1,
       "imgAlt": "Ahli K3 konstruksi mengenakan helm putih rompi safety meninjau gambar kerja engineering di lokasi proyek gedung bertingkat",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2566,8 +2552,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas K3 konstruksi memimpin safety briefing Tool Box Meeting di depan puluhan pekerja proyek sebelum shift pagi dimulai",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2588,8 +2574,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja konstruksi memasang sistem penopang hidrolik shoring dan trench box pada galian tanah saluran pipa sedalam 3 meter",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -2610,11 +2596,9 @@
       "tableCount": 1,
       "imgAlt": "Excavator dilengkapi attachment hydraulic breaker membongkar struktur dinding beton bertulang di area proyek pembongkaran gedung",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pengawas-operasional-pertama-pop",
@@ -2634,8 +2618,8 @@
       "tableCount": 1,
       "imgAlt": "Pengawas operasional pertama tambang berhelm safety memegang clipboard memimpin inspeksi di area pit tambang batubara",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -2656,8 +2640,8 @@
       "tableCount": 1,
       "imgAlt": "Superintendent tambang memimpin rapat tinjauan audit Sistem Manajemen Keselamatan Pertambangan (SMKP) di ruang rapat site",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -2678,8 +2662,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja tambang bawah tanah mengenakan helm lampu tambang cap lamp dan membawa self-rescuer berjalan di terowongan tambang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -2700,19 +2684,17 @@
       "tableCount": 1,
       "imgAlt": "Penyelam komersial mengenakan helm diving Surface-Supplied bersiap turun ke air dari deck kapal offshore support vessel",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-konstruksi-jembatan-dan-elevated",
       "path": "kategori-pelatihan/k3-konstruksi-jembatan-dan-elevated/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan K3 Konstruksi Jembatan & Struktur Melayang (Elevated Bridge Safety)",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "Pelatihan K3 Konstruksi Jembatan & Struktur Melayang Elevated",
+      "titleLength": 61,
+      "titleStatus": "OK",
       "metaLength": 156,
       "metaStatus": "OK",
       "hasH1": true,
@@ -2724,11 +2706,9 @@
       "tableCount": 1,
       "imgAlt": "Struktur launching gantry girder raksasa memindahkan balok segmental box girder di atas pier head proyek jalan tol layang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "ahli-k3-umum",
@@ -2748,8 +2728,8 @@
       "tableCount": 1,
       "imgAlt": "Calon Ahli K3 Umum mengenakan jas almamater mempresentasikan laporan hasil Praktik Kerja Lapangan (PKL) audit K3 pabrik di depan dewan penguji",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 14,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 20,
       "issues": []
     },
     {
@@ -2770,8 +2750,8 @@
       "tableCount": 1,
       "imgAlt": "Lead Auditor SMK3 memeriksa dokumen Standard Operating Procedure dan meninjau bukti rekaman inspeksi K3 di ruang arsip pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 8,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -2792,8 +2772,8 @@
       "tableCount": 1,
       "imgAlt": "Lead Auditor bersertifikat internasional memimpin Opening Meeting audit ISO 45001 bersama jajaran direksi korporat",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2814,7 +2794,7 @@
       "tableCount": 1,
       "imgAlt": "Tim manajemen risiko K3 menyusun tabel matriks HIRADC 5x5 dan menetapkan hierarki pengendalian rekayasa teknik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
+      "outboundLinksCount": 4,
       "inboundLinksCount": 5,
       "issues": []
     },
@@ -2836,8 +2816,8 @@
       "tableCount": 1,
       "imgAlt": "Supervisor dan pekerja menandatangani lembar Job Safety Analysis (JSA) di samping area kerja sebelum memulai pekerjaan berisiko",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -2858,8 +2838,8 @@
       "tableCount": 1,
       "imgAlt": "Tim investigasi kecelakaan kerja memasang pita barikade olah TKP dan mendokumentasikan serpihan bukti fisik mesin",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -2880,8 +2860,8 @@
       "tableCount": 1,
       "imgAlt": "Observer BBS memberikan safety coaching dan feedback positif kepada teknisi yang mempraktikkan prosedur kerja aman",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 2,
       "issues": []
     },
     {
@@ -2902,8 +2882,8 @@
       "tableCount": 1,
       "imgAlt": "Direktur Operasional dan Plant Manager mengenakan rompi keselamatan memimpin Management Safety Walk di area lantai pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 4,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2924,8 +2904,8 @@
       "tableCount": 1,
       "imgAlt": "Instruktur defensive driving memperagakan teknik kemudi darurat slalom di sirkuit pelatihan simulasi jalan basah",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -2946,8 +2926,8 @@
       "tableCount": 1,
       "imgAlt": "Petugas K3 pelabuhan mengawasi operasi bongkar muat kontainer peti kemas oleh quay crane di dermaga pelabuhan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -2968,8 +2948,8 @@
       "tableCount": 1,
       "imgAlt": "Tim K3RS memeriksa tabung manifold gas medis oksigen sentral dan kelengkapan spill kit sitotoksik di rumah sakit",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -2990,8 +2970,8 @@
       "tableCount": 1,
       "imgAlt": "Karyawan kantor mempraktikkan peregangan ergonomis di depan meja kerja komputer dengan pencahayaan alami",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -3012,11 +2992,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas proteksi radiasi memegang surveymeter mengukur laju dosis paparan radiasi di sekitar kamera radiografi gamma Ir-192",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pembangkit-listrik-pltu-pltgu",
@@ -3036,8 +3014,8 @@
       "tableCount": 1,
       "imgAlt": "Teknisi pembangkit listrik PLTU mengenakan APD lengkap memeriksa pipa uap superheated dan katup turbin",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3058,8 +3036,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik pengolahan makanan mengenakan pakaian higienis dan safety boots anti-slip di area proses produksi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -3080,8 +3058,8 @@
       "tableCount": 1,
       "imgAlt": "HSE Manager meninjau dokumen pra-kualifikasi CSMS dan sertifikasi personel kontraktor sebelum menandatangani persetujuan kerja",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -3102,8 +3080,8 @@
       "tableCount": 1,
       "imgAlt": "Safety officer mengenakan helm putih dan rompi reflektif memegang checklist inspeksi di area proyek industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -3124,8 +3102,8 @@
       "tableCount": 1,
       "imgAlt": "HSE Manager mempresentasikan laporan performa statistik keselamatan (Lagging & Leading Indicators) di ruang rapat direksi",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3146,8 +3124,8 @@
       "tableCount": 1,
       "imgAlt": "Safety inspector menggunakan alat ukur ketebalan pelat dan sound level meter melakukan riksa uji mesin industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -3168,11 +3146,9 @@
       "tableCount": 1,
       "imgAlt": "Kepala Teknik Tambang (KTT) memimpin peninjauan operasional penambangan terbuka di tepi tebing pit tambang batubara",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "minyak-dan-gas-bumi-offshore",
@@ -3192,11 +3168,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja anjungan minyak lepas pantai offshore rig mengenakan coverall oranye dan helm keselamatan berdiri di dekat helideck",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
+      "issues": []
     },
     {
       "key": "pertambangan-batubara-dan-nikel",
@@ -3216,8 +3190,8 @@
       "tableCount": 1,
       "imgAlt": "Dump truck raksasa tambang batubara melintas di jalan hauling tambang dengan pengawasan rambu keselamatan jalan tambang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -3238,8 +3212,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja smelter mengenakan pakaian tahan panas aluminized suit memantau penuangan cairan logam panas membara dari tungku furnace",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -3260,11 +3234,9 @@
       "tableCount": 1,
       "imgAlt": "Foreman tambang berhelm safety memegang radio komunikasi memberikan instruksi kerja aman kepada operator excavator di front penambangan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "facility-manager",
@@ -3284,8 +3256,8 @@
       "tableCount": 1,
       "imgAlt": "Facility manager meninjau panel Building Automation System (BAS) dan sistem pompa pendingin HVAC gedung perkantoran",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3306,11 +3278,9 @@
       "tableCount": 1,
       "imgAlt": "Environmental officer mengambil sampel air limbah olahan pada titik penaatan outlet Instalasi Pengolahan Air Limbah (IPAL)",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "dokter-perusahaan",
@@ -3330,11 +3300,9 @@
       "tableCount": 1,
       "imgAlt": "Dokter perusahaan memeriksa tekanan darah dan kondisi fisik pekerja dalam sesi evaluasi Fit to Work",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "paramedis-klinik-pabrik",
@@ -3354,11 +3322,9 @@
       "tableCount": 1,
       "imgAlt": "Paramedis pabrik mengenakan seragam medis memeriksa luka kerja dan melakukan balut bidai pada lengan pekerja di ruang klinik pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "juru-las-welder-certified",
@@ -3378,8 +3344,8 @@
       "tableCount": 1,
       "imgAlt": "Juru las bersertifikasi mengenakan topeng las dan apron kulit tebal melakukan pengelasan posisi 6G pada pipa bejana tekan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3400,19 +3366,17 @@
       "tableCount": 1,
       "imgAlt": "Lifting engineer meninjau simulasi gambar 3D CAD engineered lift plan pengangkatan kolom reaktor berat menggunakan dua unit crawler crane",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "scaffolding-supervisor",
       "path": "peran-jabatan/scaffolding-supervisor/",
       "hub": "peran-jabatan",
-      "title": "Pelatihan Scaffolding Supervisor: Sertifikasi Kemnaker & Pengawasan Perancah",
-      "titleLength": 76,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Scaffolding Supervisor: Sertifikasi Kemnaker Resmi",
+      "titleLength": 60,
+      "titleStatus": "OK",
       "metaLength": 155,
       "metaStatus": "OK",
       "hasH1": true,
@@ -3424,12 +3388,9 @@
       "tableCount": 1,
       "imgAlt": "Scaffolding supervisor memegang dokumen gambar teknis perancah memeriksa kekencangan klem swivel dan mengesahkan Scafftag Hijau",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (76 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "warehouse-supervisor",
@@ -3449,8 +3410,8 @@
       "tableCount": 1,
       "imgAlt": "Warehouse supervisor mengawasi pergerakan forklift dan memeriksa pelindung tiang rak upright protector di lorong gudang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3471,11 +3432,9 @@
       "tableCount": 1,
       "imgAlt": "Floor captain mengenakan topi dan rompi keselamatan oranye memegang megaphone mengarahkan karyawan menuruni tangga darurat gedung",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "process-safety-engineer",
@@ -3495,11 +3454,9 @@
       "tableCount": 1,
       "imgAlt": "Process safety engineer memimpin sidang HAZOP meninjau diagram perpipaan dan instrumentasi (P&ID) pabrik petrokimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "auditor-smk3-internal",
@@ -3519,11 +3476,9 @@
       "tableCount": 1,
       "imgAlt": "Auditor SMK3 internal melakukan wawancara verifikasi bukti rekaman pelatihan K3 kepada supervisor di area kantor operasional",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "quality-assurance-qa-qc",
@@ -3543,11 +3498,9 @@
       "tableCount": 1,
       "imgAlt": "QA/QC inspector memeriksa hasil uji penetrant testing pada sambungan flange pipa pabrik kimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "maintenance-planner-engineer",
@@ -3567,11 +3520,9 @@
       "tableCount": 1,
       "imgAlt": "Maintenance planner menyusun jadwal preventive maintenance mesin dan memverifikasi ketersediaan suku cadang LOTO pada software CMMS",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "contractor-supervisor",
@@ -3591,11 +3542,9 @@
       "tableCount": 1,
       "imgAlt": "Contractor supervisor menandatangani lembar izin kerja aman PTW bersama Safety Officer pemilik pabrik (Owner)",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "site-safety-coordinator",
@@ -3615,11 +3564,9 @@
       "tableCount": 1,
       "imgAlt": "Site safety coordinator memimpin rapat koordinasi mingguan K3 bersama seluruh perwakilan subkontraktor proyek",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pembangkit-listrik-dan-energi",
@@ -3639,11 +3586,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pembangkit listrik memeriksa katup turbin uap dan instalasi panel listrik distribusi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "petrokimia-dan-pupuk",
@@ -3663,8 +3608,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik petrokimia mengenakan chemical suit dan respirator khusus melintasi jaringan pipa reaktor kimia",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -3685,8 +3630,8 @@
       "tableCount": 1,
       "imgAlt": "Operator pabrik kelapa sawit memantau pengoperasian bejana tekan sterilizer rebusan kelapa sawit",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3707,11 +3652,9 @@
       "tableCount": 1,
       "imgAlt": "Tower crane beroperasi di puncak gedung pencakar langit dengan jaring pengaman perimeter terpasang di setiap lantai",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
+      "issues": []
     },
     {
       "key": "manufaktur-otomotif-dan-elektronik",
@@ -3731,11 +3674,9 @@
       "tableCount": 1,
       "imgAlt": "Operator perakitan otomotif bekerja di lini produksi dengan pelindung mesin otomatis dan safety mat terpasang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "makanan-minuman-dan-fmcg",
@@ -3755,11 +3696,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja industri makanan mengenakan perlengkapan higienis dan safety boots anti-slip di area proses pengolahan susu",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "farmasi-dan-laboratorium-medis",
@@ -3779,8 +3718,8 @@
       "tableCount": 1,
       "imgAlt": "Analis farmasi mengenakan pakaian cleanroom jumpsuit lengkap dengan kacamata goggle bekerja di dalam cleanroom class A",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -3801,11 +3740,9 @@
       "tableCount": 1,
       "imgAlt": "Forklift elektrik memindahkan palet barang di pusat distribusi logistik modern dengan marka jalur keselamatan lantai yang rapi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "pelabuhan-dan-maritim",
@@ -3825,11 +3762,9 @@
       "tableCount": 1,
       "imgAlt": "Kapal kontainer bersandar di dermaga pelabuhan dengan aktivitas bongkar muat peti kemas oleh quay gantry crane raksasa",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "rumah-sakit-dan-layanan-kesehatan",
@@ -3849,11 +3784,9 @@
       "tableCount": 1,
       "imgAlt": "Tim K3RS memeriksa panel alarm kebakaran sentral dan meninjau kesiapan jalur evakuasi pasien di koridor rumah sakit",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pulp-and-paper-mill",
@@ -3873,11 +3806,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik kertas memantau perputaran rol silinder mesin kertas berkecepatan tinggi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "tekstil-garmen-dan-sepatu",
@@ -3897,11 +3828,9 @@
       "tableCount": 1,
       "imgAlt": "Ribuan pekerja garmen bekerja di meja mesin jahit yang dilengkapi pelindung jarum safety needle guard dan pencahayaan memadai",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
+      "issues": []
     },
     {
       "key": "penerbangan-dan-ground-handling",
@@ -3921,11 +3850,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas ground handling mengenakan rompi reflektif dan earmuff pelindung bising mengarahkan pesawat parkir di apron bandara",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 1,
+      "issues": []
     },
     {
       "key": "perhotelan-mall-dan-gedung-komersial",
@@ -3945,11 +3872,9 @@
       "tableCount": 1,
       "imgAlt": "Tim K3 dan sekuriti mall melakukan simulasi evakuasi darurat di area atrium pusat perbelanjaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "semen-dan-bahan-bangunan",
@@ -3969,11 +3894,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik semen mengenakan respirator debu particulate dan kacamata debu memantau putaran rotary kiln pembakaran klinker",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "galangan-kapal-dan-dok",
@@ -3993,8 +3916,8 @@
       "tableCount": 1,
       "imgAlt": "Pekerja galangan kapal melakukan pengelasan di lambung kapal raksasa di dalam graving dry dock",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4015,19 +3938,17 @@
       "tableCount": 1,
       "imgAlt": "Operator IPAL mengenakan harness dan multi-gas detector melakukan pemantauan gas di atas bak aerasi instalasi pengolahan limbah",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-cikarang",
       "path": "jenis-pelatihan/in-house-training-k3-cikarang/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Cikarang & Bekasi: Kawasan Industri MM2100, GIIC, EJIP, Jababeka",
-      "titleLength": 85,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Cikarang & Bekasi: MM2100, GIIC, Jababeka",
+      "titleLength": 62,
+      "titleStatus": "OK",
       "metaLength": 132,
       "metaStatus": "OK",
       "hasH1": true,
@@ -4039,11 +3960,9 @@
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 di ruang pelatihan pabrik kawasan industri Jababeka Cikarang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
-      "issues": [
-        "Title tag too long (85 chars, recommended <= 75)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-karawang",
@@ -4063,8 +3982,8 @@
       "tableCount": 1,
       "imgAlt": "Instruktur K3 memandu workshop praktis pengoperasian alat pemadam api ringan APAR di halaman pabrik KIIC Karawang",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 2,
       "issues": []
     },
     {
@@ -4085,11 +4004,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 penanganan tumpahan kimia dan pemakaian respirator di area pabrik kimia Cilegon Banten",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-balikpapan",
@@ -4109,8 +4026,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house lifting & rigging diadakan di workshop basecamp alat berat Balikpapan Kalimantan Timur",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4131,11 +4048,9 @@
       "tableCount": 1,
       "imgAlt": "Instruktur memandu pelatihan keselamatan kerja di ruang palka galangan kapal Tanjung Uncang Batam",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-surabaya",
@@ -4155,8 +4070,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 pemeliharaan boiler dan bejana tekan di kawasan industri SIER Rungkut Surabaya",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4177,11 +4092,9 @@
       "tableCount": 1,
       "imgAlt": "Perbandingan sertifikat kompetensi BNSP berlogo Garuda emas dengan sertifikat penunjukan Ahli K3 Kemnaker RI",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "perpanjangan-lisensi-sio-k3",
@@ -4201,11 +4114,9 @@
       "tableCount": 1,
       "imgAlt": "Kartu Lisensi K3 SIO Kemnaker RI yang telah diperpanjang dengan kode QR verifikasi online resmi",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pembentukan-panitia-pembina-k3-p2k3",
@@ -4225,11 +4136,9 @@
       "tableCount": 1,
       "imgAlt": "Bagan struktur organisasi P2K3 perusahaan yang ditandatangani oleh Direktur Utama dan disahkan oleh Kepala Dinas Ketenagakerjaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "kebutuhan-apar-dan-hydrant-gedung",
@@ -4249,11 +4158,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi K3 melakukan pengetesan tekanan pancaran air nozel pilar hydrant halaman pabrik dengan pressure gauge",
       "hasImgAlt": true,
-      "outboundLinksCount": 2,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-samarinda",
@@ -4273,8 +4180,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan operasional tambang batubara diselenggarakan di aula site tambang Samarinda Kaltim",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4295,11 +4202,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 smelter diadakan di fasilitas training center kawasan industri Morowali",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-gresik",
@@ -4319,8 +4224,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 kimia dan penggunaan APD hazmat di kawasan industri terpadu JIIPE Manyar Gresik",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4341,11 +4246,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 first aid P3K diselenggarakan di ruang serbaguna pabrik kawasan industri PIER Pasuruan",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-medan",
@@ -4365,11 +4268,9 @@
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 operator boiler di pabrik pengolahan kelapa sawit KIM Medan",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-pekanbaru",
@@ -4389,11 +4290,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan H2S dan pemakaian breathing apparatus untuk pekerja migas di Duri Riau",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-palembang",
@@ -4413,11 +4312,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 pengawas operasional tambang batubara di Tanjung Enim Sumatera Selatan",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-makassar",
@@ -4437,11 +4334,9 @@
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 keselamatan kelistrikan di ruang pertemuan pabrik kawasan industri KIMA Makassar",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-semarang",
@@ -4461,8 +4356,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 kebakaran dan simulasi hydrant di halaman pabrik Kawasan Industri Wijayakusuma Semarang",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 2,
       "issues": []
     },
     {
@@ -4483,8 +4378,8 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan kerja operator mesin modern diselenggarakan di pabrik KEK Kendal",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 2,
       "issues": []
     },
     {
@@ -4505,11 +4400,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan penyelamatan darurat tambang bawah tanah (Mine Rescue) di Timika Papua",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-sorowako",
@@ -4529,11 +4422,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 alat berat tambang nikel di Sorowako Luwu Timur",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-bontang",
@@ -4553,11 +4444,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan gas kriogenik LNG dan penanganan tangki amonia di Bontang Kalimantan Timur",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-tangerang",
@@ -4577,11 +4466,9 @@
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 operator forklift dan penataan logistik aman di kawasan industri Jatake Tangerang",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "penanganan-klaim-kecelakaan-kerja-bpjs",
@@ -4601,11 +4488,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas HR dan dokter perusahaan memverifikasi dokumen klaim formulir JKK BPJS Ketenagakerjaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "penyusunan-rkk-dan-smkk-pupr",
@@ -4625,11 +4510,9 @@
       "tableCount": 1,
       "imgAlt": "Dokumen Rencana Keselamatan Konstruksi (RKK) tebal bersampul resmi dengan tanda tangan Ahli K3 Konstruksi dan Project Director",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "tata-kelola-tps-limbah-b3",
@@ -4649,11 +4532,9 @@
       "tableCount": 1,
       "imgAlt": "Bangunan TPS Limbah B3 industri berizin dengan drum oli bekas tersusun rapi di atas palet dan terpasang simbol limbah B3",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "daftar-wajib-kotak-p3k-perusahaan",
@@ -4673,11 +4554,9 @@
       "tableCount": 1,
       "imgAlt": "Kotak P3K Tipe C dinding berwarna putih dengan lambang palang hijau terbuka memperlihatkan 21 item medis tersusun rapi",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "nilai-ambang-batas-kebisingan-permenaker",
@@ -4697,11 +4576,9 @@
       "tableCount": 1,
       "imgAlt": "Tabel grafik Nilai Ambang Batas kebisingan dan teknisi K3 mengukur desibel suara mesin kompresor dengan Sound Level Meter",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "riksa-uji-dan-silo-alat-berat",
@@ -4721,11 +4598,9 @@
       "tableCount": 1,
       "imgAlt": "Pengawas ketenagakerjaan spesialis K3 memeriksa kelaikan fisik crane dan membubuhkan stiker pengesahan izin pemakaian SILO Kemnaker",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "matrix-hiradc-dan-ibprp",
@@ -4745,11 +4620,9 @@
       "tableCount": 1,
       "imgAlt": "Tabel matriks penilaian risiko HIRADC 5x5 dengan kode warna merah, kuning, dan hijau diisi oleh tim risk assessment",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 1,
+      "issues": []
     },
     {
       "key": "syarat-operator-forklift-kelas-1-dan-2",
@@ -4769,11 +4642,9 @@
       "tableCount": 1,
       "imgAlt": "Operator forklift memegang lisensi SIO Kemnaker RI berdiri di samping unit forklift diesel kapasitas 7 ton",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "panduan-safety-induction-pekerja-baru",
@@ -4793,11 +4664,9 @@
       "tableCount": 1,
       "imgAlt": "Safety Officer memberikan materi safety induction di ruang audiovisual kepada 20 karyawan baru yang mengenakan helm putih",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "standar-inspeksi-scafftag-hijau-merah",
@@ -4817,11 +4686,9 @@
       "tableCount": 1,
       "imgAlt": "Kartu Scafftag Hijau terpasang di tiang utama perancah setinggi mata dengan tanda tangan Scaffolding Inspector",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "prosedur-uji-gas-ruang-terbatas",
@@ -4841,11 +4708,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas Gas Tester memasukkan selang probe multi-gas detector ke dalam lubang manhole tangki bawah tanah",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "panduan-dokumen-csms-kontraktor",
@@ -4865,11 +4730,9 @@
       "tableCount": 1,
       "imgAlt": "Sertifikat kelulusan pra-kualifikasi CSMS Kategori High Risk berlogo resmi perusahaan migas dan BUMN",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "prosedur-izin-kerja-ptw",
@@ -4889,11 +4752,9 @@
       "tableCount": 1,
       "imgAlt": "Lembar formulir Permit to Work (PTW) berwarna merah ditandatangani di lokasi kerja oleh Area Authority dan Performing Authority",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pengesahan-bejana-uap-boiler",
@@ -4913,11 +4774,9 @@
       "tableCount": 1,
       "imgAlt": "Buku Akte Izin Bejana Uap resmi bertanda tangan Direktur Pengawasan Norma K3 Kemnaker RI",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "penerapan-loto-8-langkah",
@@ -4937,11 +4796,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi memasang padlock merah keselamatan dan tag DANGER JANGAN DIOPERASIKAN pada saklar pemutus daya listrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "penghargaan-zero-accident-kemnaker",
@@ -4961,11 +4818,9 @@
       "tableCount": 1,
       "imgAlt": "Plakat piagam penghargaan Kecelakaan Nihil (Zero Accident Award) Kemnaker RI ditandatangani Menteri Ketenagakerjaan RI",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-panel-surya-dan-solar-pv",
@@ -4985,11 +4840,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi mengenakan full body harness dan sarung tangan isolasi listrik menguji tegangan rangkaian solar panel rooftop",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-baterai-lithium-dan-ev-battery",
@@ -5009,11 +4862,9 @@
       "tableCount": 1,
       "imgAlt": "Petugas pemadam kebakaran menggelar selimut pemadam khusus EV Fire Blanket di atas mobil listrik yang mengalami thermal runaway",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "inspeksi-tangki-timbun-api-653",
@@ -5033,11 +4884,9 @@
       "tableCount": 1,
       "imgAlt": "Inspector tangki mengoperasikan scanner MFL (Magnetic Flux Leakage) di atas pelat dasar tangki timbun minyak",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "inspeksi-perpipaan-migas-api-570",
@@ -5057,11 +4906,9 @@
       "tableCount": 1,
       "imgAlt": "Piping inspector melakukan pengukuran ketebalan dinding pipa menggunakan probe ultrasonic thickness gauge di kilang",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 3,
+      "inboundLinksCount": 3,
+      "issues": []
     },
     {
       "key": "k3-ruang-bersih-cleanroom-iso-14644",
@@ -5081,11 +4928,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja dengan pakaian cleanroom bunny suit melintasi air shower chamber sebelum masuk ke cleanroom class 100",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-alat-angkat-crane-offshore-pedestal",
@@ -5105,11 +4950,9 @@
       "tableCount": 1,
       "imgAlt": "Offshore pedestal crane mengangkat kontainer logistik dari dek kapal supply boat di tengah ombak laut lepas",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "flange-management-dan-bolting-safety",
@@ -5129,11 +4972,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi mekanik menggunakan hydraulic torque wrench mengencangkan sambungan flange pipa bertekanan tinggi dengan pola menyilang",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pemasangan-pipa-gas-alam",
@@ -5153,11 +4994,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja memasang segmen pipa gas baja berbalut coating kuning di dalam parit galian pipa transmisi",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "petugas-k3-elevator-dan-eskalator",
@@ -5177,11 +5016,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi lift memeriksa penguncian governor overspeed dan rem darurat di atas ruang mesin lift penthouse",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pembersihan-tangki-tank-cleaning",
@@ -5201,11 +5038,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja tank cleaning mengenakan pakaian pelindung kimia dan SCBA menyemprotkan air tekanan tinggi membersihkan dinding tangki minyak",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-penggalian-peledakan-blasting-tambang",
@@ -5225,11 +5060,9 @@
       "tableCount": 1,
       "imgAlt": "Juru Ledak tambang memegang blasting machine memeriksa kabel detonator non-elektrik di area pola peledakan batubara",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-drone-inspeksi-industri",
@@ -5249,11 +5082,10 @@
       "tableCount": 1,
       "imgAlt": "Pilot drone bersertifikasi mengenakan rompi keselamatan mengendalikan drone inspeksi industri berkamera termal di dekat menara flare stack",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
       "issues": [
-        "Thin content detected (391 words, recommended >= 500)",
-        "Orphan page detected (0 internal inbound links)"
+        "Thin content detected (391 words, recommended >= 500)"
       ]
     },
     {
@@ -5274,11 +5106,9 @@
       "tableCount": 1,
       "imgAlt": "Pekerja pengaspalan jalan mengenakan sepatu boot sol tebal dan rompi keselamatan mengawasi pergerakan mesin asphalt finisher menggelar hotmix",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pemasangan-tiang-pancang-piling-rig",
@@ -5298,11 +5128,9 @@
       "tableCount": 1,
       "imgAlt": "Mesin Hydraulic Static Pile Driver menekan tiang pancang spun pile beton masuk ke dalam tanah pondasi proyek",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pemotongan-plasma-dan-laser-cutting",
@@ -5322,11 +5150,9 @@
       "tableCount": 1,
       "imgAlt": "Kepala nozel mesin fiber laser cutting CNC memancarkan berkas sinar laser memotong pelat baja dengan percikan api tertahan di dalam ruang kaca pelindung",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-inspeksi-instalasi-penyalur-petir",
@@ -5346,11 +5172,9 @@
       "tableCount": 1,
       "imgAlt": "Inspector K3 menancapkan pasak elektroda uji tanah dan mengukur nilai resistansi grounding penyalur petir dengan Earth Tester Digital",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-pekerjaan-semen-cor-ready-mix",
@@ -5370,11 +5194,9 @@
       "tableCount": 1,
       "imgAlt": "Truk concrete pump membentangkan belalai boom pipa cor beton di atas pelat lantai proyek dengan outrigger terpasang kokoh",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-ruang-server-dan-data-center",
@@ -5394,11 +5216,9 @@
       "tableCount": 1,
       "imgAlt": "Teknisi data center memeriksa silinder tabung gas pemadam FM-200 dan panel kontrol pelepas gas otomatis",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "k3-penanganan-korban-tenggelam-water-rescue",
@@ -5418,11 +5238,9 @@
       "tableCount": 1,
       "imgAlt": "Tim rescue keselamatan air melemparkan throw bag tali penyelamat kepada korban di perairan kolam dermaga",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "investigasi-kebakaran-fire-investigation",
@@ -5442,11 +5260,9 @@
       "tableCount": 1,
       "imgAlt": "Investigator kebakaran mengenakan APD forensik memeriksa pola jelaga dan lelehan kabel listrik di titik awal terjadinya api",
       "hasImgAlt": true,
-      "outboundLinksCount": 1,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 1,
+      "issues": []
     }
   ]
 }

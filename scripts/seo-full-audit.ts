@@ -45,7 +45,7 @@ async function runFullSiteAudit() {
     inboundGraph[p.key] = new Set();
   });
 
-  // First pass: extract outbound links to calculate link equity
+  // First pass: extract outbound links (both in-body HTML and dynamic Related/ChainNav cards)
   for (const page of allPages) {
     const content = await getPageContent(page.key);
     if (content && content.html) {
@@ -62,6 +62,26 @@ async function runFullSiteAudit() {
           }
         }
       });
+    }
+
+    // Dynamic RelatedSection links
+    (page.related || []).forEach((relKey) => {
+      if (linkGraph[page.key]) {
+        linkGraph[page.key].add(relKey);
+      }
+      if (inboundGraph[relKey]) {
+        inboundGraph[relKey].add(page.key);
+      }
+    });
+
+    // Dynamic ChainNav links (Prev / Next)
+    if (page.prev) {
+      linkGraph[page.key]?.add(page.prev);
+      inboundGraph[page.prev]?.add(page.key);
+    }
+    if (page.next) {
+      linkGraph[page.key]?.add(page.next);
+      inboundGraph[page.next]?.add(page.key);
     }
   }
 
