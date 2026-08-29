@@ -218,6 +218,50 @@ export function Schema({ page, faq, updated }: SchemaProps) {
     });
   }
 
+  // Course / EducationalOccupationalProgram Schema for training and role programs
+  if (
+    page.type === 'article' &&
+    (page.hub === 'kategori-pelatihan' ||
+      page.hub === 'jenis-pelatihan' ||
+      page.hub === 'peran-jabatan' ||
+      page.hub === 'industri')
+  ) {
+    graph.push({
+      '@type': 'Course',
+      '@id': `${url}#course`,
+      name: page.title,
+      description: page.meta,
+      provider: {
+        '@type': 'Organization',
+        name: SITE.orgName,
+        sameAs: SITE.orgUrl,
+      },
+      educationalCredentialAwarded: 'Sertifikat Kompetensi Resmi Kemnaker RI / BNSP',
+      occupationalCredentialAwarded: 'Lisensi K3 / SKP Resmi Republik Indonesia',
+      hasCourseInstance: {
+        '@type': 'CourseInstance',
+        courseMode: ['In-Person', 'Onsite', 'Blended'],
+        location: {
+          '@type': 'Place',
+          name: 'In-House Onsite & Training Center Wahana K3',
+          address: {
+            '@type': 'PostalAddress',
+            addressCountry: 'ID',
+          },
+        },
+      },
+      offers: {
+        '@type': 'Offer',
+        category: 'Corporate In-House & Public Training Proposal',
+        availability: 'https://schema.org/InStock',
+        priceCurrency: 'IDR',
+        price: '0',
+        url: `${url}`,
+        seller: { '@id': orgId },
+      },
+    });
+  }
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': graph,
