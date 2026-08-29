@@ -2,6 +2,7 @@ import { Schema } from './Schema';
 import { Breadcrumb } from './Breadcrumb';
 import { TableOfContents } from './TableOfContents';
 import { ClusterGrid } from './ClusterGrid';
+import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
@@ -17,6 +18,7 @@ interface HubLayoutProps {
 export function HubLayout({ page, content }: HubLayoutProps) {
   const toc = buildToc(content.html);
   const children = getHubChildren(page.hub);
+  const hubName = SITE.hubNames[page.hub] || page.h1;
 
   return (
     <>
@@ -65,6 +67,9 @@ export function HubLayout({ page, content }: HubLayoutProps) {
             className="article-body"
             dangerouslySetInnerHTML={{ __html: content.html }}
           />
+
+          {/* Strategic Authority Bridge to wahanatotalita.com */}
+          <AuthorityBridge currentTopic={page.h1} category={hubName} />
 
           {/* Complete Cluster Curriculum Grid */}
           <ClusterGrid hubSlug={page.hub} />

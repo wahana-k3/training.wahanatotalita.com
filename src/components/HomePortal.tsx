@@ -1,5 +1,8 @@
 import Link from 'next/link';
-import { SITE, pageUrl, waUrl } from '@/lib/site';
+import { SITE, waUrl } from '@/lib/site';
+import { LeadHunterWidget } from './LeadHunterWidget';
+import { ClientLogos } from './ClientLogos';
+import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { FaqItem } from '@/lib/types';
 
@@ -14,7 +17,7 @@ export function HomePortal({ faq }: HomePortalProps) {
       <section className="home-hero">
         <div className="wrap">
           <div className="hero-pill-badge">
-            <span>🛡️ PUSAT PANDUAN PELATIHAN K3 &amp; PENGEMBANGAN SDM</span>
+            <span>🛡️ PUSAT PANDUAN RESMI PELATIHAN K3 &amp; PENGEMBANGAN SDM</span>
           </div>
 
           <h1>Pusat Pelatihan K3 &amp; Pengembangan Kompetensi SDM Korporat</h1>
@@ -33,11 +36,11 @@ export function HomePortal({ faq }: HomePortalProps) {
               <svg width="20" height="20" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
                 <path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.5.8 3.1 1.2 4.7 1.2 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm5.9 16.9c-.3.8-1.5 1.5-2.4 1.7-.6.1-1.4.2-4.1-.9-3.4-1.4-5.6-4.9-5.8-5.1-.2-.2-1.4-1.9-1.4-3.6s.9-2.5 1.2-2.9c.3-.3.7-.4.9-.4h.6c.2 0 .5-.1.7.6.3.8 1 2.7 1 2.9.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.2.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.4 1.1 2.8 1.3.4.2.7.3.8.5.1.2.1 1-.2 1.5z"/>
               </svg>
-              <span>Konsultasi Cepat WhatsApp (Gratis TNA)</span>
+              <span>Konsultasi WhatsApp Langsung (Gratis TNA)</span>
             </a>
 
-            <Link className="btn btn-outline-white" href="#pilar-panduan">
-              <span>Jelajahi Topik Panduan ↓</span>
+            <Link className="btn btn-outline-white" href="#kalkulator-pelatihan">
+              <span>Konfigurasi Pelatihan Tim Anda ↓</span>
             </Link>
           </div>
 
@@ -62,7 +65,17 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
-      {/* 2. PILAR PANDUAN (BENTO MATRIX) */}
+      {/* 2. INTERACTIVE LEAD HUNTER ESTIMATOR WIDGET */}
+      <section className="section" style={{ paddingTop: '2.5rem', paddingBottom: '1.5rem' }}>
+        <div className="wrap">
+          <LeadHunterWidget />
+        </div>
+      </section>
+
+      {/* 3. CLIENT LOGOS & TRUST ACCREDITATION */}
+      <ClientLogos />
+
+      {/* 4. PILAR PANDUAN (BENTO MATRIX) */}
       <section className="section" id="pilar-panduan">
         <div className="wrap">
           <span className="kicker">STRUKTUR MODUL PELATIHAN</span>
@@ -115,7 +128,7 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
-      {/* 3. TANTANGAN VS SOLUSI PELATIHAN */}
+      {/* 5. TANTANGAN VS SOLUSI PELATIHAN */}
       <section className="section section-alt">
         <div className="wrap">
           <span className="kicker">SOLUSI TERUJI</span>
@@ -152,7 +165,7 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
-      {/* 4. METHODOLOGY ROADMAP */}
+      {/* 6. METHODOLOGY ROADMAP */}
       <section className="section">
         <div className="wrap wrap-narrow">
           <span className="kicker">METODOLOGI KONSULTASI</span>
@@ -190,7 +203,12 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
-      {/* 5. SECTOR STRIP */}
+      {/* 7. STRATEGIC AUTHORITY BRIDGE TO WAHANATOTALITA.COM */}
+      <div className="wrap wrap-narrow">
+        <AuthorityBridge currentTopic="Portal Panduan Resmi" category="Pelatihan Korporat & K3" />
+      </div>
+
+      {/* 8. SECTOR STRIP */}
       <section className="section section-alt">
         <div className="wrap" style={{ textAlign: 'center' }}>
           <span className="kicker">CAKUPAN SEKTOR</span>
@@ -209,12 +227,12 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
-      {/* 6. FAQ SECTION */}
+      {/* 9. FAQ SECTION */}
       <div className="wrap wrap-narrow">
         <FaqSection items={faq} />
       </div>
 
-      {/* 7. FAST CONSULTATION CTA BANNER */}
+      {/* 10. FAST CONSULTATION CTA BANNER */}
       <div className="wrap wrap-narrow">
         <aside className="cta-block" style={{ margin: '2rem 0 4rem' }}>
           <h2>Siap Meningkatkan Standar Kompetensi Tim Anda?</h2>
