@@ -1,20 +1,25 @@
-import { notFound } from 'next/navigation';
-import { generatePageMetadata } from '@/lib/metadata';
+import type { Metadata } from 'next';
 import { getPageMeta } from '@/lib/site';
 import { getPageContent } from '@/content';
-import { PageRenderer } from '@/components/PageRenderer';
+import { Schema } from '@/components/Schema';
+import { HomePortal } from '@/components/HomePortal';
 
-export function generateMetadata() {
-  return generatePageMetadata('home');
-}
+import { generatePageMetadata } from '@/lib/metadata';
+
+export const metadata: Metadata = generatePageMetadata('home');
 
 export default async function HomePage() {
-  const page = getPageMeta('home');
+  const meta = getPageMeta('home');
   const content = await getPageContent('home');
 
-  if (!page || !content) {
-    notFound();
+  if (!meta || !content) {
+    return null;
   }
 
-  return <PageRenderer page={page} content={content} />;
+  return (
+    <>
+      <Schema page={meta} faq={content.faq} updated={content.updated} />
+      <HomePortal faq={content.faq} />
+    </>
+  );
 }

@@ -2,12 +2,14 @@ import Link from 'next/link';
 import { Schema } from './Schema';
 import { Breadcrumb } from './Breadcrumb';
 import { TableOfContents } from './TableOfContents';
+import { KeyTakeaways } from './KeyTakeaways';
+import { LeadHunterSidebar } from './LeadHunterSidebar';
 import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
 import { AuthorBox } from './AuthorBox';
 import { ChainNav } from './ChainNav';
-import { SITE, buildToc, imgPath, pageUrl, tglId, waUrl } from '@/lib/site';
+import { SITE, buildToc, imgPath, pageUrl, tglId } from '@/lib/site';
 import { PageContentData, PageMeta } from '@/lib/types';
 
 interface ArticleLayoutProps {
@@ -20,7 +22,7 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
   const hubKey = SITE.hubPages[page.hub];
   const hubName = SITE.hubNames[page.hub];
 
-  // Calculate estimated reading time (approx 200 words per minute)
+  // Calculate estimated reading time
   const wordCount = content.html.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
   const readTimeMinutes = Math.max(3, Math.ceil(wordCount / 200));
 
@@ -30,7 +32,7 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
 
       <article className="editorial-layout">
         <div className="wrap-editorial">
-          {/* Breadcrumbs */}
+          {/* Breadcrumb Trail */}
           <Breadcrumb page={page} />
 
           {/* Article Header */}
@@ -61,7 +63,7 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
             </div>
           </header>
 
-          {/* Featured Image */}
+          {/* Featured Hero Visual */}
           <figure className="article-hero-figure">
             <img
               src={imgPath(page.key)}
@@ -76,6 +78,9 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
           {/* 2-Column Editorial Grid on Desktop */}
           <div className="editorial-grid">
             <div className="editorial-main">
+              {/* Executive Summary / Key Takeaways */}
+              <KeyTakeaways page={page} />
+
               {/* Mobile / Inline TOC */}
               <TableOfContents items={toc} variant="inline" />
 
@@ -102,27 +107,13 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
             </div>
 
             {/* Desktop Sticky Sidebar */}
-            <aside className="editorial-sidebar" aria-label="Navigasi cepat dan bantuan">
-              <TableOfContents items={toc} variant="sidebar" />
+            <div className="editorial-sidebar">
+              {/* Sticky Lead Hunter */}
+              <LeadHunterSidebar pageTitle={page.h1} />
 
-              <div className="sidebar-box" style={{ background: 'linear-gradient(145deg, #0a4444 0%, #052424 100%)', color: '#ffffff' }}>
-                <h3 className="sidebar-box-title" style={{ color: '#ffffff', borderColor: 'rgba(255,255,255,0.15)' }}>
-                  Konsultasi Program
-                </h3>
-                <p style={{ fontSize: '0.88rem', color: '#d1e7e5', marginBottom: '0.9rem', lineHeight: 1.5 }}>
-                  Butuh rekomendasi modul in-house atau TNA untuk perusahaan Anda?
-                </p>
-                <a
-                  className="btn btn-wa"
-                  style={{ width: '100%', fontSize: '0.88rem', padding: '0.6em 0.8em' }}
-                  href={waUrl(`Halo, saya membaca panduan "${page.h1}" dan ingin konsultasi program pelatihan.`)}
-                  target="_blank"
-                  rel="noopener"
-                >
-                  Tanya via WhatsApp
-                </a>
-              </div>
-            </aside>
+              {/* Sticky Table of Contents */}
+              <TableOfContents items={toc} variant="sidebar" />
+            </div>
           </div>
         </div>
       </article>
