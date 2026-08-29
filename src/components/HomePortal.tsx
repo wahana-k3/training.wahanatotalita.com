@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { SITE, waUrl } from '@/lib/site';
 import { LeadHunterWidget } from './LeadHunterWidget';
 import { ClientLogos } from './ClientLogos';
-import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { FaqItem } from '@/lib/types';
 
@@ -202,11 +201,6 @@ export function HomePortal({ faq }: HomePortalProps) {
           </ol>
         </div>
       </section>
-
-      {/* 7. STRATEGIC AUTHORITY BRIDGE TO WAHANATOTALITA.COM */}
-      <div className="wrap wrap-narrow">
-        <AuthorityBridge currentTopic="Portal Panduan Resmi" category="Pelatihan Korporat & K3" />
-      </div>
 
       {/* 8. SECTOR STRIP */}
       <section className="section section-alt">

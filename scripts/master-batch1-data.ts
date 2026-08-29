@@ -16,8 +16,9 @@ export interface ProgramDetail {
   equipment: string[];
   participants: string[];
   tableData?: { headers: string[]; rows: string[][] };
-  links: { href: string; label: string }[];
-  faqs: { q: string; a: string }[];
+  links?: { href: string; label?: string; anchor?: string; title?: string }[];
+  faqs?: { q: string; a: string }[];
+  [key: string]: any;
 }
 
 export const masterBatch1: ProgramDetail[] = [
@@ -273,7 +274,6 @@ ${tableHtml}
 
 <h2 id="program-terkait">Navigasi Program Terkait &amp; Lanjutan</h2>
 <p>Perkuat integrasi sistem keselamatan dan produktivitas tim operasional fasilitas Anda melalui program pilihan:</p>
-<p>
-  ${p.links.map((l) => `<a href="${l.href}">${l.label}</a>`).join('\n  ')}
+  ${(p.links || []).map((l) => `<a href="${l.href}">${l.label || l.anchor || l.title || 'Program Terkait'}</a>`).join('\n  ')}
 </p>`;
 }

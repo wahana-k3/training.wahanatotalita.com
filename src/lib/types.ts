@@ -14,6 +14,7 @@ export interface FaqItem {
 export interface TocItem {
   id: string;
   text: string;
+  level?: number;
 }
 
 export interface PageMeta {
@@ -57,8 +58,12 @@ export interface TopicQueue {
 }
 
 export interface PageContentData {
-  key: string;
+  key?: string;
+  title?: string;
+  description?: string;
   updated?: string | null;
   faq?: FaqItem[];
+  headings?: TocItem[];
   html: string;
+  [key: string]: any;
 }

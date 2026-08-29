@@ -4,7 +4,6 @@ import { TableOfContents } from './TableOfContents';
 import { KeyTakeaways } from './KeyTakeaways';
 import { LeadHunterSidebar } from './LeadHunterSidebar';
 import { ClusterGrid } from './ClusterGrid';
-import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
@@ -83,9 +82,6 @@ export function HubLayout({ page, content }: HubLayoutProps) {
 
               {/* Complete Cluster Curriculum Grid */}
               <ClusterGrid hubSlug={page.hub} />
-
-              {/* Strategic Authority Bridge to wahanatotalita.com */}
-              <AuthorityBridge currentTopic={page.h1} category={hubName} />
 
               <FaqSection items={content.faq} />
 

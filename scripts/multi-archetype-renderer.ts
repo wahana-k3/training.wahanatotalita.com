@@ -10,6 +10,8 @@ export interface MultiArchetypeProgramDetail extends ProgramDetail {
   legalPenalties?: string[];
   stepByStepGuide?: { step: string; desc: string }[];
   zoneHighlights?: { zone: string; hazard: string; control: string }[];
+  modulesDescription?: string;
+  [key: string]: any;
 }
 
 export function detectArchetype(prog: MultiArchetypeProgramDetail): 'role' | 'industry' | 'regional' | 'compliance_guide' | 'technical_cert' {
@@ -152,10 +154,10 @@ ${prog.participants.map((part) => `  <li>${part}</li>`).join('\n')}
 <div class="editorial-crosslinks">
 <h3>Rekomendasi Jalur Karir & Topik Terkait:</h3>
 <div class="button-chip-grid">
-${prog.links
+${(prog.links || [])
   .map(
     (l) =>
-      `  <a href="${l.href}" class="btn-chip" title="${l.label}"><span>👉 ${l.label}</span></a>`
+      `  <a href="${l.href}" class="btn-chip" title="${l.label || l.anchor || l.title || ''}"><span>👉 ${l.label || l.anchor || l.title || ''}</span></a>`
   )
   .join('\n')}
 </div>
@@ -244,10 +246,10 @@ ${prog.participants.map((part) => `  <li>${part}</li>`).join('\n')}
 <div class="editorial-crosslinks">
 <h3>Jelajahi Program Sertifikasi Relevan:</h3>
 <div class="button-chip-grid">
-${prog.links
+${(prog.links || [])
   .map(
     (l) =>
-      `  <a href="${l.href}" class="btn-chip" title="${l.label}"><span>👉 ${l.label}</span></a>`
+      `  <a href="${l.href}" class="btn-chip" title="${l.label || l.anchor || l.title || ''}"><span>👉 ${l.label || l.anchor || l.title || ''}</span></a>`
   )
   .join('\n')}
 </div>
@@ -341,10 +343,10 @@ ${prog.participants.map((part) => `  <li>${part}</li>`).join('\n')}
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Lain:</h3>
 <div class="button-chip-grid">
-${prog.links
+${(prog.links || [])
   .map(
     (l) =>
-      `  <a href="${l.href}" class="btn-chip" title="${l.label}"><span>👉 ${l.label}</span></a>`
+      `  <a href="${l.href}" class="btn-chip" title="${l.label || l.anchor || l.title || ''}"><span>👉 ${l.label || l.anchor || l.title || ''}</span></a>`
   )
   .join('\n')}
 </div>
@@ -437,10 +439,10 @@ ${prog.participants.map((part) => `  <li>${part}</li>`).join('\n')}
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-${prog.links
+${(prog.links || [])
   .map(
     (l) =>
-      `  <a href="${l.href}" class="btn-chip" title="${l.label}"><span>👉 ${l.label}</span></a>`
+      `  <a href="${l.href}" class="btn-chip" title="${l.label || l.anchor || l.title || ''}"><span>👉 ${l.label || l.anchor || l.title || ''}</span></a>`
   )
   .join('\n')}
 </div>
@@ -530,10 +532,10 @@ ${prog.participants.map((part) => `  <li>${part}</li>`).join('\n')}
 <div class="editorial-crosslinks">
 <h3>Program Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-${prog.links
+${(prog.links || [])
   .map(
     (l) =>
-      `  <a href="${l.href}" class="btn-chip" title="${l.label}"><span>👉 ${l.label}</span></a>`
+      `  <a href="${l.href}" class="btn-chip" title="${l.label || l.anchor || l.title || ''}"><span>👉 ${l.label || l.anchor || l.title || ''}</span></a>`
   )
   .join('\n')}
 </div>

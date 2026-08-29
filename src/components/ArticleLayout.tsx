@@ -4,7 +4,6 @@ import { Breadcrumb } from './Breadcrumb';
 import { TableOfContents } from './TableOfContents';
 import { KeyTakeaways } from './KeyTakeaways';
 import { LeadHunterSidebar } from './LeadHunterSidebar';
-import { AuthorityBridge } from './AuthorityBridge';
 import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
@@ -91,9 +90,6 @@ export function ArticleLayout({ page, content }: ArticleLayoutProps) {
                 className="article-body"
                 dangerouslySetInnerHTML={{ __html: content.html }}
               />
-
-              {/* Strategic Authority Bridge to wahanatotalita.com */}
-              <AuthorityBridge currentTopic={page.h1} category={hubName} />
 
               {/* FAQ Accordion */}
               <FaqSection items={content.faq} />

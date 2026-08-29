@@ -20,15 +20,13 @@ export function Footer() {
             <strong className="footer-brand-text">{SITE.orgName}</strong>
           </div>
           <p style={{ lineHeight: 1.65 }}>
-            {SITE.siteName} adalah portal panduan komprehensif pelatihan korporat dan pengembangan kompetensi SDM di Indonesia, dikelola oleh tim ahli {SITE.orgName}, {SITE.orgCity}. Untuk pemesanan in-house, jadwal publik, dan paket penawaran resmi, silakan akses portal komersial kami di{' '}
-            <a
-              href={SITE.orgUrl}
-              target="_blank"
-              rel="noopener"
+            {SITE.siteName} adalah portal panduan komprehensif pelatihan korporat dan pengembangan kompetensi SDM di Indonesia, dikelola oleh tim ahli {SITE.orgName}, {SITE.orgCity}. Untuk pemesanan in-house, jadwal publik, dan paket penawaran resmi, silakan hubungi tim konsultan kami melalui{' '}
+            <Link
+              href="/kontak/"
               style={{ color: '#38bdf8', textDecoration: 'underline', fontWeight: 600 }}
             >
-              {SITE.orgUrl.replace(/^https?:\/\//, '')}
-            </a>.
+              halaman konsultasi resmi kami
+            </Link>.
           </p>
           <ul className="footer-contact">
             <li>
@@ -70,32 +68,32 @@ export function Footer() {
         </div>
 
         <div className="footer-col">
-          <h2 className="footer-h">Layanan Utama (wahanatotalita.com)</h2>
+          <h2 className="footer-h">Sertifikasi &amp; Program Populer</h2>
           <ul>
             <li>
-              <a href={SITE.external.wt_jadwal} target="_blank" rel="noopener">
-                Jadwal Pelatihan Aktual ↗
-              </a>
+              <Link href="/kategori-pelatihan/ahli-k3-umum-kemnaker/">
+                Ahli K3 Umum Kemnaker
+              </Link>
             </li>
             <li>
-              <a href={SITE.external.wt_perusahaan} target="_blank" rel="noopener">
-                Profil Perusahaan ↗
-              </a>
+              <Link href="/kategori-pelatihan/p3k-pertolongan-pertama/">
+                Petugas P3K Tempat Kerja
+              </Link>
             </li>
             <li>
-              <a href={SITE.external.wt_klien} target="_blank" rel="noopener">
-                Daftar Klien &amp; Portfolio ↗
-              </a>
+              <Link href="/kategori-pelatihan/petugas-pemadam-kebakaran-kelas-d/">
+                Regu Pemadam Kebakaran
+              </Link>
             </li>
             <li>
-              <a href={SITE.external.wt_ak3u} target="_blank" rel="noopener">
-                Pelatihan Ahli K3 Umum BNSP ↗
-              </a>
+              <Link href="/kategori-pelatihan/matrix-hiradc-dan-ibprp/">
+                Manajemen Risiko HIRADC
+              </Link>
             </li>
             <li>
-              <a href={SITE.external.wt_iso} target="_blank" rel="noopener">
-                Pelatihan ISO Series ↗
-              </a>
+              <Link href="/konsultasi-pengembangan-kompetensi/training-needs-analysis/">
+                Training Needs Analysis (TNA)
+              </Link>
             </li>
           </ul>
         </div>
