@@ -1,14 +1,30 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
-import { SITE, pageUrl } from '@/lib/site';
+import { SITE, pageUrl, waUrl } from '@/lib/site';
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+
+  // Close mobile drawer on route change
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isOpen]);
 
   const isCurrent = (href: string) => {
     if (href === '/' && (pathname === '/' || pathname === '')) return true;
@@ -27,31 +43,20 @@ export function Header() {
             height={44}
             className="brand-img"
           />
-          <span className="brand-text">{SITE.orgName}</span>
+          <div className="brand-info">
+            <span className="brand-text">{SITE.orgName}</span>
+            <span className="brand-subline">Pusat Panduan Pelatihan Korporat</span>
+          </div>
         </Link>
 
-        <button
-          className="nav-burger"
-          aria-label="Buka menu navigasi"
-          aria-expanded={isOpen}
-          onClick={() => setIsOpen(!isOpen)}
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-
-        <nav
-          className={`site-nav ${isOpen ? 'is-open' : ''}`}
-          aria-label="Navigasi utama"
-        >
+        {/* Desktop Navigation */}
+        <nav className="site-nav" aria-label="Navigasi utama">
           <ul>
             {SITE.nav.map((item) => (
               <li key={item.key}>
                 <Link
                   href={item.href}
                   aria-current={isCurrent(item.href) ? 'page' : undefined}
-                  onClick={() => setIsOpen(false)}
                 >
                   {item.label}
                 </Link>
@@ -61,8 +66,79 @@ export function Header() {
         </nav>
 
         <Link className="btn btn-accent header-cta" href="/kontak/">
-          Konsultasi Gratis
+          <span>Konsultasi Gratis</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M5 12h14"></path>
+            <path d="m12 5 7 7-7 7"></path>
+          </svg>
         </Link>
+
+        {/* Mobile Burger Button */}
+        <button
+          className="nav-burger"
+          aria-label={isOpen ? "Tutup menu navigasi" : "Buka menu navigasi"}
+          aria-expanded={isOpen}
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        {/* Mobile Navigation Drawer */}
+        {isOpen && (
+          <div
+            className="mobile-nav-backdrop"
+            onClick={() => setIsOpen(false)}
+            aria-hidden="true"
+          />
+        )}
+
+        {isOpen && (
+          <div className="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Menu navigasi">
+            <div className="mobile-drawer-head">
+              <div className="brand">
+                <img
+                  src="/assets/img/logo-wt.png"
+                  alt={SITE.orgName}
+                  width={36}
+                  height={36}
+                />
+                <span className="brand-text" style={{ fontSize: '1rem' }}>{SITE.orgName}</span>
+              </div>
+              <button
+                className="mobile-nav-close"
+                onClick={() => setIsOpen(false)}
+                aria-label="Tutup menu"
+              >
+                ✕
+              </button>
+            </div>
+
+            <ul className="mobile-drawer-links">
+              {SITE.nav.map((item) => (
+                <li key={item.key}>
+                  <Link
+                    href={item.href}
+                    aria-current={isCurrent(item.href) ? 'page' : undefined}
+                    onClick={() => setIsOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
+            <div className="mobile-drawer-cta">
+              <Link className="btn btn-accent" href="/kontak/" onClick={() => setIsOpen(false)}>
+                Konsultasi via Formulir
+              </Link>
+              <a className="btn btn-wa" href={waUrl()} target="_blank" rel="noopener">
+                Chat WhatsApp ({SITE.waDisplay})
+              </a>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   );

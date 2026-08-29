@@ -17,21 +17,29 @@ export function UtilityLayout({ page, content }: UtilityLayoutProps) {
   return (
     <>
       <Schema page={page} faq={content.faq} updated={content.updated} />
-      <article className="article">
+      <article className="editorial-layout utility-page">
         <div className="wrap wrap-narrow">
           <Breadcrumb page={page} />
 
-          <header className="article-head">
+          <header className="editorial-header">
+            <div className="editorial-badge-row">
+              <span className="pillar-badge">
+                📖 Pusat Informasi &amp; Referensi
+              </span>
+            </div>
+
             <h1>{page.h1}</h1>
+
             {content.updated && (
-              <p className="article-meta">
-                Diperbarui:{' '}
-                <time dateTime={content.updated}>{tglId(content.updated)}</time>
-              </p>
+              <div className="editorial-meta-bar">
+                <span>
+                  Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
+                </span>
+              </div>
             )}
           </header>
 
-          <TableOfContents items={toc} />
+          <TableOfContents items={toc} variant="inline" />
 
           <div
             className="article-body"

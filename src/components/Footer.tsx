@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { SITE, pageUrl, waUrl } from '@/lib/site';
+import { SITE, waUrl } from '@/lib/site';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="wrap footer-grid">
         <div className="footer-col footer-about">
-          <span className="footer-logo-badge">
+          <div className="footer-logo-badge">
             <img
               src="/assets/img/logo-wt.png"
               alt={SITE.orgName}
@@ -17,32 +17,32 @@ export function Footer() {
               loading="lazy"
             />
             <strong className="footer-brand-text">{SITE.orgName}</strong>
-          </span>
-          <p>
-            {SITE.siteName} adalah pusat panduan pelatihan korporat dan
-            pengembangan kompetensi yang dikelola tim {SITE.orgName},{' '}
-            {SITE.orgCity}. Untuk jadwal, paket, dan harga pelatihan, kunjungi{' '}
+          </div>
+          <p style={{ lineHeight: 1.65 }}>
+            {SITE.siteName} adalah portal panduan komprehensif pelatihan korporat dan pengembangan kompetensi SDM di Indonesia, dikelola oleh tim ahli {SITE.orgName}, {SITE.orgCity}. Untuk pemesanan in-house, jadwal publik, dan paket penawaran resmi, silakan akses portal komersial kami di{' '}
             <a href={SITE.orgUrl} target="_blank" rel="noopener">
-              wahanatotalita.com
-            </a>
-            .
+              {SITE.orgUrl.replace(/^https?:\/\//, '')}
+            </a>.
           </p>
           <ul className="footer-contact">
             <li>
               WhatsApp:{' '}
-              <a href={waUrl()} rel="noopener" target="_blank">
+              <a href={waUrl()} rel="noopener" target="_blank" style={{ color: '#ffffff', fontWeight: 600 }}>
                 {SITE.waDisplay}
               </a>
             </li>
             <li>
-              Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+              Email:{' '}
+              <a href={`mailto:${SITE.email}`} style={{ color: '#ffffff' }}>
+                {SITE.email}
+              </a>
             </li>
-            <li>{SITE.orgCity}, Indonesia</li>
+            <li>Kantor: {SITE.orgCity}, {SITE.orgRegion}, Indonesia</li>
           </ul>
         </div>
 
         <div className="footer-col">
-          <h2 className="footer-h">Topik Panduan</h2>
+          <h2 className="footer-h">Pilar Panduan</h2>
           <ul>
             {SITE.footerPillars.map((p) => (
               <li key={p.key}>
@@ -53,7 +53,7 @@ export function Footer() {
         </div>
 
         <div className="footer-col">
-          <h2 className="footer-h">Platform</h2>
+          <h2 className="footer-h">Platform Panduan</h2>
           <ul>
             {SITE.footerPlatform.map((p) => (
               <li key={p.key}>
@@ -68,17 +68,27 @@ export function Footer() {
           <ul>
             <li>
               <a href={SITE.external.wt_jadwal} target="_blank" rel="noopener">
-                Jadwal Pelatihan
+                Jadwal Pelatihan Aktual ↗
               </a>
             </li>
             <li>
               <a href={SITE.external.wt_perusahaan} target="_blank" rel="noopener">
-                Profil Perusahaan
+                Profil Perusahaan ↗
               </a>
             </li>
             <li>
               <a href={SITE.external.wt_klien} target="_blank" rel="noopener">
-                Klien Kami
+                Daftar Klien &amp; Portfolio ↗
+              </a>
+            </li>
+            <li>
+              <a href={SITE.external.wt_ak3u} target="_blank" rel="noopener">
+                Pelatihan Ahli K3 Umum BNSP ↗
+              </a>
+            </li>
+            <li>
+              <a href={SITE.external.wt_iso} target="_blank" rel="noopener">
+                Pelatihan ISO Series ↗
               </a>
             </li>
           </ul>
@@ -86,14 +96,11 @@ export function Footer() {
       </div>
 
       <div className="wrap footer-bottom">
-        <p>
-          &copy; {currentYear} {SITE.orgName}. Konten bersifat edukasi untuk
-          membantu perencanaan pengembangan kompetensi perusahaan Anda. Untuk
-          pemesanan, jadwal, dan harga pelatihan, kunjungi{' '}
+        <p style={{ margin: 0 }}>
+          &copy; {currentYear} {SITE.orgName}. Seluruh panduan disusun secara independen berdasarkan praktik industri nasional dan regulasi ketenagakerjaan Indonesia. Untuk inquiry komersial dan penawaran in-house training, kunjungi{' '}
           <a href={SITE.orgUrl} target="_blank" rel="noopener">
-            wahanatotalita.com
-          </a>
-          .
+            {SITE.orgUrl.replace(/^https?:\/\//, '')}
+          </a>.
         </p>
       </div>
     </footer>

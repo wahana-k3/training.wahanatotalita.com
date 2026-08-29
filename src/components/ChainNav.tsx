@@ -16,16 +16,18 @@ export function ChainNav({ page }: ChainNavProps) {
   const nextMeta = nextKey ? getPageMeta(nextKey) : null;
 
   return (
-    <nav className="chain" aria-label="Navigasi artikel berurutan">
-      {prevMeta && (
+    <nav className="chain" aria-label="Navigasi urutan panduan">
+      {prevMeta ? (
         <Link className="chain-prev" href={pageUrl(prevKey)} rel="prev">
-          <span className="chain-label">&larr; Sebelumnya</span>
+          <span className="chain-label">← Panduan Sebelumnya</span>
           <span className="chain-title">{prevMeta.h1}</span>
         </Link>
+      ) : (
+        <div></div>
       )}
       {nextMeta && (
         <Link className="chain-next" href={pageUrl(nextKey)} rel="next">
-          <span className="chain-label">Lanjut membaca &rarr;</span>
+          <span className="chain-label">Lanjut Membaca →</span>
           <span className="chain-title">{nextMeta.h1}</span>
         </Link>
       )}

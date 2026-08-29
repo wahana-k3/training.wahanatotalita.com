@@ -9,7 +9,7 @@ export function FaqSection({ items }: FaqSectionProps) {
 
   return (
     <section className="faq" aria-labelledby="faq-h">
-      <h2 id="faq-h">Pertanyaan yang Sering Diajukan</h2>
+      <h2 id="faq-h">Pertanyaan yang Sering Diajukan (FAQ)</h2>
       {items.map((qa, index) => (
         <details key={index} className="faq-item">
           <summary>{qa.q}</summary>

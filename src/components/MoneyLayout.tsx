@@ -28,7 +28,7 @@ export function MoneyLayout({ page, content }: MoneyLayoutProps) {
         <div className="wrap wrap-narrow">
           <FaqSection items={content.faq} />
           <RelatedSection page={page} />
-          <ChainNav page={page} />
+          {isHome && <ChainNav page={page} />}
         </div>
       </div>
     </>

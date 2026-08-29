@@ -6,7 +6,7 @@ import { FaqSection } from './FaqSection';
 import { CtaBlock } from './CtaBlock';
 import { RelatedSection } from './RelatedSection';
 import { ChainNav } from './ChainNav';
-import { buildToc, imgPath, tglId } from '@/lib/site';
+import { SITE, buildToc, getHubChildren, imgPath, tglId } from '@/lib/site';
 import { PageContentData, PageMeta } from '@/lib/types';
 
 interface HubLayoutProps {
@@ -16,25 +16,39 @@ interface HubLayoutProps {
 
 export function HubLayout({ page, content }: HubLayoutProps) {
   const toc = buildToc(content.html);
+  const children = getHubChildren(page.hub);
 
   return (
     <>
       <Schema page={page} faq={content.faq} updated={content.updated} />
-      <article className="article hub-page">
+      <article className="editorial-layout hub-page">
         <div className="wrap wrap-narrow">
           <Breadcrumb page={page} />
 
-          <header className="article-head">
+          <header className="editorial-header">
+            <div className="editorial-badge-row">
+              <span className="pillar-badge">
+                🏛️ Pilar Utama
+              </span>
+              <span className="read-time-badge">
+                📚 {children.length} Panduan Komprehensif
+              </span>
+            </div>
+
             <h1>{page.h1}</h1>
-            {content.updated && (
-              <p className="article-meta">
-                Diperbarui:{' '}
-                <time dateTime={content.updated}>{tglId(content.updated)}</time>
-              </p>
-            )}
+
+            <div className="editorial-meta-bar">
+              {content.updated && (
+                <span>
+                  Diperbarui: <time dateTime={content.updated}>{tglId(content.updated)}</time>
+                </span>
+              )}
+              <span>·</span>
+              <span>Dikelola: <strong>{SITE.orgName}</strong></span>
+            </div>
           </header>
 
-          <figure className="article-figure">
+          <figure className="article-hero-figure">
             <img
               src={imgPath(page.key)}
               alt={page.img_alt || page.h1}
@@ -45,13 +59,14 @@ export function HubLayout({ page, content }: HubLayoutProps) {
             />
           </figure>
 
-          <TableOfContents items={toc} />
+          <TableOfContents items={toc} variant="inline" />
 
           <div
             className="article-body"
             dangerouslySetInnerHTML={{ __html: content.html }}
           />
 
+          {/* Complete Cluster Curriculum Grid */}
           <ClusterGrid hubSlug={page.hub} />
 
           <FaqSection items={content.faq} />

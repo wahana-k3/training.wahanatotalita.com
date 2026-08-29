@@ -16,7 +16,7 @@ export function RelatedSection({ page }: RelatedSectionProps) {
 
   return (
     <section className="related" aria-labelledby="related-h">
-      <h2 id="related-h">Baca Juga</h2>
+      <h2 id="related-h">Panduan Terkait yang Direkomendasikan</h2>
       <div className="related-grid">
         {relatedKeys.map((rk) => {
           const rMeta = getPageMeta(rk);
@@ -29,24 +29,27 @@ export function RelatedSection({ page }: RelatedSectionProps) {
             <Link key={rk} className="related-card" href={pageUrl(rk)}>
               <span className="related-kicker">{kicker}</span>
               <span className="related-title">{rMeta.h1}</span>
+              <span style={{ marginTop: 'auto', fontSize: '0.88rem', color: 'var(--c-accent-dark)', fontWeight: 700 }}>
+                Pelajari Selengkapnya →
+              </span>
             </Link>
           );
         })}
       </div>
-      <p className="related-links">
+      <div className="related-links">
         {hubKey && hubKey !== page.key && hubMeta && (
-          <>
-            Kembali ke panduan utama:{' '}
-            <Link href={pageUrl(hubKey)}>{hubMeta.h1}</Link>.{' '}
-          </>
+          <p style={{ margin: '0 0 0.5rem' }}>
+            📌 <strong>Kembali ke panduan utama:</strong>{' '}
+            <Link href={pageUrl(hubKey)}>{hubMeta.h1}</Link>
+          </p>
         )}
         {moneyKey !== page.key && moneyMeta && (
-          <>
-            Butuh bantuan langsung? Lihat{' '}
-            <Link href={pageUrl(moneyKey)}>{moneyMeta.h1}</Link>.
-          </>
+          <p style={{ margin: 0 }}>
+            💬 <strong>Butuh pendampingan langsung?</strong>{' '}
+            <Link href={pageUrl(moneyKey)}>{moneyMeta.h1}</Link>
+          </p>
         )}
-      </p>
+      </div>
     </section>
   );
 }

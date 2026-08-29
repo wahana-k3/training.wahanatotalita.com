@@ -12,18 +12,17 @@ export const metadata: Metadata = {
 
 export default function TerimaKasihPage() {
   const wa = waUrl(
-    'Halo, saya baru saja mengirim formulir konsultasi pelatihan dari website. Saya ingin melanjutkan diskusi.'
+    'Halo, saya baru saja mengirim formulir konsultasi pelatihan dari website training.wahanatotalita.com. Saya ingin melanjutkan diskusi.'
   );
 
   return (
     <div>
       <section className="hero">
         <div className="wrap">
+          <span className="kicker">KONFIRMASI FORMULIR KONSULTASI</span>
           <h1>Terima Kasih — Pesan Anda Sudah Kami Terima</h1>
           <p>
-            Tim kami akan menghubungi Anda melalui email atau telepon pada jam kerja.
-            Ingin jawaban lebih cepat? Lanjutkan langsung lewat WhatsApp — biasanya kami
-            merespons dalam hitungan menit.
+            Tim konsultan pengembangan SDM {SITE.orgName} akan menelaah kebutuhan perusahaan Anda dan menghubungi Anda melalui email atau telepon pada jam kerja.
           </p>
           <div className="cta-actions">
             <a
@@ -32,11 +31,13 @@ export default function TerimaKasihPage() {
               target="_blank"
               rel="noopener"
             >
-              Lanjutkan via WhatsApp: {SITE.waDisplay}
+              <svg width="20" height="20" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+                <path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.5.8 3.1 1.2 4.7 1.2 6.6 0 12-5.3 12-11.9S22.6 3 16 3zm5.9 16.9c-.3.8-1.5 1.5-2.4 1.7-.6.1-1.4.2-4.1-.9-3.4-1.4-5.6-4.9-5.8-5.1-.2-.2-1.4-1.9-1.4-3.6s.9-2.5 1.2-2.9c.3-.3.7-.4.9-.4h.6c.2 0 .5-.1.7.6.3.8 1 2.7 1 2.9.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.3 2.8 1.7 3.2 1.9.4.2.6.2.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.4 1.1 2.8 1.3.4.2.7.3.8.5.1.2.1 1-.2 1.5z"/>
+              </svg>
+              <span>Respon Lebih Cepat: Lanjutkan via WhatsApp</span>
             </a>
             <Link
-              className="btn btn-outline"
-              style={{ background: '#fff' }}
+              className="btn btn-outline-white"
               href="/"
             >
               Kembali ke Beranda
@@ -44,24 +45,30 @@ export default function TerimaKasihPage() {
           </div>
         </div>
       </section>
+
       <section className="section">
         <div className="wrap wrap-narrow">
-          <h2>Sambil Menunggu, Anda Mungkin Ingin Membaca:</h2>
-          <ul>
-            <li>
-              <Link href="/jenis-pelatihan/">
-                Jenis Pelatihan Korporat: In-House, Publik, dan Customized
-              </Link>
-            </li>
-            <li>
-              <Link href="/konsultasi-pengembangan-kompetensi/">
-                Konsultasi &amp; Pengembangan Kompetensi
-              </Link>
-            </li>
-            <li>
-              <Link href="/faq/">FAQ Pelatihan Korporat</Link>
-            </li>
-          </ul>
+          <h2>Sambil Menunggu Balasan, Anda Mungkin Ingin Mempelajari:</h2>
+          <div className="grid-3" style={{ marginTop: '1.2rem' }}>
+            <Link className="card card-link" href="/jenis-pelatihan/">
+              <span className="kicker">Format Training</span>
+              <h3>Jenis Pelatihan Korporat</h3>
+              <p>In-house, publik, atau customized untuk tim Anda.</p>
+              <span className="more">Baca Panduan →</span>
+            </Link>
+            <Link className="card card-link" href="/konsultasi-pengembangan-kompetensi/">
+              <span className="kicker">Layanan Konsultasi</span>
+              <h3>Konsultasi Kompetensi</h3>
+              <p>TNA, kurikulum, competency mapping, dan ROI pelatihan.</p>
+              <span className="more">Baca Panduan →</span>
+            </Link>
+            <Link className="card card-link" href="/faq/">
+              <span className="kicker">Tanya Jawab</span>
+              <h3>FAQ Pelatihan</h3>
+              <p>Jawaban cepat pertanyaan umum seputar program pelatihan.</p>
+              <span className="more">Lihat FAQ →</span>
+            </Link>
+          </div>
         </div>
       </section>
     </div>

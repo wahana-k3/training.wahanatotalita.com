@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { Topbar } from '@/components/Topbar';
 import { Header } from '@/components/Header';
@@ -7,10 +7,11 @@ import { Footer } from '@/components/Footer';
 import { WhatsAppWidget } from '@/components/WhatsAppWidget';
 import { SITE } from '@/lib/site';
 
-const inter = Inter({
+const plusJakartaSans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-inter',
+  variable: '--font-sans',
+  weight: ['400', '500', '600', '700', '800'],
 });
 
 export const metadata: Metadata = {
@@ -35,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="id" className={inter.variable}>
+    <html lang="id" className={plusJakartaSans.variable}>
       <head>
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16.png" />
