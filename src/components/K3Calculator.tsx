@@ -31,7 +31,7 @@ export function K3Calculator() {
   const aparCount = Math.max(floors * 2, Math.ceil(buildingArea / 175));
 
   // Generate customized WhatsApp message
-  const waCustomText = `Halo Tim Konsultan Wahana K3, saya menggunakan Kalkulator K3 Online dan ingin konsultasi pemenuhan kepatuhan berikut:
+  const waCustomText = `Halo Tim Konsultan Wahana K3, kami ingin konsultasi pemenuhan kepatuhan legalitas K3 untuk perusahaan kami dengan rincian data:
 - Sektor Risiko: ${riskLevel.toUpperCase()}
 - Jumlah Karyawan: ${employees} orang
 - Luas Fasilitas: ${buildingArea} m² (${floors} lantai)

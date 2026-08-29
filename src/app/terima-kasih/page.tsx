@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function TerimaKasihPage() {
   const wa = waUrl(
-    'Halo, saya baru saja mengirim formulir konsultasi pelatihan dari website training.wahanatotalita.com. Saya ingin melanjutkan diskusi.'
+    'Halo Tim Wahana Totalita, saya baru saja mengirim formulir permohonan konsultasi pelatihan korporat. Mohon informasi tindak lanjut dan penawarannya.'
   );
 
   return (

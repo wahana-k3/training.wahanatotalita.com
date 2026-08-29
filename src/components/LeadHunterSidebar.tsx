@@ -6,7 +6,7 @@ interface LeadHunterSidebarProps {
 }
 
 export function LeadHunterSidebar({ pageTitle }: LeadHunterSidebarProps) {
-  const waMessage = `Halo Wahana Totalita, saya membaca materi "${pageTitle}" di training.wahanatotalita.com dan ingin berdiskusi mengenai kebutuhan pelatihan tim/perusahaan kami.`;
+  const waMessage = `Halo Tim Konsultan Wahana Totalita, saya ingin berdiskusi dan konsultasi mengenai kebutuhan pelatihan: "${pageTitle}" untuk tim perusahaan kami.`;
 
   return (
     <aside className="lead-hunter-card" aria-label="Asisten Konsultasi Pelatihan">

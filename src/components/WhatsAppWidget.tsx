@@ -12,7 +12,7 @@ export function WhatsAppWidget({ pageTitle }: WhatsAppWidgetProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   const customMessage = pageTitle
-    ? `Halo, saya membaca halaman "${pageTitle}" di training.wahanatotalita.com dan ingin diskusi mengenai kebutuhan pelatihan perusahaan kami.`
+    ? `Halo Tim Wahana Totalita, saya ingin konsultasi mengenai program pelatihan: "${pageTitle}" untuk tim perusahaan kami.`
     : undefined;
 
   return (

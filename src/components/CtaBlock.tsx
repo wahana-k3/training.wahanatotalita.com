@@ -13,7 +13,7 @@ export function CtaBlock({
   pageTitle,
 }: CtaBlockProps) {
   const waMsg = pageTitle
-    ? `Halo Tim Wahana K3, saya tertarik dengan materi "${pageTitle}" di training.wahanatotalita.com dan ingin meminta Proposal Silabus Resmi In-House Training untuk tim perusahaan kami.`
+    ? `Halo Tim Wahana K3, saya ingin meminta Proposal & Silabus Resmi In-House Training untuk topik: "${pageTitle}" bagi tim perusahaan kami. Mohon info jadwal dan persyaratannya.`
     : SITE.waPrefill;
 
   return (
