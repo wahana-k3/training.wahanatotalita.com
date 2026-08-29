@@ -97,10 +97,7 @@ export function Footer() {
 
       <div className="wrap footer-bottom">
         <p style={{ margin: 0 }}>
-          &copy; {currentYear} {SITE.orgName}. Seluruh panduan disusun secara independen berdasarkan praktik industri nasional dan regulasi ketenagakerjaan Indonesia. Untuk inquiry komersial dan penawaran in-house training, kunjungi{' '}
-          <a href={SITE.orgUrl} target="_blank" rel="noopener">
-            {SITE.orgUrl.replace(/^https?:\/\//, '')}
-          </a>.
+          &copy; {currentYear} {SITE.orgName}. All rights reserved.
         </p>
       </div>
     </footer>
