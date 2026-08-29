@@ -847,6 +847,196 @@ strong {
 }
 
 /* ==========================================================================
+   TABLE OF CONTENTS / INTERACTIVE SWITCH BOARD
+   ========================================================================== */
+.toc-board {
+  background: var(--glass-surface);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 1.8rem 1.6rem;
+  margin: 2rem 0 2.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.toc-board-head {
+  margin-bottom: 1.2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--c-line);
+}
+
+.toc-board-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--c-accent-dark);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.pulse-dot-sm {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--c-accent);
+  display: inline-block;
+  box-shadow: 0 0 0 2px rgba(217, 119, 6, 0.25);
+  animation: pulseDot 2s infinite ease-in-out;
+}
+
+.toc-board-title {
+  font-size: 1.35rem !important;
+  font-weight: 850;
+  color: var(--c-ink);
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.toc-switch-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .toc-switch-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.toc-switch-card {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #ffffff;
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius);
+  padding: 0.8rem 1rem;
+  text-decoration: none !important;
+  color: var(--c-ink) !important;
+  font-weight: 650;
+  font-size: 0.94rem;
+  line-height: 1.35;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.toc-switch-card:hover {
+  background: var(--c-primary-light);
+  border-color: var(--c-primary);
+  color: var(--c-primary-dark) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.toc-switch-num {
+  font-size: 0.76rem;
+  font-weight: 850;
+  color: #ffffff;
+  background: var(--c-primary);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+  transition: background-color 0.2s ease;
+}
+
+.toc-switch-card:hover .toc-switch-num {
+  background: var(--c-accent);
+}
+
+.toc-switch-text {
+  flex: 1;
+}
+
+.toc-switch-arrow {
+  color: var(--c-accent);
+  font-size: 1.1rem;
+  font-weight: 700;
+  transition: transform 0.2s ease;
+}
+
+.toc-switch-card:hover .toc-switch-arrow {
+  transform: translateX(3px);
+}
+
+/* Sidebar TOC Card */
+.toc-sidebar-card {
+  background: var(--glass-surface);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: 1.4rem 1.2rem;
+  box-shadow: var(--shadow-sm);
+  margin-top: 1.2rem;
+}
+
+.toc-sidebar-head {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--c-line);
+}
+
+.toc-sidebar-icon {
+  font-size: 1.1rem;
+}
+
+.toc-sidebar-card .sidebar-box-title {
+  font-size: 0.98rem;
+  font-weight: 800;
+  color: var(--c-ink);
+  margin: 0;
+}
+
+.toc-switch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.toc-switch-btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: #ffffff;
+  border: 1px solid var(--c-line);
+  text-decoration: none !important;
+  color: var(--c-ink-soft) !important;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.35;
+  transition: all 0.15s ease;
+}
+
+.toc-switch-btn:hover {
+  background: var(--c-primary-light);
+  border-color: var(--c-primary);
+  color: var(--c-primary-dark) !important;
+  transform: translateX(3px);
+}
+
+.toc-switch-btn .toc-num {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--c-primary);
+  background: var(--c-primary-light);
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* ==========================================================================
    KEY TAKEAWAYS / EXECUTIVE SUMMARY CARD
    ========================================================================== */
 .key-takeaways-card {
@@ -1316,6 +1506,28 @@ strong {
 
 .article-body p {
   margin-bottom: 1.35em;
+}
+
+.article-body a {
+  color: var(--c-primary);
+  font-weight: 700;
+  text-decoration: none !important;
+  background: var(--c-primary-light);
+  padding: 0.15em 0.5em;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(6, 64, 66, 0.14);
+  transition: all 0.15s ease;
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 1.35;
+}
+
+.article-body a:hover {
+  background: var(--c-primary);
+  color: #ffffff !important;
+  border-color: var(--c-primary);
+  box-shadow: 0 2px 8px var(--c-primary-glow);
+  transform: translateY(-1px);
 }
 
 /* Styled Blockquotes */
