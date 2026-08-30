@@ -202,8 +202,35 @@ export function HomePortal({ faq }: HomePortalProps) {
         </div>
       </section>
 
+      {/* 7. COMPANY PROFILE & K3 TRAINING CREDIBILITY */}
+      <section className="section section-alt" id="profil-perusahaan">
+        <div className="wrap wrap-narrow">
+          <span className="kicker">TENTANG LEMBAGA KAMI</span>
+          <h2>Wahana Totalita Konsultan: Mitra Resmi Pelatihan K3 &amp; Pengembangan SDM</h2>
+          <div style={{ marginTop: '1.2rem' }}>
+            <p className="section-lead" style={{ marginBottom: '1.2rem' }}>
+              <strong>Wahana Totalita Konsultan</strong> adalah lembaga pelatihan dan konsultasi pengembangan kompetensi kerja yang didirikan pada tahun 2010 dan berbasis di Yogyakarta. Didukung oleh lebih dari 25 tenaga ahli, instruktur bersertifikasi, dan konsultan industri berpengalaman, kami telah dipercaya mendampingi lebih dari 500 perusahaan di berbagai pelosok Indonesia.
+            </p>
+            <p style={{ color: 'var(--c-ink-soft)', lineHeight: '1.8', fontSize: '1.05rem', marginBottom: '1.2rem' }}>
+              Spesialisasi utama kami bertumpu pada penyelenggaraan <strong>pelatihan K3</strong> (Keselamatan dan Kesehatan Kerja), audit sistem manajemen keselamatan kerja (SMK3 PP 50/2012), serta program sertifikasi kompetensi resmi yang diakui oleh Kementerian Ketenagakerjaan RI (Kemnaker) dan Badan Nasional Sertifikasi Profesi (BNSP). Setiap modul pelatihan K3 dirancang tidak sekadar untuk pemenuhan kepatuhan administratif, melainkan menitikberatkan pada mitigasi risiko nyata di fasilitas kerja operasional.
+            </p>
+            <p style={{ color: 'var(--c-ink-soft)', lineHeight: '1.8', fontSize: '1.05rem', marginBottom: '1.6rem' }}>
+              Dengan perpaduan metode analisis kebutuhan pelatihan (<em>Training Needs Analysis</em>), studi kasus riil lapangan, dan evaluasi hasil berbasis dampak kerja, Wahana Totalita Konsultan senantiasa hadir sebagai mitra strategis dalam membangun budaya keselamatan kerja yang berkelanjutan serta meningkatkan produktivitas tenaga kerja Anda.
+            </p>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.85rem' }}>
+              <Link className="btn btn-primary" href="/tentang-kami/">
+                Pelajari Profil Lengkap Kami →
+              </Link>
+              <Link className="btn btn-outline" href="/kontak/">
+                Konsultasi Program Pelatihan K3
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 8. SECTOR STRIP */}
-      <section className="section section-alt">
+      <section className="section">
         <div className="wrap" style={{ textAlign: 'center' }}>
           <span className="kicker">CAKUPAN SEKTOR</span>
           <h2>Melayani Kebutuhan Pelatihan Lintas Industri</h2>

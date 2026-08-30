@@ -2931,5 +2931,232 @@ ol.cluster-grid li {
   color: var(--c-primary);
 }
 
+/* ==========================================================================
+   EDITORIAL CONTENT CALLOUTS & HAZARD BOXES
+   ========================================================================== */
+.hazard-callout,
+.compliance-risks-callout,
+.regional-pain-points,
+.industry-major-hazards,
+.role-critical-responsibilities {
+  background: rgba(217, 119, 6, 0.06);
+  border: 1px solid rgba(217, 119, 6, 0.2);
+  border-left: 4px solid var(--c-accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 1.4rem 1.6rem;
+  margin: 2rem 0 2.2rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.hazard-callout h3,
+.compliance-risks-callout h3,
+.regional-pain-points h3,
+.industry-major-hazards h3,
+.role-critical-responsibilities h3 {
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+  font-weight: 750;
+  color: var(--c-accent-dark);
+  letter-spacing: -0.015em;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.hazard-callout ul,
+.compliance-risks-callout ul,
+.regional-pain-points ul,
+.industry-major-hazards ul,
+.role-critical-responsibilities ul {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+
+.hazard-callout li,
+.compliance-risks-callout li,
+.regional-pain-points li,
+.industry-major-hazards li,
+.role-critical-responsibilities li {
+  margin-bottom: 0.55rem;
+  line-height: 1.65;
+  color: var(--c-ink);
+}
+
+.hazard-callout li:last-child,
+.compliance-risks-callout li:last-child,
+.regional-pain-points li:last-child,
+.industry-major-hazards li:last-child,
+.role-critical-responsibilities li:last-child {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   SYLLABUS MODULES & CURRICULUM CARDS
+   ========================================================================== */
+.syllabus-modules {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin: 2rem 0 2.5rem;
+}
+
+@media (min-width: 640px) {
+  .syllabus-modules {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+.module-card {
+  background: var(--glass-surface);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.6rem 1.6rem;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.module-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--c-primary);
+  box-shadow: var(--shadow-hover);
+}
+
+.module-card h3 {
+  margin: 0 0 0.85rem;
+  font-size: 1.18rem;
+  font-weight: 750;
+  color: var(--c-primary);
+  line-height: 1.35;
+}
+
+.module-card p {
+  margin: 0 0 0.75rem;
+  font-size: 0.96rem;
+  line-height: 1.65;
+  color: var(--c-ink-soft);
+}
+
+.module-card p:last-child {
+  margin-bottom: 0;
+}
+
+.module-card strong {
+  color: var(--c-ink);
+}
+
+/* ==========================================================================
+   EDITORIAL CROSSLINKS & BUTTON CHIPS
+   ========================================================================== */
+.editorial-crosslinks {
+  margin: 3rem 0 2rem;
+  padding: 1.8rem 2rem;
+  background: var(--c-bg-subtle);
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.editorial-crosslinks h3 {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  font-weight: 750;
+  color: var(--c-ink);
+}
+
+.button-chip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  align-items: center;
+}
+
+.btn-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.15rem;
+  background: #ffffff;
+  border: 1.5px solid var(--c-line);
+  border-radius: var(--radius-pill);
+  color: var(--c-ink) !important;
+  font-size: 0.92rem;
+  font-weight: 650;
+  text-decoration: none !important;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  line-height: 1.3;
+}
+
+.btn-chip:hover {
+  background: var(--c-primary-light);
+  border-color: var(--c-primary);
+  color: var(--c-primary) !important;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-chip span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* ==========================================================================
+   EDITORIAL DATA TABLES
+   ========================================================================== */
+.table-responsive,
+.table-scroll {
+  overflow-x: auto;
+  margin: 1.8rem 0 2.2rem;
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  background: #ffffff;
+  box-shadow: var(--shadow-sm);
+}
+
+table.data-table,
+.table-scroll table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+table.data-table th,
+.table-scroll table th {
+  background: var(--c-bg-subtle);
+  color: var(--c-ink);
+  font-weight: 750;
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1.5px solid var(--c-line);
+  white-space: nowrap;
+}
+
+table.data-table td,
+.table-scroll table td {
+  padding: 0.85rem 1.1rem;
+  border-bottom: 1px solid var(--c-line-light);
+  color: var(--c-ink-soft);
+  line-height: 1.55;
+  vertical-align: top;
+}
+
+table.data-table tbody tr:last-child td,
+.table-scroll table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+table.data-table tbody tr:hover,
+.table-scroll table tbody tr:hover {
+  background: var(--c-primary-light);
+}
+
+
 
 
