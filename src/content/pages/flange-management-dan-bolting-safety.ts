@@ -147,6 +147,8 @@ export const content: PageContentData = {
 </ul>
 <p>Evaluasi kompetensi mencakup ujian teori mengenai standar ASME PCC-1, perhitungan target torsi dan koefisien gesekan, uji praktik mandiri perakitan sambungan pipa dengan hidrolik bolting, serta inspeksi akhir verifikasi celah flensa.</p>
 
+
+<p>Kembangkan keahlian instalasi, fabrikasi fitting pipa, dan sambungan flange berstandar nasional melalui program <a href="https://wahanatotalita.com/pelatihan/pelatihan-dan-sertifikasi-pipe-fitter-sertifikasi-bnsp/" target="_blank" rel="noopener noreferrer">Pelatihan dan Sertifikasi Pipe Fitter BNSP</a>.</p>
 <div class="editorial-crosslinks">
 <h3>Program Pelatihan Terkait:</h3>
 <div class="button-chip-grid">

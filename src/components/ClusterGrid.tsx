@@ -14,10 +14,10 @@ export function ClusterGrid({ hubSlug }: ClusterGridProps) {
     <section className="cluster" aria-labelledby="cluster-h">
       <h2 id="cluster-h">Daftar Lengkap Panduan dalam Topik Ini ({children.length} Panduan)</h2>
       <ol className="cluster-grid">
-        {children.map((child) => (
+        {children.map((child, idx) => (
           <li key={child.key}>
             <Link className="cluster-card" href={pageUrl(child.key)}>
-              <span className="cluster-num">{child.n}</span>
+              <span className="cluster-num">{idx + 1}</span>
               <div style={{ flex: 1 }}>
                 <span className="cluster-title">{child.h1}</span>
                 <span style={{ display: 'block', fontSize: '0.84rem', color: 'var(--c-accent-dark)', fontWeight: 700, marginTop: '0.2rem' }}>

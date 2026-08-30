@@ -1,14 +1,14 @@
 {
   "summary": {
     "total_pages_audited": 337,
-    "total_words": 245807,
-    "average_words_per_page": 729,
-    "total_faqs_indexed": 776,
+    "total_words": 268601,
+    "average_words_per_page": 797,
+    "total_faqs_indexed": 832,
     "total_data_tables": 346,
     "thin_pages_count": 0,
-    "title_issues_count": 24,
+    "title_issues_count": 0,
     "meta_desc_issues_count": 0,
-    "orphan_pages_count": 32,
+    "orphan_pages_count": 0,
     "hub_breakdown": {
       "money": {
         "count": 2,
@@ -17,13 +17,13 @@
       },
       "jenis-pelatihan": {
         "count": 38,
-        "totalWords": 30933,
-        "avgWords": 814
+        "totalWords": 34772,
+        "avgWords": 915
       },
       "industri": {
         "count": 27,
-        "totalWords": 19774,
-        "avgWords": 732
+        "totalWords": 19829,
+        "avgWords": 734
       },
       "peran-jabatan": {
         "count": 26,
@@ -32,8 +32,8 @@
       },
       "kategori-pelatihan": {
         "count": 234,
-        "totalWords": 165950,
-        "avgWords": 709
+        "totalWords": 184850,
+        "avgWords": 790
       },
       "konsultasi-pengembangan-kompetensi": {
         "count": 6,
@@ -881,7 +881,7 @@
       "imgAlt": "Pekerja industri mengenakan APD lengkap dan harness bersiap memasuki ruang terbatas dengan pengawasan safety attendant",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 22,
+      "inboundLinksCount": 23,
       "issues": []
     },
     {
@@ -1115,14 +1115,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Pengawas Scaffolding: Manajemen Desain Beban, Pengawasan Ereksi, dan K3 Perancah",
-      "wordCount": 530,
+      "wordCount": 537,
       "h2Count": 8,
-      "h3Count": 0,
+      "h3Count": 1,
       "faqCount": 1,
       "tableCount": 2,
       "imgAlt": "Pengawas scaffolding memeriksa penguncian klem dan meninjau gambar desain perancah di lokasi kerja",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 5,
       "issues": []
     },
@@ -1189,7 +1189,7 @@
       "imgAlt": "Signalman memberikan isyarat tangan aba-aba pengangkatan beban kepada operator mobile crane",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -1379,15 +1379,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Operator Gantry Crane: Pengoperasian Rel & Ban Karet (RTG), Wind Alarm Safety, dan Spreader Control",
-      "wordCount": 498,
+      "wordCount": 1339,
       "h2Count": 7,
-      "h3Count": 4,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Gantry crane raksasa beroperasi di atas rel memindahkan struktur balok baja besar di area fabrikasi",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -1409,7 +1409,7 @@
       "imgAlt": "Teknisi bengkel mengaitkan rantai electric hoist pada blok mesin sebelum mengangkatnya ke meja kerja",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1445,15 +1445,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Operator Wheel Loader: Teknik Loading Bucket, Articulated Steering Safety, dan Manuver Truk",
-      "wordCount": 500,
+      "wordCount": 507,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Wheel loader bermuatan material batu pecah melakukan manuver loading ke bak dump truck",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 5,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -1497,7 +1497,7 @@
       "imgAlt": "Dump truck tambang berukuran besar menumpahkan muatan tanah di area disposal yang aman",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 6,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1651,7 +1651,7 @@
       "imgAlt": "Ahli K3 listrik memegang dokumen audit kelistrikan meninjau instalasi gardu distribusi listrik tegangan menengah",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 10,
+      "inboundLinksCount": 14,
       "issues": []
     },
     {
@@ -1731,15 +1731,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Inspeksi & Thermografi Panel Listrik: Deteksi Dini Hotspot, Pemeliharaan Busbar, dan Audit K3 Panel",
-      "wordCount": 533,
+      "wordCount": 541,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Inspektur listrik menggunakan kamera thermal imaging inframerah mendeteksi hotspot pada sambungan kabel panel breaker",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -1753,14 +1753,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Sistem Grounding & Proteksi Petir: Perancangan, Pengukuran Tahanan Pembumian, dan Kepatuhan Permenaker No. 2/1989",
-      "wordCount": 532,
+      "wordCount": 540,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Teknisi menggunakan earth resistance clamp meter mengukur nilai resistansi batang pembumian grounding rod di luar gedung",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 5,
       "issues": []
     },
@@ -1885,15 +1885,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan K3 Pesawat Tenaga dan Produksi: Standar Pengawasan Mesin Penggerak, Transmisi, dan Mesin Perkakas Produksi",
-      "wordCount": 544,
+      "wordCount": 552,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Inspector K3 memeriksa kelengkapan pelindung transmisi sabuk dan tombol emergency stop pada mesin bubut industri",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 7,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -1937,7 +1937,7 @@
       "imgAlt": "Peserta pelatihan memadamkan kobaran api drum menggunakan APAR dry chemical powder dengan teknik menyapu searah angin",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 8,
+      "inboundLinksCount": 11,
       "issues": []
     },
     {
@@ -2017,14 +2017,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Penggunaan, Pemeriksaan, dan Pemeliharaan APAR Sesuai Permenaker No. 4/1980",
-      "wordCount": 536,
+      "wordCount": 545,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Instruktur K3 memperagakan pemeriksaan segel pin pengaman dan kartu kendali pemeliharaan APAR tabung merah",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 7,
       "issues": []
     },
@@ -2039,14 +2039,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Sistem Fire Hydrant & Sprinkler: Operasional Ruang Pompa, Flushing Jaringan, dan Uji Aliran Air NFPA",
-      "wordCount": 508,
+      "wordCount": 517,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Teknisi ruang pompa pemadam memeriksa katup hisap dan indikator tekanan pada pompa diesel pemadam kebakaran utama",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 8,
       "issues": []
     },
@@ -2091,7 +2091,7 @@
       "imgAlt": "Tim Emergency Response Team (ERT) mengenakan rompi komando memimpin briefing di posko darurat saat simulasi krisis",
       "hasImgAlt": true,
       "outboundLinksCount": 3,
-      "inboundLinksCount": 8,
+      "inboundLinksCount": 10,
       "issues": []
     },
     {
@@ -2245,7 +2245,7 @@
       "imgAlt": "Petugas K3 kimia bersertifikat memeriksa inventaris gudang penyimpanan bahan kimia reaktif",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 11,
+      "inboundLinksCount": 15,
       "issues": []
     },
     {
@@ -2267,7 +2267,7 @@
       "imgAlt": "Ahli K3 kimia memimpin audit Process Safety Management di ruang kontrol kilang petrokimia",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 12,
+      "inboundLinksCount": 15,
       "issues": []
     },
     {
@@ -2355,7 +2355,7 @@
       "imgAlt": "Petugas P3K bersertifikat mempraktikkan kompresi dada resusitasi jantung paru (CPR) pada manekin pelatihan medis",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 11,
+      "inboundLinksCount": 15,
       "issues": []
     },
     {
@@ -2413,15 +2413,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Spirometri Industri: Uji Fungsi Paru (FVC/FEV1), Deteksi Dini Asma Kerja & Penyakit Paru Obstruktif/Restriktif",
-      "wordCount": 540,
+      "wordCount": 548,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Paramedis memandu pekerja melakukan hembusan napas paksa ke dalam corong spirometer digital",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 6,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 7,
       "issues": []
     },
     {
@@ -2553,7 +2553,7 @@
       "imgAlt": "Petugas K3 konstruksi memimpin safety briefing Tool Box Meeting di depan puluhan pekerja proyek sebelum shift pagi dimulai",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 7,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2619,7 +2619,7 @@
       "imgAlt": "Pengawas operasional pertama tambang berhelm safety memegang clipboard memimpin inspeksi di area pit tambang batubara",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 10,
+      "inboundLinksCount": 9,
       "issues": []
     },
     {
@@ -2641,7 +2641,7 @@
       "imgAlt": "Superintendent tambang memimpin rapat tinjauan audit Sistem Manajemen Keselamatan Pertambangan (SMKP) di ruang rapat site",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2707,7 +2707,7 @@
       "imgAlt": "Struktur launching gantry girder raksasa memindahkan balok segmental box girder di atas pier head proyek jalan tol layang",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -2765,15 +2765,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Lead Auditor ISO 45001:2018: Metodologi Audit Sistem Manajemen K3 Berstandar Internasional",
-      "wordCount": 533,
+      "wordCount": 543,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Lead Auditor bersertifikat internasional memimpin Opening Meeting audit ISO 45001 bersama jajaran direksi korporat",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 5,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -2817,7 +2817,7 @@
       "imgAlt": "Supervisor dan pekerja menandatangani lembar Job Safety Analysis (JSA) di samping area kerja sebelum memulai pekerjaan berisiko",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2853,15 +2853,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Behavior-Based Safety (BBS): Model ABC (Activator-Behavior-Consequence), Observasi Perilaku, dan Feedback Positif",
-      "wordCount": 529,
+      "wordCount": 536,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Observer BBS memberikan safety coaching dan feedback positif kepada teknisi yang mempraktikkan prosedur kerja aman",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 4,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -2875,14 +2875,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Safety Leadership Korporat: Kepemimpinan Berbasis Teladan (Felt Leadership), Safety Walk, dan Pendewasaan Kurva Bradley",
-      "wordCount": 558,
+      "wordCount": 565,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Direktur Operasional dan Plant Manager mengenakan rompi keselamatan memimpin Management Safety Walk di area lantai pabrik",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 7,
       "issues": []
     },
@@ -3579,14 +3579,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pembangkit Tenaga Listrik: PLTU, PLTGU, PLTA, dan Gardu Induk Tegangan Ekstra Tinggi",
-      "wordCount": 510,
+      "wordCount": 518,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Pekerja pembangkit listrik memeriksa katup turbin uap dan instalasi panel listrik distribusi",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -3623,14 +3623,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pabrik Kelapa Sawit (PKS): K3 Boiler Limbah Cangkang, Sterilizer Rebusan, dan Loading Ramp Sawit",
-      "wordCount": 537,
+      "wordCount": 544,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Operator pabrik kelapa sawit memantau pengoperasian bejana tekan sterilizer rebusan kelapa sawit",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 4,
       "issues": []
     },
@@ -3689,14 +3689,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Industri Pangan & FMCG: Sistem Pendingin Amonia, Higiene Sanitasi HACCP, dan Lantai Basah Anti-Slip",
-      "wordCount": 520,
+      "wordCount": 530,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Pekerja industri makanan mengenakan perlengkapan higienis dan safety boots anti-slip di area proses pengolahan susu",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 6,
       "issues": []
     },
@@ -3711,14 +3711,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Industri Farmasi & Lab Medis: Biosafety Level (BSL 1-3), Cleanroom ISO 14644, dan Bahan Kimia Aktif (API)",
-      "wordCount": 520,
+      "wordCount": 528,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Analis farmasi mengenakan pakaian cleanroom jumpsuit lengkap dengan kacamata goggle bekerja di dalam cleanroom class A",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -3741,7 +3741,7 @@
       "imgAlt": "Forklift elektrik memindahkan palet barang di pusat distribusi logistik modern dengan marka jalur keselamatan lantai yang rapi",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -3763,7 +3763,7 @@
       "imgAlt": "Kapal kontainer bersandar di dermaga pelabuhan dengan aktivitas bongkar muat peti kemas oleh quay gantry crane raksasa",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -3777,14 +3777,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Rumah Sakit (K3RS): Standar Akreditasi Kemenkes (STARKES), Pengelolaan B3 Medis, dan Evakuasi Pasien",
-      "wordCount": 528,
+      "wordCount": 536,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Tim K3RS memeriksa panel alarm kebakaran sentral dan meninjau kesiapan jalur evakuasi pasien di koridor rumah sakit",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -3865,14 +3865,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Hotel, Mall & Gedung Komersial: Proteksi Kebakaran Dapur Komersial, Keselamatan Pengunjung, dan SLF Gedung",
-      "wordCount": 533,
+      "wordCount": 540,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Tim K3 dan sekuriti mall melakukan simulasi evakuasi darurat di area atrium pusat perbelanjaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -3887,14 +3887,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pabrik Semen: Kiln Panas Berputar, Pengendalian Debu Silika/Kapur, dan Keselamatan Silo Semen",
-      "wordCount": 533,
+      "wordCount": 540,
       "h2Count": 7,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Pekerja pabrik semen mengenakan respirator debu particulate dan kacamata debu memantau putaran rotary kiln pembakaran klinker",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -3939,7 +3939,7 @@
       "imgAlt": "Operator IPAL mengenakan harness dan multi-gas detector melakukan pemantauan gas di atas bak aerasi instalasi pengolahan limbah",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -3953,14 +3953,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kawasan Industri Cikarang: Solusi Sertifikasi Kemnaker & BNSP di Lokasi Pabrik Anda",
-      "wordCount": 645,
+      "wordCount": 656,
       "h2Count": 8,
-      "h3Count": 4,
+      "h3Count": 5,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 di ruang pelatihan pabrik kawasan industri Jababeka Cikarang",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 6,
       "issues": []
     },
@@ -3975,14 +3975,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kawasan Industri Karawang: Pelatihan K3 Manufaktur Bersertifikat Resmi Kemnaker & BNSP",
-      "wordCount": 528,
+      "wordCount": 539,
       "h2Count": 8,
-      "h3Count": 3,
+      "h3Count": 4,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Instruktur K3 memandu workshop praktis pengoperasian alat pemadam api ringan APAR di halaman pabrik KIIC Karawang",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
+      "outboundLinksCount": 5,
       "inboundLinksCount": 4,
       "issues": []
     },
@@ -3997,14 +3997,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kota Cilegon: Spesialis Pelatihan K3 Industri Kimia Berat, Pabrik Baja, dan Pembangkit Listrik",
-      "wordCount": 852,
+      "wordCount": 863,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 penanganan tumpahan kimia dan pemakaian respirator di area pabrik kimia Cilegon Banten",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 10,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -4019,14 +4019,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Balikpapan: Sertifikasi K3 Migas, Tambang Batubara Kaltim, dan Proyek Ibu Kota Nusantara (IKN)",
-      "wordCount": 840,
+      "wordCount": 847,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house lifting & rigging diadakan di workshop basecamp alat berat Balikpapan Kalimantan Timur",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 8,
       "issues": []
     },
@@ -4041,14 +4041,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kota Batam: Pelatihan K3 Galangan Kapal, Marine Offshore, dan Manufaktur Elektronik Kawasan FTZ",
-      "wordCount": 875,
+      "wordCount": 883,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Instruktur memandu pelatihan keselamatan kerja di ruang palka galangan kapal Tanjung Uncang Batam",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 6,
       "issues": []
     },
@@ -4063,14 +4063,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Surabaya & Sidoarjo: Pelatihan K3 Terintegrasi untuk Kawasan Industri Jawa Timur",
-      "wordCount": 503,
+      "wordCount": 514,
       "h2Count": 8,
-      "h3Count": 3,
+      "h3Count": 4,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 pemeliharaan boiler dan bejana tekan di kawasan industri SIER Rungkut Surabaya",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 4,
       "issues": []
     },
@@ -4173,14 +4173,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Samarinda & Kutai Kartanegara: Pelatihan POP Tambang, Rigger, dan Safety Hauling Batubara",
-      "wordCount": 806,
+      "wordCount": 817,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan operasional tambang batubara diselenggarakan di aula site tambang Samarinda Kaltim",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 10,
       "inboundLinksCount": 4,
       "issues": []
     },
@@ -4195,14 +4195,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kawasan Industri Morowali & Halmahera: Keselamatan Smelter Nikel, RKT, dan Sertifikasi K3 Berat",
-      "wordCount": 864,
+      "wordCount": 884,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 smelter diadakan di fasilitas training center kawasan industri Morowali",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 12,
       "inboundLinksCount": 5,
       "issues": []
     },
@@ -4217,15 +4217,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kawasan Industri Gresik & JIIPE: Pelatihan K3 Kimia, Pelabuhan, dan Manufaktur Terpadu",
-      "wordCount": 465,
+      "wordCount": 1265,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 kimia dan penggunaan APD hazmat di kawasan industri terpadu JIIPE Manyar Gresik",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 3,
+      "outboundLinksCount": 10,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4261,14 +4261,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kota Medan & Kawasan Industri Medan (KIM): Pelatihan K3 PKS, Oleokimia, dan Pergudangan Belawan",
-      "wordCount": 821,
+      "wordCount": 833,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 operator boiler di pabrik pengolahan kelapa sawit KIM Medan",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4283,14 +4283,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Pekanbaru & Duri: Sertifikasi K3 Migas Blok Rokan, Pabrik Kertas Riau, dan Perkebunan Sawit",
-      "wordCount": 830,
+      "wordCount": 837,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan H2S dan pemakaian breathing apparatus untuk pekerja migas di Duri Riau",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 4,
       "issues": []
     },
@@ -4305,14 +4305,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Palembang & Muara Enim: Sertifikasi K3 Tambang Batubara Sumsel, Pabrik Pupuk, dan PLTU Mulut Tambang",
-      "wordCount": 836,
+      "wordCount": 847,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 pengawas operasional tambang batubara di Tanjung Enim Sumatera Selatan",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -4327,14 +4327,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kota Makassar & KIMA: Pelatihan K3 Pelabuhan, Pabrik Semen, dan Manufaktur Indonesia Timur",
-      "wordCount": 812,
+      "wordCount": 827,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Sesi in-house training K3 keselamatan kelistrikan di ruang pertemuan pabrik kawasan industri KIMA Makassar",
       "hasImgAlt": true,
-      "outboundLinksCount": 8,
+      "outboundLinksCount": 11,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4349,14 +4349,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Kota Semarang: Solusi Sertifikasi K3 Garmen, Makanan, Pelabuhan Tanjung Emas & Manufaktur",
-      "wordCount": 459,
+      "wordCount": 1195,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 kebakaran dan simulasi hydrant di halaman pabrik Kawasan Industri Wijayakusuma Semarang",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4371,14 +4371,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 KEK Kendal: Pelatihan K3 Standar Internasional untuk Tenant Multinasional Jawa Tengah",
-      "wordCount": 462,
+      "wordCount": 1141,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan kerja operator mesin modern diselenggarakan di pabrik KEK Kendal",
       "hasImgAlt": true,
-      "outboundLinksCount": 3,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4393,14 +4393,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Timika & Tambang Bawah Tanah Papua: Keselamatan Block Caving, Rigger, dan POP Tambang Papua",
-      "wordCount": 878,
+      "wordCount": 889,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan penyelamatan darurat tambang bawah tanah (Mine Rescue) di Timika Papua",
       "hasImgAlt": true,
-      "outboundLinksCount": 7,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4415,14 +4415,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Sorowako: Pelatihan K3 Tambang Nikel Terbuka, Smelter, dan Pembangkit Listrik Tenaga Air (PLTA)",
-      "wordCount": 471,
+      "wordCount": 1219,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 alat berat tambang nikel di Sorowako Luwu Timur",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4459,14 +4459,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Tangerang & Serang: Pelatihan K3 Pabrik Sepatu, Pergudangan Modern, dan Kawasan Industri Modern Cikande",
-      "wordCount": 476,
+      "wordCount": 1185,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan in-house K3 operator forklift dan penataan logistik aman di kawasan industri Jatake Tangerang",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 10,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -4481,15 +4481,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Prosedur Klaim JKK BPJS Ketenagakerjaan: Alur Pelaporan 2x24 Jam, Formulir Tahap I-II, dan Program Return to Work",
-      "wordCount": 475,
+      "wordCount": 1305,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Petugas HR dan dokter perusahaan memverifikasi dokumen klaim formulir JKK BPJS Ketenagakerjaan",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4503,15 +4503,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Penyusunan Rencana Keselamatan Konstruksi (RKK): Format Standar Tender & Pelaksanaan Permen PUPR No. 10/2021",
-      "wordCount": 465,
+      "wordCount": 1263,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Dokumen Rencana Keselamatan Konstruksi (RKK) tebal bersampul resmi dengan tanda tangan Ahli K3 Konstruksi dan Project Director",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -4525,15 +4525,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Standar Teknis Bangunan & Tata Kelola TPS Limbah B3: Spesifikasi Bangunan Berizin, Masa Simpan, dan Pelaporan Festronik KLHK",
-      "wordCount": 483,
+      "wordCount": 1299,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Bangunan TPS Limbah B3 industri berizin dengan drum oli bekas tersusun rapi di atas palet dan terpasang simbol limbah B3",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4555,7 +4555,7 @@
       "imgAlt": "Kotak P3K Tipe C dinding berwarna putih dengan lambang palang hijau terbuka memperlihatkan 21 item medis tersusun rapi",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4569,14 +4569,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Nilai Ambang Batas (NAB) Kebisingan di Tempat Kerja: Tabel Waktu Paparan Jam Kerja, Sound Level Meter, dan Program Konservasi Pendengaran (HCP)",
-      "wordCount": 493,
+      "wordCount": 1301,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Tabel grafik Nilai Ambang Batas kebisingan dan teknisi K3 mengukur desibel suara mesin kompresor dengan Sound Level Meter",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 10,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4591,14 +4591,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Prosedur Riksa Uji Teknis K3 & Penerbitan SILO: Uji Statis/Dinamis Forklift, Crane, Boiler, dan Legalitas PJK3",
-      "wordCount": 526,
+      "wordCount": 535,
       "h2Count": 8,
-      "h3Count": 3,
+      "h3Count": 4,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Pengawas ketenagakerjaan spesialis K3 memeriksa kelaikan fisik crane dan membubuhkan stiker pengesahan izin pemakaian SILO Kemnaker",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 3,
       "issues": []
     },
@@ -4613,15 +4613,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Penyusunan Matriks HIRADC / IBPRP: Metodologi Kuantitatif 5x5, Penilaian ALARP, dan 5 Hierarki Pengendalian Risiko",
-      "wordCount": 512,
+      "wordCount": 521,
       "h2Count": 8,
-      "h3Count": 3,
+      "h3Count": 4,
       "faqCount": 1,
       "tableCount": 1,
       "imgAlt": "Tabel matriks penilaian risiko HIRADC 5x5 dengan kode warna merah, kuning, dan hijau diisi oleh tim risk assessment",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 1,
+      "outboundLinksCount": 6,
+      "inboundLinksCount": 6,
       "issues": []
     },
     {
@@ -4635,15 +4635,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Kualifikasi Operator Forklift Kelas 1 & 2: Batas Kapasitas Tonase, Wewenang Lisensi SIO, dan Syarat Sertifikasi Kemnaker",
-      "wordCount": 479,
+      "wordCount": 1241,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Operator forklift memegang lisensi SIO Kemnaker RI berdiri di samping unit forklift diesel kapasitas 7 ton",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4657,14 +4657,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Pelaksanaan Safety Induction: Materi Wajib Orientasi K3 Karyawan Baru, Tamu, dan Kontraktor Lapangan",
-      "wordCount": 494,
+      "wordCount": 1249,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Safety Officer memberikan materi safety induction di ruang audiovisual kepada 20 karyawan baru yang mengenakan helm putih",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4679,15 +4679,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Sistem Penandaan Scafftag Perancah: Arti Warna Hijau, Kuning, Merah, Tanggung Jawab Inspector, dan Logbook Mingguan",
-      "wordCount": 482,
+      "wordCount": 1352,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Kartu Scafftag Hijau terpasang di tiang utama perancah setinggi mata dengan tanda tangan Scaffolding Inspector",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4701,15 +4701,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Prosedur Uji Gas Ruang Terbatas: Urutan Baku Pengujian O2, LEL, CO, H2S, Stratifikasi Ketinggian, dan Kalibrasi Bump Test",
-      "wordCount": 478,
+      "wordCount": 1312,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Petugas Gas Tester memasukkan selang probe multi-gas detector ke dalam lubang manhole tangki bawah tanah",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -4723,15 +4723,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Penyusunan Dokumen CSMS: Kuesioner Pra-Kualifikasi, HSE Plan, dan Strategi Lolos Kategori Risiko Tinggi",
-      "wordCount": 480,
+      "wordCount": 1238,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Sertifikat kelulusan pra-kualifikasi CSMS Kategori High Risk berlogo resmi perusahaan migas dan BUMN",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4745,15 +4745,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Prosedur Penerbitan Permit to Work (PTW): Alur Otorisasi Performing Authority, Area Authority, dan Closing Permit",
-      "wordCount": 487,
+      "wordCount": 1288,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Lembar formulir Permit to Work (PTW) berwarna merah ditandatangani di lokasi kerja oleh Area Authority dan Performing Authority",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4767,14 +4767,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Prosedur Pengesahan Pemakaian Bejana Uap (Boiler): Riksa Uji Hydrotest, Dokumen Perhitungan Kekuatan Konstruksi, dan Buku Akte Izin",
-      "wordCount": 493,
+      "wordCount": 1345,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Buku Akte Izin Bejana Uap resmi bertanda tangan Direktur Pengawasan Norma K3 Kemnaker RI",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4797,7 +4797,7 @@
       "imgAlt": "Teknisi memasang padlock merah keselamatan dan tag DANGER JANGAN DIOPERASIKAN pada saklar pemutus daya listrik",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "inboundLinksCount": 8,
       "issues": []
     },
     {
@@ -4811,14 +4811,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Panduan Meraih Penghargaan Zero Accident Award: Perhitungan Jam Kerja Selamat, Persyaratan Audit, dan Pengajuan ke Kemnaker RI",
-      "wordCount": 495,
+      "wordCount": 1271,
       "h2Count": 8,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Plakat piagam penghargaan Kecelakaan Nihil (Zero Accident Award) Kemnaker RI ditandatangani Menteri Ketenagakerjaan RI",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -4833,7 +4833,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pembangkit Listrik Tenaga Surya (PLTS): Bahaya Arus Searah (DC High Voltage), Bekerja di Atap, dan Inverter Fire Safety",
-      "wordCount": 1399,
+      "wordCount": 1403,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -4855,15 +4855,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Baterai Lithium-Ion & EV: Penanganan Thermal Runaway, Pemadaman Kebakaran Baterai, dan Toxic Gas Release",
-      "wordCount": 425,
+      "wordCount": 1239,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Petugas pemadam kebakaran menggelar selimut pemadam khusus EV Fire Blanket di atas mobil listrik yang mengalami thermal runaway",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 8,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -4877,7 +4877,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Inspeksi Tangki Timbun (Tank Inspection): Standar API 653, Uji Magnetic Flux Leakage (MFL), dan Ketebalan Pelat Dasar",
-      "wordCount": 1390,
+      "wordCount": 1404,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -4885,7 +4885,7 @@
       "imgAlt": "Inspector tangki mengoperasikan scanner MFL (Magnetic Flux Leakage) di atas pelat dasar tangki timbun minyak",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -4899,7 +4899,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Piping Inspection API 570: Pemetaan Titik CML, Kalkulasi Laju Korosi (Corrosion Rate), dan Sisa Umur Pipa (Remaining Life)",
-      "wordCount": 1268,
+      "wordCount": 1279,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -4907,7 +4907,7 @@
       "imgAlt": "Piping inspector melakukan pengukuran ketebalan dinding pipa menggunakan probe ultrasonic thickness gauge di kilang",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 3,
+      "inboundLinksCount": 4,
       "issues": []
     },
     {
@@ -4965,15 +4965,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Flange Management & Bolting: Prosedur Pengencangan Baut Terkendali (Torque & Tensioning), Gasket Seating, dan Pencegahan Kebocoran Flange",
-      "wordCount": 428,
+      "wordCount": 1205,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Teknisi mekanik menggunakan hydraulic torque wrench mengencangkan sambungan flange pipa bertekanan tinggi dengan pola menyilang",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -4987,7 +4987,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pipa Gas Bumi: Pemasangan Pipa Bawah Tanah (HDD), Hot Tapping Gas Aktif, dan Uji Tekan Gas Bertekanan",
-      "wordCount": 1339,
+      "wordCount": 1345,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -5009,7 +5009,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Petugas K3 Elevator & Eskalator: Riksa Uji Safety Gear, Uji Rem Darurat Lift, dan Lisensi Resmi Kemnaker RI",
-      "wordCount": 1352,
+      "wordCount": 1349,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -5031,15 +5031,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Tank Cleaning: Sludge Removal, Gas Freeing, Water Jetting Tekanan 1000 Bar, dan Confined Space",
-      "wordCount": 429,
+      "wordCount": 1239,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pekerja tank cleaning mengenakan pakaian pelindung kimia dan SCBA menyemprotkan air tekanan tinggi membersihkan dinding tangki minyak",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 9,
+      "inboundLinksCount": 5,
       "issues": []
     },
     {
@@ -5053,14 +5053,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Peledakan Tambang (Blasting Safety): Pengelolaan Bahan Peledak ANFO, Penanganan Misfire, dan Jarak Aman Radius",
-      "wordCount": 429,
+      "wordCount": 1223,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Juru Ledak tambang memegang blasting machine memeriksa kabel detonator non-elektrik di area pola peledakan batubara",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -5097,15 +5097,15 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pengaspalan Jalan: Uap Panas Aspal Hotmix 160°C, Tandem Roller, Asphalt Finisher, dan Traffic Management Jalan Raya",
-      "wordCount": 430,
+      "wordCount": 1272,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pekerja pengaspalan jalan mengenakan sepatu boot sol tebal dan rompi keselamatan mengawasi pergerakan mesin asphalt finisher menggelar hotmix",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
-      "inboundLinksCount": 2,
+      "outboundLinksCount": 7,
+      "inboundLinksCount": 3,
       "issues": []
     },
     {
@@ -5119,7 +5119,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Tiang Pancang (Piling Safety): Stabilitas Mesin Hydraulic Static Pile Driver, Bored Pile, dan Drop Hammer",
-      "wordCount": 1306,
+      "wordCount": 1313,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -5141,14 +5141,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Mesin Plasma & Laser Cutting: Radiasi Optik Laser Class 4, Gas Asist Oksigen/Nitrogen, dan Fume Extraction",
-      "wordCount": 446,
+      "wordCount": 1301,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Kepala nozel mesin fiber laser cutting CNC memancarkan berkas sinar laser memotong pelat baja dengan percikan api tertahan di dalam ruang kaca pelindung",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 9,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -5163,7 +5163,7 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Inspeksi Penyalur Petir: Pengukuran Tahanan Pembumian Earth Tester (<5 Ohm), Radius Proteksi ESE, dan Sertifikasi Disnaker",
-      "wordCount": 1407,
+      "wordCount": 1410,
       "h2Count": 7,
       "h3Count": 6,
       "faqCount": 3,
@@ -5185,14 +5185,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Pengecoran Beton: Pengoperasian Concrete Pump Truck, Pipa Boom Bertekanan, dan Luka Bakar Kimia Semen Basah",
-      "wordCount": 431,
+      "wordCount": 1276,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Truk concrete pump membentangkan belalai boom pipa cor beton di atas pelat lantai proyek dengan outrigger terpasang kokoh",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -5207,14 +5207,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Keselamatan Data Center: Sistem Pemadam Gas Total Flooding (FM-200/Novec 1230), Baterai UPS, dan Evakuasi Ruang Tertutup",
-      "wordCount": 441,
+      "wordCount": 1346,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Teknisi data center memeriksa silinder tabung gas pemadam FM-200 dan panel kontrol pelepas gas otomatis",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 8,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -5229,14 +5229,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Water Rescue Industri: Teknik Pertolongan Korban Tenggelam, Resusitasi Korban Air (Drowning CPR), dan Perlengkapan Pelampung",
-      "wordCount": 448,
+      "wordCount": 1278,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Tim rescue keselamatan air melemparkan throw bag tali penyelamat kepada korban di perairan kolam dermaga",
       "hasImgAlt": true,
-      "outboundLinksCount": 4,
+      "outboundLinksCount": 6,
       "inboundLinksCount": 2,
       "issues": []
     },
@@ -5251,14 +5251,14 @@
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "Pelatihan Investigasi Kebakaran Pabrik (Fire Investigation): Penentuan Titik Awal Api (Origin & Cause), Pola Bakar V-Pattern, dan Bukti Forensik",
-      "wordCount": 447,
+      "wordCount": 1226,
       "h2Count": 7,
-      "h3Count": 3,
-      "faqCount": 1,
+      "h3Count": 6,
+      "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Investigator kebakaran mengenakan APD forensik memeriksa pola jelaga dan lelehan kabel listrik di titik awal terjadinya api",
       "hasImgAlt": true,
-      "outboundLinksCount": 5,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 1,
       "issues": []
     },
@@ -5266,9 +5266,9 @@
       "key": "in-house-training-k3-weda-bay",
       "path": "jenis-pelatihan/in-house-training-k3-weda-bay/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Weda Bay: Smelter Nikel Halmahera & Infrastruktur Tambang",
-      "titleLength": 78,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Weda Bay: Smelter Nikel & Tambang Halmahera",
+      "titleLength": 64,
+      "titleStatus": "OK",
       "metaLength": 140,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5281,19 +5281,16 @@
       "imgAlt": "Pelatihan keselamatan kerja in-house di kawasan industri Weda Bay IWIP Halmahera Tengah",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (78 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-kendal-semarang",
       "path": "jenis-pelatihan/in-house-training-k3-kendal-semarang/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Kendal & Semarang: KIK, Wijayakusuma, Garment, & Manufaktur Ekspor",
-      "titleLength": 87,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Kendal & Semarang: KIK & Kawasan Industri",
+      "titleLength": 62,
+      "titleStatus": "OK",
       "metaLength": 141,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5307,17 +5304,15 @@
       "hasImgAlt": true,
       "outboundLinksCount": 6,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (87 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "in-house-training-k3-solo-surakarta",
       "path": "jenis-pelatihan/in-house-training-k3-solo-surakarta/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Solo Raya: Sukoharjo, Karanganyar, Tekstil, & Manufaktur",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Solo Raya: Sukoharjo & Kawasan Manufaktur",
+      "titleLength": 62,
+      "titleStatus": "OK",
       "metaLength": 144,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5331,17 +5326,15 @@
       "hasImgAlt": true,
       "outboundLinksCount": 6,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "in-house-training-k3-sidoarjo",
       "path": "jenis-pelatihan/in-house-training-k3-sidoarjo/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Sidoarjo: Kawasan Safe n Lock, Waru, & Industri Manufaktur",
-      "titleLength": 79,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Sidoarjo: Safe n Lock & Industri Manufaktur",
+      "titleLength": 64,
+      "titleStatus": "OK",
       "metaLength": 148,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5354,19 +5347,16 @@
       "imgAlt": "Pelaksanaan in-house training K3 pergudangan logistik dan manufaktur di Sidoarjo Jawa Timur",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (79 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-tuban-bojonegoro",
       "path": "jenis-pelatihan/in-house-training-k3-tuban-bojonegoro/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Tuban & Bojonegoro: Migas Blok Cepu, Kilang GRR, & Semen",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Tuban & Bojonegoro: Migas Cepu & Pabrik Semen",
+      "titleLength": 66,
+      "titleStatus": "OK",
       "metaLength": 147,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5379,59 +5369,52 @@
       "imgAlt": "Pelatihan keselamatan kerja migas dan industri semen di Tuban dan Bojonegoro Jawa Timur",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-duri-dumai",
       "path": "jenis-pelatihan/in-house-training-k3-duri-dumai/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Duri & Dumai: Hulu Migas Blok Rokan, Kilang Dumai, & Pelabuhan CPO",
-      "titleLength": 87,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Duri & Dumai: Migas Blok Rokan & Kilang Dumai",
+      "titleLength": 66,
+      "titleStatus": "OK",
       "metaLength": 137,
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Duri & Dumai: Pelatihan Keselamatan Steam Flood Blok Rokan, Kilang Minyak Putri Tujuh Dumai, & Ekspor CPO",
-      "wordCount": 854,
+      "wordCount": 861,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan kerja migas steam flood dan kilang minyak di Duri dan Dumai Riau",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (87 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "in-house-training-k3-banjarmasin",
       "path": "jenis-pelatihan/in-house-training-k3-banjarmasin/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Banjarmasin: Pelabuhan Trisakti, Tongkang Sungai Barito, & Logistik Tambang",
-      "titleLength": 96,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Banjarmasin: Pelabuhan & Logistik Tambang",
+      "titleLength": 62,
+      "titleStatus": "OK",
       "metaLength": 141,
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Banjarmasin: Pelatihan Keselamatan Logistik Batubara Sungai Barito, Pelabuhan Trisakti, & Industri Plywood Kalsel",
-      "wordCount": 842,
+      "wordCount": 849,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan kerja logistik maritim batubara di Sungai Barito dan Pelabuhan Trisakti Banjarmasin",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (96 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "in-house-training-k3-lampung",
@@ -5452,18 +5435,16 @@
       "imgAlt": "Pelaksanaan in-house training K3 industri gula dan agroindustri di Provinsi Lampung",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-sorong",
       "path": "jenis-pelatihan/in-house-training-k3-sorong/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Sorong: KEK Sorong, Galangan Kapal, & Hulu Migas Papua Barat Daya",
-      "titleLength": 86,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Sorong: KEK Sorong, Galangan & Migas Papua",
+      "titleLength": 63,
+      "titleStatus": "OK",
       "metaLength": 142,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5476,19 +5457,16 @@
       "imgAlt": "Pelatihan keselamatan kerja in-house di Kawasan Ekonomi Khusus KEK Sorong Papua Barat Daya",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (86 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-bali-denpasar",
       "path": "jenis-pelatihan/in-house-training-k3-bali-denpasar/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Bali: Hospitality Bintang 5, Gedung Bertingkat, & ME Resort",
-      "titleLength": 80,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Bali: Hospitality, Gedung & Resort ME",
+      "titleLength": 58,
+      "titleStatus": "OK",
       "metaLength": 148,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5501,43 +5479,38 @@
       "imgAlt": "Pelatihan keselamatan kerja in-house sektor perhotelan dan resort di Nusa Dua Bali",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (80 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-manado-bitung",
       "path": "jenis-pelatihan/in-house-training-k3-manado-bitung/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Manado & Bitung: KEK Bitung, Cold Storage Amonia, & Pengalengan Ikan",
-      "titleLength": 89,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Manado & Bitung: KEK Bitung & Cold Storage",
+      "titleLength": 63,
+      "titleStatus": "OK",
       "metaLength": 145,
       "metaStatus": "OK",
       "hasH1": true,
       "h1": "In-House Training K3 Manado & Bitung: Pelatihan Keselamatan Industri Pengalengan Ikan, Cold Storage Amonia KEK Bitung, & Pelabuhan Samudera",
-      "wordCount": 825,
+      "wordCount": 832,
       "h2Count": 8,
-      "h3Count": 5,
+      "h3Count": 6,
       "faqCount": 3,
       "tableCount": 1,
       "imgAlt": "Pelatihan keselamatan kerja in-house industri perikanan dan cold storage di Bitung Sulawesi Utara",
       "hasImgAlt": true,
-      "outboundLinksCount": 6,
+      "outboundLinksCount": 7,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (89 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "in-house-training-k3-sumbawa",
       "path": "jenis-pelatihan/in-house-training-k3-sumbawa/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Sumbawa: Tambang Batu Hijau, Smelter Benete, & Proyek Elang",
-      "titleLength": 80,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Sumbawa: Tambang Batu Hijau & Smelter Benete",
+      "titleLength": 65,
+      "titleStatus": "OK",
       "metaLength": 136,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5550,19 +5523,16 @@
       "imgAlt": "Pelatihan keselamatan kerja pertambangan tembaga dan smelter di Sumbawa Barat Nusa Tenggara Barat",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (80 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-serang-banten",
       "path": "jenis-pelatihan/in-house-training-k3-serang-banten/",
       "hub": "jenis-pelatihan",
-      "title": "In-House Training K3 Serang Banten: Kawasan Modern Cikande, Baja, Kimia, & Consumer Goods",
-      "titleLength": 89,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Serang Banten: Kawasan Modern Cikande & Baja",
+      "titleLength": 65,
+      "titleStatus": "OK",
       "metaLength": 140,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5576,17 +5546,15 @@
       "hasImgAlt": true,
       "outboundLinksCount": 6,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (89 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "lisensi-operator-forklift-kemnaker",
       "path": "kategori-pelatihan/lisensi-operator-forklift-kemnaker/",
       "hub": "kategori-pelatihan",
-      "title": "Lisensi Operator Forklift Kemnaker: Sertifikasi SIO Kelas I & Kelas II Resmi",
-      "titleLength": 76,
-      "titleStatus": "LONG",
+      "title": "Lisensi Operator Forklift Kemnaker: Sertifikasi SIO Kelas I & II",
+      "titleLength": 64,
+      "titleStatus": "OK",
       "metaLength": 141,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5600,9 +5568,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 3,
-      "issues": [
-        "Title tag too long (76 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "lisensi-operator-overhead-crane",
@@ -5630,9 +5596,9 @@
       "key": "lisensi-operator-mobile-crane",
       "path": "kategori-pelatihan/lisensi-operator-mobile-crane/",
       "hub": "kategori-pelatihan",
-      "title": "Lisensi Operator Mobile Crane Kemnaker: SIO Rough Terrain, All Terrain, & Crawler Crane",
-      "titleLength": 87,
-      "titleStatus": "LONG",
+      "title": "Lisensi Operator Mobile Crane Kemnaker: SIO Rough & All Terrain",
+      "titleLength": 63,
+      "titleStatus": "OK",
       "metaLength": 147,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5646,9 +5612,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 3,
-      "issues": [
-        "Title tag too long (87 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "lisensi-operator-excavator",
@@ -5742,9 +5706,9 @@
       "key": "lisensi-operator-genset-dan-pembangkit",
       "path": "kategori-pelatihan/lisensi-operator-genset-dan-pembangkit/",
       "hub": "kategori-pelatihan",
-      "title": "Lisensi Operator Genset & Penggerak Mula Kemnaker RI: Permenaker No. 38/2016",
-      "titleLength": 76,
-      "titleStatus": "LONG",
+      "title": "Lisensi Operator Genset & Penggerak Mula Kemnaker Permenaker 38/2016",
+      "titleLength": 68,
+      "titleStatus": "OK",
       "metaLength": 148,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5757,11 +5721,8 @@
       "imgAlt": "Teknisi melakukan pemeriksaan visual panel sinkronisasi dan sistem bahan bakar mesin genset diesel kapasitas 1.000 kVA",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (76 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "lisensi-rigger-juru-ikat-beban",
@@ -5804,18 +5765,16 @@
       "imgAlt": "Teknisi perancah bersertifikasi merakit scaffolding tubular pipa baja dengan safety harness terpasang penuh pada proyek bertingkat",
       "hasImgAlt": true,
       "outboundLinksCount": 4,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "lisensi-juru-las-welder-k3",
       "path": "kategori-pelatihan/lisensi-juru-las-welder-k3/",
       "hub": "kategori-pelatihan",
-      "title": "Lisensi Juru Las (Welder) K3 Kemnaker RI: Kelas I, II, & III Pesawat Uap & Bejana Tekan",
-      "titleLength": 87,
-      "titleStatus": "LONG",
+      "title": "Lisensi Juru Las Welder K3 Kemnaker: Kelas I, II, III Bejana Uap",
+      "titleLength": 64,
+      "titleStatus": "OK",
       "metaLength": 152,
       "metaStatus": "OK",
       "hasH1": true,
@@ -5828,11 +5787,8 @@
       "imgAlt": "Juru las bersertifikasi Kemnaker melakukan pengelasan pipa baja bertekanan posisi 6G menggunakan proses SMAW/GTAW",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (87 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "petugas-ruang-terbatas-confined-space",
@@ -6073,10 +6029,8 @@
       "imgAlt": "Operator mengemudikan traktor roda 4 perkebunan kelapa sawit mengangkut gerobak tandan buah segar di medan perkebunan berbukit",
       "hasImgAlt": true,
       "outboundLinksCount": 7,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "operator-stacker-crane-pelabuhan",
@@ -6324,9 +6278,9 @@
       "key": "penerapan-ergonomi-perkantoran",
       "path": "kategori-pelatihan/penerapan-ergonomi-perkantoran/",
       "hub": "kategori-pelatihan",
-      "title": "Penerapan Ergonomi Perkantoran & Penilaian Risiko RULA/REBA Permenaker 5/2018",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "Penerapan Ergonomi Perkantoran & Penilaian Risiko RULA/REBA",
+      "titleLength": 59,
+      "titleStatus": "OK",
       "metaLength": 161,
       "metaStatus": "OK",
       "hasH1": true,
@@ -6340,9 +6294,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 3,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "pengelolaan-limbah-b3-perusahaan",
@@ -6429,10 +6381,8 @@
       "imgAlt": "Safety officer memberikan penjelasan materi safety induction dan penyerahan kartu pas tamu visitor di pos keamanan pintu masuk pabrik",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "standar-riksa-uji-apar-dan-hydrant",
@@ -6453,10 +6403,8 @@
       "imgAlt": "Teknisi fire safety memeriksa jarum manometer tekanan pressure gauge pada tabung APAR dan kartu inspeksi bulanan",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "standar-riksa-uji-bejana-tekan",
@@ -6499,10 +6447,8 @@
       "imgAlt": "Pengawas K3 dan inspektur PJK3 memantau pelaksanaan uji beban statis water bag load test pada keran angkat overhead crane di pabrik",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "standar-riksa-uji-penyalur-petir",
@@ -6523,10 +6469,8 @@
       "imgAlt": "Teknisi listrik melakukan pengukuran nilai tahanan pembumian grounding rod penyalur petir menggunakan Digital Earth Resistance Tester",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "standar-k3-rumah-sakit-k3rs",
@@ -6547,10 +6491,8 @@
       "imgAlt": "Tim K3RS rumah sakit melakukan simulasi evakuasi darurat pasien ranjang dorong pada latihan tanggap darurat Code Red kebakaran",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "sistem-manajemen-smkp-minerba",
@@ -6666,9 +6608,9 @@
       "key": "penyusunan-danger-zone-safety-signage",
       "path": "kategori-pelatihan/penyusunan-danger-zone-safety-signage/",
       "hub": "kategori-pelatihan",
-      "title": "Standar Rambu K3, Danger Signage, & Jalur Evakuasi: Standar ANSI Z535 & ISO 7010",
-      "titleLength": 80,
-      "titleStatus": "LONG",
+      "title": "Standar Rambu K3, Danger Signage & Evakuasi: ANSI Z535 & ISO 7010",
+      "titleLength": 65,
+      "titleStatus": "OK",
       "metaLength": 161,
       "metaStatus": "OK",
       "hasH1": true,
@@ -6681,19 +6623,16 @@
       "imgAlt": "Pekerja pabrik berjalan di jalur pedestrian pejalan kaki hijau yang dipisahkan marka kuning dari jalur forklift dan rambu bahaya",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (80 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "pelatihan-supervisory-skills-pabrik",
       "path": "kategori-pelatihan/pelatihan-supervisory-skills-pabrik/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan Supervisory Skills Pabrik: Kepemimpinan Mandor & Supervisor Manufaktur",
-      "titleLength": 80,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Supervisory Skills Pabrik: Mandor & Supervisor Manufaktur",
+      "titleLength": 67,
+      "titleStatus": "OK",
       "metaLength": 157,
       "metaStatus": "OK",
       "hasH1": true,
@@ -6707,9 +6646,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 11,
-      "issues": [
-        "Title tag too long (80 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "penerapan-5s-5r-kaizen-manufaktur",
@@ -6906,10 +6843,8 @@
       "imgAlt": "Direktur operasional dan jajaran manajer pabrik mengenakan helm keselamatan melakukan safety walkthrough di area instalasi kilang",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "teknik-negosiasi-dan-vendor-management",
@@ -6981,9 +6916,9 @@
       "key": "service-excellence-b2b-manufaktur",
       "path": "kategori-pelatihan/service-excellence-b2b-manufaktur/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan Service Excellence B2B: Pelayanan Prima Industri & Pelanggan Korporat",
-      "titleLength": 79,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Service Excellence B2B: Pelayanan Prima Korporat",
+      "titleLength": 58,
+      "titleStatus": "OK",
       "metaLength": 156,
       "metaStatus": "OK",
       "hasH1": true,
@@ -6997,9 +6932,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (79 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "public-speaking-dan-executive-pitching",
@@ -7137,9 +7070,9 @@
       "key": "supply-chain-operations-reference-scor",
       "path": "kategori-pelatihan/supply-chain-operations-reference-scor/",
       "hub": "kategori-pelatihan",
-      "title": "Pelatihan Optimasi Rantai Pasok Model SCOR (Supply Chain Operations Reference)",
-      "titleLength": 78,
-      "titleStatus": "LONG",
+      "title": "Pelatihan Optimasi Rantai Pasok Model SCOR Supply Chain",
+      "titleLength": 55,
+      "titleStatus": "OK",
       "metaLength": 158,
       "metaStatus": "OK",
       "hasH1": true,
@@ -7153,9 +7086,7 @@
       "hasImgAlt": true,
       "outboundLinksCount": 5,
       "inboundLinksCount": 1,
-      "issues": [
-        "Title tag too long (78 chars, recommended <= 75)"
-      ]
+      "issues": []
     },
     {
       "key": "internal-audit-iso-9001-2015",
@@ -7242,18 +7173,16 @@
       "imgAlt": "Tim Quality Assurance industri makanan dan minuman memeriksa suhu pasteurisasi dan mencatat parameter pada Titik Kendali Kritis CCP",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-dumai-riau",
       "path": "kategori-pelatihan/in-house-training-k3-dumai-riau/",
       "hub": "kategori-pelatihan",
-      "title": "In-House Training K3 Dumai: Sertifikasi Pabrik Sawit, Kilang Minyak, & Pelabuhan",
-      "titleLength": 80,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Dumai: Sertifikasi Sawit, Kilang & Pelabuhan",
+      "titleLength": 65,
+      "titleStatus": "OK",
       "metaLength": 141,
       "metaStatus": "OK",
       "hasH1": true,
@@ -7266,11 +7195,8 @@
       "imgAlt": "Instruktur K3 memberikan pelatihan confined space rescue dan chemical handling pada fasilitas kilang minyak dan oleokimia di Dumai Riau",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (80 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-cileungsi-bogor",
@@ -7291,10 +7217,8 @@
       "imgAlt": "Pelaksanaan in-house training K3 dan praktik penggunaan APAR di area pabrik manufaktur semen dan logam di Cileungsi Bogor",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-subang-smartpolitan",
@@ -7315,10 +7239,8 @@
       "imgAlt": "Sesi in-house training keselamatan konstruksi dan rigging lifting di proyek pembangunan kawasan industri Subang Smartpolitan",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-batang-kitb",
@@ -7339,10 +7261,8 @@
       "imgAlt": "Pelatihan in-house K3 lingkungan kerja dan ergonomi industri bagi operator pabrik di Kawasan Industri Terpadu Batang KITB",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-ciwandan-merak",
@@ -7363,10 +7283,8 @@
       "imgAlt": "Pelatihan in-house keselamatan kerja K3 kimia dan pemadaman kebakaran gas di pelabuhan curah cair dan PLTU Merak Banten",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-tanjung-pinang",
@@ -7387,10 +7305,8 @@
       "imgAlt": "Sesi in-house training K3 dan simulasi evakuasi darurat bagi manajemen perhotelan resort dan industri smelter di Bintan Tanjung Pinang",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-tarakan-kaltara",
@@ -7411,10 +7327,8 @@
       "imgAlt": "Pelatihan keselamatan kerja K3 migas dan industri perkayuan plywood di Tarakan Kalimantan Utara",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-banjarbaru-martapura",
@@ -7435,18 +7349,16 @@
       "imgAlt": "Pelaksanaan in-house training K3 perkantoran dan pemadam kebakaran di gedung instansi dan kawasan industri Banjarbaru Kalsel",
       "hasImgAlt": true,
       "outboundLinksCount": 6,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-padang-indalung",
       "path": "kategori-pelatihan/in-house-training-k3-padang-indalung/",
       "hub": "kategori-pelatihan",
-      "title": "In-House Training K3 Padang & Indarung: Pabrik Semen & Pelabuhan Teluk Bayur",
-      "titleLength": 76,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Padang & Indarung: Pabrik Semen & Pelabuhan",
+      "titleLength": 64,
+      "titleStatus": "OK",
       "metaLength": 151,
       "metaStatus": "OK",
       "hasH1": true,
@@ -7459,11 +7371,8 @@
       "imgAlt": "Instruktur memberikan materi keselamatan kerja pertambangan batu kapur dan pabrik semen pada in-house training K3 di Indarung Padang Sumatera Barat",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (76 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-kendari-konawe",
@@ -7484,10 +7393,8 @@
       "imgAlt": "Pelatihan keselamatan kerja K3 tungku smelter nikel dan proteksi panas ekstrem di kawasan industri smelter Morosi Konawe Sulawesi Tenggara",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-luwuk-banggai",
@@ -7508,18 +7415,16 @@
       "imgAlt": "Pelatihan keselamatan kerja K3 proses dan penanganan gas kriogenik pada kilang Donggi Senoro LNG dan pabrik amonia di Banggai Luwuk",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "in-house-training-k3-bitung-kemas",
       "path": "kategori-pelatihan/in-house-training-k3-bitung-kemas/",
       "hub": "kategori-pelatihan",
-      "title": "In-House Training K3 Kota Bitung: KEK Bitung, Perikanan, & Pelabuhan Samudera",
-      "titleLength": 77,
-      "titleStatus": "LONG",
+      "title": "In-House Training K3 Bitung: KEK Bitung, Perikanan & Pelabuhan",
+      "titleLength": 62,
+      "titleStatus": "OK",
       "metaLength": 156,
       "metaStatus": "OK",
       "hasH1": true,
@@ -7532,11 +7437,8 @@
       "imgAlt": "Pelatihan in-house keselamatan kerja cold storage amonia dan penanganan kargo pelabuhan peti kemas di Bitung Sulawesi Utara",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Title tag too long (77 chars, recommended <= 75)",
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     },
     {
       "key": "audit-k3-lingkungan-kerja-hiperkes",
@@ -7557,10 +7459,8 @@
       "imgAlt": "Auditor lingkungan kerja melakukan pengukuran parameter iklim kerja dan pengambilan sampel kimia di ruang produksi pabrik",
       "hasImgAlt": true,
       "outboundLinksCount": 5,
-      "inboundLinksCount": 0,
-      "issues": [
-        "Orphan page detected (0 internal inbound links)"
-      ]
+      "inboundLinksCount": 2,
+      "issues": []
     }
   ]
 }

@@ -144,6 +144,8 @@ export const content: PageContentData = {
   <li>Pejabat Pembuat Komitmen (PPK) & Pengguna Jasa Kementerian / Dinas PUPR.</li>
 </ul>
 
+
+<p>Wahana Totalita menyediakan pendampingan keselamatan konstruksi dan pelatihan kepatuhan regulasi khusus untuk instansi publik pada <a href="https://wahanatotalita.com/layanan-pemerintah" target="_blank" rel="noopener noreferrer">Layanan Pemerintah & Sektor Publik Wahana Totalita</a>.</p>
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">

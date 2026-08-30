@@ -148,6 +148,8 @@ export const content: PageContentData = {
   <li>Maintenance Technician Armada Material Handling Equipment (MHE).</li>
 </ul>
 
+
+<p>Daftarkan operator unit angkat forklift industri kapasitas angkat hingga 15 ton melalui <a href="https://wahanatotalita.com/pelatihan/pelatihan-k3-operator-forklift-kelas-2-sertifikasi-kemnaker-ri/" target="_blank" rel="noopener noreferrer">Pelatihan K3 Operator Forklift Kelas 2 Sertifikasi Kemnaker RI</a>.</p>
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">

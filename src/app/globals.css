@@ -2729,3 +2729,67 @@ strong {
   opacity: 1;
 }
 
+/* ==========================================================================
+   CLUSTER CURRICULUM GRID & LISTING
+   ========================================================================== */
+.cluster {
+  margin: 3rem 0 2rem;
+}
+
+ol.cluster-grid {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin: 1.5rem 0 !important;
+  display: grid;
+  gap: 0.9rem;
+}
+
+ol.cluster-grid li {
+  list-style: none !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+}
+
+.cluster-card {
+  display: flex;
+  align-items: center;
+  gap: 1.15rem;
+  padding: 1.1rem 1.35rem;
+  background: var(--glass-surface);
+  border: 1px solid var(--c-line);
+  border-radius: var(--radius);
+  text-decoration: none !important;
+  color: var(--c-ink);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: var(--shadow-sm);
+}
+
+.cluster-card:hover {
+  border-color: var(--c-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  color: var(--c-primary-dark);
+}
+
+.cluster-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-sm);
+  background: var(--c-primary-light);
+  color: var(--c-primary);
+  font-weight: 800;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+
+.cluster-title {
+  font-weight: 750;
+  font-size: 1.05rem;
+  color: var(--c-ink);
+  line-height: 1.4;
+}
+
+

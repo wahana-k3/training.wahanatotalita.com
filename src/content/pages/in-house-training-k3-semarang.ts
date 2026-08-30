@@ -135,6 +135,8 @@ export const content: PageContentData = {
 </ul>
 <p>Kami menyediakan konsultasi gratis dan penyusunan proposal program in-house training yang disesuaikan dengan anggaran perusahaan Anda. Hubungi kami melalui WhatsApp untuk menjadwalkan asesmen awal dan mendapatkan silabus pelatihan terbaik.</p>
 
+
+<p>Untuk pendaftaran jadwal publik reguler, lokasi workshop, dan konsultasi sertifikasi Kemnaker di Jawa Tengah, silakan akses halaman <a href="https://wahanatotalita.com/pelatihan-k3-semarang/" target="_blank" rel="noopener noreferrer">Pelatihan K3 Semarang Wahana Totalita</a>.</p>
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
