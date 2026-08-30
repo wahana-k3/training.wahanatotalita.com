@@ -17,14 +17,16 @@ export default function TerimaKasihPage() {
 
   return (
     <div>
-      <section className="hero">
+      <section className="home-hero">
         <div className="wrap">
-          <span className="kicker">KONFIRMASI FORMULIR KONSULTASI</span>
+          <div className="hero-pill-badge">
+            <span>🛡️ KONFIRMASI FORMULIR KONSULTASI</span>
+          </div>
           <h1>Terima Kasih — Pesan Anda Sudah Kami Terima</h1>
           <p>
             Tim konsultan pengembangan SDM {SITE.orgName} akan menelaah kebutuhan perusahaan Anda dan menghubungi Anda melalui email atau telepon pada jam kerja.
           </p>
-          <div className="cta-actions">
+          <div className="hero-cta-group">
             <a
               className="btn btn-wa"
               href={wa}
@@ -46,27 +48,31 @@ export default function TerimaKasihPage() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" style={{ padding: '3.5rem 0' }}>
         <div className="wrap wrap-narrow">
+          <span className="kicker">SUMBER DAYA REKOMENDASI</span>
           <h2>Sambil Menunggu Balasan, Anda Mungkin Ingin Mempelajari:</h2>
-          <div className="grid-3" style={{ marginTop: '1.2rem' }}>
-            <Link className="card card-link" href="/jenis-pelatihan/">
+          <div className="bento-grid" style={{ marginTop: '1.2rem' }}>
+            <Link className="bento-card" href="/jenis-pelatihan/">
+              <div className="bento-icon">🏢</div>
               <span className="kicker">Format Training</span>
               <h3>Jenis Pelatihan Korporat</h3>
               <p>In-house, publik, atau customized untuk tim Anda.</p>
-              <span className="more">Baca Panduan →</span>
+              <span className="bento-action">Baca Panduan →</span>
             </Link>
-            <Link className="card card-link" href="/konsultasi-pengembangan-kompetensi/">
+            <Link className="bento-card" href="/konsultasi-pengembangan-kompetensi/">
+              <div className="bento-icon">📊</div>
               <span className="kicker">Layanan Konsultasi</span>
               <h3>Konsultasi Kompetensi</h3>
               <p>TNA, kurikulum, competency mapping, dan ROI pelatihan.</p>
-              <span className="more">Baca Panduan →</span>
+              <span className="bento-action">Baca Panduan →</span>
             </Link>
-            <Link className="card card-link" href="/faq/">
+            <Link className="bento-card" href="/faq/">
+              <div className="bento-icon">💡</div>
               <span className="kicker">Tanya Jawab</span>
               <h3>FAQ Pelatihan</h3>
               <p>Jawaban cepat pertanyaan umum seputar program pelatihan.</p>
-              <span className="more">Lihat FAQ →</span>
+              <span className="bento-action">Lihat FAQ →</span>
             </Link>
           </div>
         </div>
