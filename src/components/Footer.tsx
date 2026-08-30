@@ -71,17 +71,17 @@ export function Footer() {
           <h2 className="footer-h">Sertifikasi &amp; Program Populer</h2>
           <ul>
             <li>
-              <Link href="/kategori-pelatihan/ahli-k3-umum-kemnaker/">
+              <Link href="/kategori-pelatihan/ahli-k3-umum/">
                 Ahli K3 Umum Kemnaker
               </Link>
             </li>
             <li>
-              <Link href="/kategori-pelatihan/p3k-pertolongan-pertama/">
+              <Link href="/kategori-pelatihan/petugas-p3k-di-tempat-kerja/">
                 Petugas P3K Tempat Kerja
               </Link>
             </li>
             <li>
-              <Link href="/kategori-pelatihan/petugas-pemadam-kebakaran-kelas-d/">
+              <Link href="/kategori-pelatihan/petugas-peran-kebakaran/">
                 Regu Pemadam Kebakaran
               </Link>
             </li>
