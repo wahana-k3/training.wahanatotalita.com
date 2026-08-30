@@ -46,18 +46,23 @@ export function Footer() {
         </div>
 
         <div className="footer-col">
-          <h2 className="footer-h">Pilar Panduan</h2>
+          <h2 className="footer-h">Pilar &amp; Sektor</h2>
           <ul>
             {SITE.footerPillars.map((p) => (
               <li key={p.key}>
                 <Link href={p.href}>{p.label}</Link>
               </li>
             ))}
+            {SITE.footerIndustryRoles.map((r) => (
+              <li key={r.key}>
+                <Link href={r.href}>{r.label}</Link>
+              </li>
+            ))}
           </ul>
         </div>
 
         <div className="footer-col">
-          <h2 className="footer-h">Platform Panduan</h2>
+          <h2 className="footer-h">Platform &amp; Informasi</h2>
           <ul>
             {SITE.footerPlatform.map((p) => (
               <li key={p.key}>
@@ -70,31 +75,22 @@ export function Footer() {
         <div className="footer-col">
           <h2 className="footer-h">Sertifikasi &amp; Program Populer</h2>
           <ul>
-            <li>
-              <Link href="/kategori-pelatihan/ahli-k3-umum/">
-                Ahli K3 Umum Kemnaker
-              </Link>
-            </li>
-            <li>
-              <Link href="/kategori-pelatihan/petugas-p3k-di-tempat-kerja/">
-                Petugas P3K Tempat Kerja
-              </Link>
-            </li>
-            <li>
-              <Link href="/kategori-pelatihan/petugas-peran-kebakaran/">
-                Regu Pemadam Kebakaran
-              </Link>
-            </li>
-            <li>
-              <Link href="/kategori-pelatihan/matrix-hiradc-dan-ibprp/">
-                Manajemen Risiko HIRADC
-              </Link>
-            </li>
-            <li>
-              <Link href="/konsultasi-pengembangan-kompetensi/training-needs-analysis/">
-                Training Needs Analysis (TNA)
-              </Link>
-            </li>
+            {SITE.footerPopularPrograms.map((prog) => (
+              <li key={prog.key}>
+                <Link href={prog.href}>{prog.label}</Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h2 className="footer-h">Wilayah In-House K3</h2>
+          <ul>
+            {SITE.footerRegional.map((reg) => (
+              <li key={reg.key}>
+                <Link href={reg.href}>{reg.label}</Link>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

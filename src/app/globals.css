@@ -2437,8 +2437,19 @@ strong {
   padding: 4rem 1.5rem 2.8rem;
 }
 
-@media (min-width: 860px) {
-  .footer-grid { grid-template-columns: 1.4fr 1fr 1fr 1.1fr; }
+@media (min-width: 640px) and (max-width: 1079px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-about {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1080px) {
+  .footer-grid {
+    grid-template-columns: 1.3fr 0.95fr 0.85fr 1fr 1.05fr;
+  }
 }
 
 .footer-h {
