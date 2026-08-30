@@ -139,7 +139,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/penyusunan-rkk-dan-smkk-pupr/" class="btn-chip" title="Penyusunan RKK dan SMKK PUPR"><span>👉 Penyusunan RKK & SMKK</span></a>
+  <a href="/kategori-pelatihan/penyusunan-safety-induction-kontraktor/" class="btn-chip" title="Safety Induction Kontraktor"><span>👉 Induksi K3 Kontraktor</span></a>
+<a href="/kategori-pelatihan/penyusunan-rkk-dan-smkk-pupr/" class="btn-chip" title="Penyusunan RKK dan SMKK PUPR"><span>👉 Penyusunan RKK & SMKK</span></a>
   <a href="/kategori-pelatihan/lead-auditor-iso-45001/" class="btn-chip" title="Lead Auditor ISO 45001"><span>👉 Lead Auditor ISO 45001</span></a>
   <a href="/kategori-pelatihan/job-safety-analysis-jsa-authoring/" class="btn-chip" title="Penyusunan Job Safety Analysis"><span>👉 Penyusunan JSA Proyek</span></a>
   <a href="/kategori-pelatihan/matrix-hiradc-dan-ibprp/" class="btn-chip" title="Penyusunan HIRADC dan IBPRP"><span>👉 Penyusunan HIRADC</span></a>

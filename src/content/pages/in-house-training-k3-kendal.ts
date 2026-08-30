@@ -138,7 +138,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/jenis-pelatihan/in-house-training-k3-semarang/" class="btn-chip" title="In-House Training K3 Semarang"><span>👉 In-House Training K3 Semarang</span></a>
+  <a href="/kategori-pelatihan/in-house-training-k3-batang-kitb/" class="btn-chip" title="In-House Training K3 Batang KITB"><span>👉 In-House Training Batang KITB</span></a>
+<a href="/jenis-pelatihan/in-house-training-k3-semarang/" class="btn-chip" title="In-House Training K3 Semarang"><span>👉 In-House Training K3 Semarang</span></a>
   <a href="/kategori-pelatihan/ahli-k3-listrik/" class="btn-chip" title="Sertifikasi Ahli K3 Listrik"><span>👉 Sertifikasi Ahli K3 Listrik</span></a>
   <a href="/kategori-pelatihan/penerapan-loto-8-langkah/" class="btn-chip" title="Penerapan LOTO 8 Langkah"><span>👉 Penerapan LOTO 8 Langkah</span></a>
   <a href="/kategori-pelatihan/lead-auditor-iso-45001/" class="btn-chip" title="Lead Auditor ISO 45001"><span>👉 Lead Auditor ISO 45001</span></a>

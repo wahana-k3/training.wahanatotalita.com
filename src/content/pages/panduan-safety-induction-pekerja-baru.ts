@@ -144,7 +144,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/peran-jabatan/safety-officer/" class="btn-chip" title="Peran Safety Officer"><span>👉 Peran Safety Officer</span></a>
+  <a href="/kategori-pelatihan/penyusunan-safety-induction-kontraktor/" class="btn-chip" title="Safety Induction Kontraktor"><span>👉 Induksi K3 Kontraktor</span></a>
+<a href="/peran-jabatan/safety-officer/" class="btn-chip" title="Peran Safety Officer"><span>👉 Peran Safety Officer</span></a>
   <a href="/kategori-pelatihan/panduan-dokumen-csms-kontraktor/" class="btn-chip" title="Panduan Dokumen CSMS Kontraktor"><span>👉 Panduan CSMS Kontraktor</span></a>
   <a href="/kategori-pelatihan/prosedur-izin-kerja-ptw/" class="btn-chip" title="Prosedur Izin Kerja PTW"><span>👉 Prosedur Izin Kerja PTW</span></a>
   <a href="/kategori-pelatihan/behavior-based-safety-bbs/" class="btn-chip" title="Behavior-Based Safety BBS"><span>👉 Behavior-Based Safety (BBS)</span></a>

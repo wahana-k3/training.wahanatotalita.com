@@ -150,7 +150,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Program Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/operator-overhead-crane/" class="btn-chip" title="Pelatihan Overhead Crane"><span>👉 Operator Overhead Crane</span></a>
+  <a href="/kategori-pelatihan/standar-riksa-uji-pesawat-angkat-paa/" class="btn-chip" title="Standar Riksa Uji PAA"><span>👉 Riksa Uji Pesawat Angkat PAA</span></a>
+<a href="/kategori-pelatihan/operator-overhead-crane/" class="btn-chip" title="Pelatihan Overhead Crane"><span>👉 Operator Overhead Crane</span></a>
   <a href="/kategori-pelatihan/rigger/" class="btn-chip" title="Pelatihan Rigger"><span>👉 Pelatihan Rigger / Juru Ikat</span></a>
   <a href="/kategori-pelatihan/signalman/" class="btn-chip" title="Pelatihan Signalman"><span>👉 Pelatihan Juru Sinyal (Signalman)</span></a>
   <a href="/kategori-pelatihan/syarat-operator-forklift-kelas-1-dan-2/" class="btn-chip" title="Syarat Operator Forklift"><span>👉 Operator Forklift Kelas I & II</span></a>

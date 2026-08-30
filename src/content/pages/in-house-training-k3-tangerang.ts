@@ -138,7 +138,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/syarat-operator-forklift-kelas-1-dan-2/" class="btn-chip" title="Syarat Operator Forklift"><span>👉 Operator Forklift Kelas I & II</span></a>
+  <a href="/kategori-pelatihan/in-house-training-k3-ciwandan-merak/" class="btn-chip" title="In-House Training Ciwandan Merak"><span>👉 In-House Training Ciwandan-Merak</span></a>
+<a href="/kategori-pelatihan/syarat-operator-forklift-kelas-1-dan-2/" class="btn-chip" title="Syarat Operator Forklift"><span>👉 Operator Forklift Kelas I & II</span></a>
   <a href="/kategori-pelatihan/petugas-p3k-di-tempat-kerja/" class="btn-chip" title="Pelatihan Petugas P3K"><span>👉 Petugas P3K Tempat Kerja</span></a>
   <a href="/kategori-pelatihan/penerapan-loto-8-langkah/" class="btn-chip" title="Penerapan LOTO 8 Langkah"><span>👉 Penerapan LOTO 8 Langkah</span></a>
   <a href="/kategori-pelatihan/fire-fighting-dasar/" class="btn-chip" title="Pelatihan Fire Fighting"><span>👉 Penanggulangan Kebakaran</span></a>

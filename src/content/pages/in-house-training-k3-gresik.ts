@@ -138,7 +138,9 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/petugas-k3-kimia/" class="btn-chip" title="Petugas K3 Kimia Kemnaker"><span>👉 Petugas K3 Kimia</span></a>
+  <a href="/jenis-pelatihan/in-house-training-k3-tuban-bojonegoro/" class="btn-chip" title="In-House Training K3 Tuban & Bojonegoro"><span>👉 In-House Training Tuban-Bojonegoro</span></a>
+<a href="/jenis-pelatihan/in-house-training-k3-sidoarjo/" class="btn-chip" title="In-House Training K3 Sidoarjo"><span>👉 In-House Training Sidoarjo</span></a>
+<a href="/kategori-pelatihan/petugas-k3-kimia/" class="btn-chip" title="Petugas K3 Kimia Kemnaker"><span>👉 Petugas K3 Kimia</span></a>
   <a href="/kategori-pelatihan/ahli-k3-kimia/" class="btn-chip" title="Sertifikasi Ahli K3 Kimia"><span>👉 Sertifikasi Ahli K3 Kimia</span></a>
   <a href="/kategori-pelatihan/prosedur-uji-gas-ruang-terbatas/" class="btn-chip" title="Prosedur Uji Gas Ruang Terbatas"><span>👉 Prosedur Uji Gas Ruang Terbatas</span></a>
   <a href="/kategori-pelatihan/flange-management-dan-bolting-safety/" class="btn-chip" title="Flange Management & Bolting Safety"><span>👉 Flange Management & Bolting</span></a>

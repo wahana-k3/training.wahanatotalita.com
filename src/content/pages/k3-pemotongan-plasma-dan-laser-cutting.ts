@@ -151,7 +151,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Program Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/k3-pesawat-tenaga-dan-produksi/" class="btn-chip" title="K3 Pesawat Tenaga dan Produksi"><span>👉 K3 Pesawat Tenaga & Produksi</span></a>
+  <a href="/kategori-pelatihan/lisensi-juru-las-welder-k3/" class="btn-chip" title="Lisensi Juru Las Welder K3"><span>👉 Lisensi Juru Las Welder</span></a>
+<a href="/kategori-pelatihan/k3-pesawat-tenaga-dan-produksi/" class="btn-chip" title="K3 Pesawat Tenaga dan Produksi"><span>👉 K3 Pesawat Tenaga & Produksi</span></a>
   <a href="/kategori-pelatihan/penerapan-loto-8-langkah/" class="btn-chip" title="Penerapan LOTO 8 Langkah"><span>👉 Penerapan LOTO 8 Langkah</span></a>
   <a href="/kategori-pelatihan/ahli-k3-kimia/" class="btn-chip" title="Sertifikasi Ahli K3 Kimia"><span>👉 Sertifikasi Ahli K3 Kimia</span></a>
   <a href="/kategori-pelatihan/petugas-k3-kimia/" class="btn-chip" title="Petugas K3 Kimia Kemnaker"><span>👉 Petugas K3 Kimia</span></a>

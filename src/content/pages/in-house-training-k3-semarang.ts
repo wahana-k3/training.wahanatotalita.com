@@ -138,7 +138,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/jenis-pelatihan/in-house-training-k3-kendal/" class="btn-chip" title="In-House Training K3 Kendal"><span>👉 In-House Training K3 Kendal</span></a>
+  <a href="/kategori-pelatihan/in-house-training-k3-batang-kitb/" class="btn-chip" title="In-House Training K3 Batang KITB"><span>👉 In-House Training Batang KITB</span></a>
+<a href="/jenis-pelatihan/in-house-training-k3-kendal/" class="btn-chip" title="In-House Training K3 Kendal"><span>👉 In-House Training K3 Kendal</span></a>
   <a href="/jenis-pelatihan/in-house-training-k3-gresik/" class="btn-chip" title="In-House Training K3 Gresik"><span>👉 In-House Training K3 Gresik</span></a>
   <a href="/kategori-pelatihan/petugas-p3k-di-tempat-kerja/" class="btn-chip" title="Pelatihan Petugas P3K"><span>👉 Pelatihan Petugas P3K</span></a>
   <a href="/kategori-pelatihan/fire-fighting-dasar/" class="btn-chip" title="Pelatihan Fire Fighting"><span>👉 Pelatihan Penanggulangan Kebakaran</span></a>

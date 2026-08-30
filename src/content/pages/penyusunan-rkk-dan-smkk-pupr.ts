@@ -147,7 +147,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/petugas-k3-konstruksi/" class="btn-chip" title="Pelatihan Petugas K3 Konstruksi"><span>👉 Petugas K3 Konstruksi Kemnaker</span></a>
+  <a href="/kategori-pelatihan/penyusunan-danger-zone-safety-signage/" class="btn-chip" title="Standar Rambu K3 & Danger Signage"><span>👉 Rambu K3 & Danger Signage</span></a>
+<a href="/kategori-pelatihan/petugas-k3-konstruksi/" class="btn-chip" title="Pelatihan Petugas K3 Konstruksi"><span>👉 Petugas K3 Konstruksi Kemnaker</span></a>
   <a href="/kategori-pelatihan/ahli-k3-konstruksi/" class="btn-chip" title="Pelatihan Ahli K3 Konstruksi"><span>👉 Ahli K3 Konstruksi BNSP</span></a>
   <a href="/kategori-pelatihan/k3-pekerjaan-aspal-dan-paving-jalan/" class="btn-chip" title="K3 Pekerjaan Aspal dan Paving Jalan"><span>👉 K3 Pekerjaan Jalan & Aspal</span></a>
   <a href="/kategori-pelatihan/panduan-dokumen-csms-kontraktor/" class="btn-chip" title="Panduan Dokumen CSMS Kontraktor"><span>👉 Panduan Dokumen CSMS</span></a>

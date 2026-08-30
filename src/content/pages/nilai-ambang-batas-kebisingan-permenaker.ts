@@ -164,7 +164,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/spirometri-dan-kesehatan-paru-kerja/" class="btn-chip" title="Spirometri & Kesehatan Paru Kerja"><span>👉 Spirometri & Paru Kerja</span></a>
+  <a href="/kategori-pelatihan/audit-k3-lingkungan-kerja-hiperkes/" class="btn-chip" title="Audit K3 Lingkungan Kerja & Hiperkes"><span>👉 Audit K3 Lingkungan Kerja</span></a>
+<a href="/kategori-pelatihan/spirometri-dan-kesehatan-paru-kerja/" class="btn-chip" title="Spirometri & Kesehatan Paru Kerja"><span>👉 Spirometri & Paru Kerja</span></a>
   <a href="/kategori-pelatihan/petugas-p3k-di-tempat-kerja/" class="btn-chip" title="Pelatihan Petugas P3K"><span>👉 Petugas P3K Tempat Kerja</span></a>
   <a href="/kategori-pelatihan/penanganan-klaim-kecelakaan-kerja-bpjs/" class="btn-chip" title="Penanganan Klaim Kecelakaan BPJS"><span>👉 Klaim Penyakit Akibat Kerja</span></a>
   <a href="/kategori-pelatihan/matrix-hiradc-dan-ibprp/" class="btn-chip" title="Matrix HIRADC dan IBPRP"><span>👉 Penyusunan HIRADC Lingkungan</span></a>

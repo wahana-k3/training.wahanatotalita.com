@@ -146,7 +146,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/flange-management-dan-bolting-safety/" class="btn-chip" title="Flange Management & Bolting Safety"><span>👉 Flange Management & Bolting</span></a>
+  <a href="/kategori-pelatihan/lisensi-juru-las-welder-k3/" class="btn-chip" title="Lisensi Juru Las Welder K3"><span>👉 Lisensi Juru Las Welder</span></a>
+<a href="/kategori-pelatihan/flange-management-dan-bolting-safety/" class="btn-chip" title="Flange Management & Bolting Safety"><span>👉 Flange Management & Bolting</span></a>
   <a href="/kategori-pelatihan/inspeksi-perpipaan-migas-api-570/" class="btn-chip" title="Inspeksi Perpipaan Migas API 570"><span>👉 Inspeksi Perpipaan API 570</span></a>
   <a href="/kategori-pelatihan/inspeksi-tangki-timbun-api-653/" class="btn-chip" title="Inspeksi Tangki Timbun API 653"><span>👉 Inspeksi Tangki API 653</span></a>
   <a href="/kategori-pelatihan/k3-pesawat-tenaga-dan-produksi/" class="btn-chip" title="K3 Pesawat Tenaga dan Produksi"><span>👉 K3 Pesawat Tenaga & Produksi</span></a>

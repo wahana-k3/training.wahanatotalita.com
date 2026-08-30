@@ -138,7 +138,8 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Panduan Regulasi & Pelatihan Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/pengawas-scaffolding/" class="btn-chip" title="Pelatihan Pengawas Scaffolding"><span>👉 Pengawas Scaffolding Kemnaker</span></a>
+  <a href="/kategori-pelatihan/lisensi-teknisi-perancah-scaffolding/" class="btn-chip" title="Lisensi Teknisi Perancah Scaffolding"><span>👉 Teknisi Perancah Scaffolding</span></a>
+<a href="/kategori-pelatihan/pengawas-scaffolding/" class="btn-chip" title="Pelatihan Pengawas Scaffolding"><span>👉 Pengawas Scaffolding Kemnaker</span></a>
   <a href="/kategori-pelatihan/petugas-k3-konstruksi/" class="btn-chip" title="Pelatihan Petugas K3 Konstruksi"><span>👉 Petugas K3 Konstruksi</span></a>
   <a href="/kategori-pelatihan/prosedur-izin-kerja-ptw/" class="btn-chip" title="Prosedur Izin Kerja PTW"><span>👉 Prosedur Izin Kerja (PTW)</span></a>
   <a href="/kategori-pelatihan/penyusunan-rkk-dan-smkk-pupr/" class="btn-chip" title="Penyusunan RKK dan SMKK PUPR"><span>👉 Penyusunan RKK & SMKK</span></a>

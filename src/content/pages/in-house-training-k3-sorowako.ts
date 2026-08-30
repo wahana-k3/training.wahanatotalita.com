@@ -137,7 +137,9 @@ export const content: PageContentData = {
 <div class="editorial-crosslinks">
 <h3>Jelajahi Wilayah Layanan & Program Terkait:</h3>
 <div class="button-chip-grid">
-  <a href="/kategori-pelatihan/pengawas-operasional-madya-pom/" class="btn-chip" title="Pengawas Operasional Madya POM"><span>👉 Pengawas Operasional (POM)</span></a>
+  <a href="/kategori-pelatihan/in-house-training-k3-kendari-konawe/" class="btn-chip" title="In-House Training Kendari Konawe"><span>👉 In-House Training Kendari-Konawe</span></a>
+<a href="/jenis-pelatihan/in-house-training-k3-weda-bay/" class="btn-chip" title="In-House Training K3 Weda Bay"><span>👉 In-House Training Weda Bay</span></a>
+<a href="/kategori-pelatihan/pengawas-operasional-madya-pom/" class="btn-chip" title="Pengawas Operasional Madya POM"><span>👉 Pengawas Operasional (POM)</span></a>
   <a href="/industri/pertambangan-batubara-dan-nikel/" class="btn-chip" title="K3 Pertambangan Nikel"><span>👉 K3 Pertambangan Nikel</span></a>
   <a href="/kategori-pelatihan/operator-dump-truck/" class="btn-chip" title="Pelatihan Operator Dump Truck"><span>👉 Operator Heavy Dump Truck</span></a>
   <a href="/kategori-pelatihan/ahli-k3-listrik/" class="btn-chip" title="Sertifikasi Ahli K3 Listrik"><span>👉 Sertifikasi Ahli K3 Listrik</span></a>
